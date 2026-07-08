@@ -1,0 +1,41 @@
+seed: 2026
+output_dir: checkpoints/toy
+vocab_path: data/toy/vocab.txt
+data:
+  train_wav_scp: data\toy\train\wav.scp
+  train_text: data\toy\train\pinyin
+  dev_wav_scp: data\toy\dev\wav.scp
+  dev_text: data\toy\dev\pinyin
+  test_wav_scp: data\toy\test\wav.scp
+  test_text: data\toy\test\pinyin
+feature:
+  sample_rate: 16000
+  n_mels: 40
+  n_fft: 400
+  win_length: 400
+  hop_length: 160
+  f_min: 20
+  f_max: 7600
+  normalize: true
+model:
+  input_dim: 40
+  d_model: 32
+  nhead: 4
+  num_layers: 1
+  dim_feedforward: 64
+  dropout: 0.1
+train:
+  device: auto
+  epochs: 1
+  batch_size: 4
+  num_workers: 0
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  grad_clip: 5.0
+  log_interval: 20
+  num_threads: 1
+  use_specaugment: false
+  time_mask_param: 24
+  freq_mask_param: 10
+  num_time_masks: 2
+  num_freq_masks: 2

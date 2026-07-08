@@ -1,0 +1,49 @@
+# Transformer-CTC ASR baseline configuration
+# Please modify data paths according to your local Lab6 dataset.
+seed: 2026
+output_dir: checkpoints
+vocab_path: data/vocab.txt
+
+# Data manifests: each wav.scp line is "utt_id<TAB>wav_path";
+# each pinyin line is "utt_id<TAB>pinyin token sequence".
+data:
+  train_wav_scp: data/train/wav.scp
+  train_text: data/train/pinyin
+  dev_wav_scp: data/dev/wav.scp
+  dev_text: data/dev/pinyin
+  test_wav_scp: data/test/wav.scp
+  test_text: data/test/pinyin
+
+feature:
+  sample_rate: 16000
+  n_mels: 80
+  n_fft: 400          # 25 ms at 16 kHz
+  win_length: 400
+  hop_length: 160     # 10 ms at 16 kHz
+  f_min: 20
+  f_max: 7600
+  normalize: true
+
+model:
+  input_dim: 80
+  d_model: 128
+  nhead: 4
+  num_layers: 4
+  dim_feedforward: 512
+  dropout: 0.1
+
+train:
+  device: auto         # auto / cpu / cuda
+  epochs: 10
+  batch_size: 8
+  num_workers: 0
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  grad_clip: 5.0
+  log_interval: 20
+  num_threads: 2
+  use_specaugment: false
+  time_mask_param: 24
+  freq_mask_param: 10
+  num_time_masks: 2
+  num_freq_masks: 2
