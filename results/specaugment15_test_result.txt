@@ -1,0 +1,46 @@
+C:\Users\dell\Desktop\speech-asr-ctc-project\models\transformer_ctc.py:55: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
+test loss: 0.8408
+test PER/WER-like token error rate: 27.59% (4879/17682)
+
+Prediction examples:
+[009001]
+REF: wo men cheng shi de fu su you lai yu ta qiang you li de zheng ce
+HYP: wo men cheng de fu you lai qiang li de zheng ce
+
+[009002]
+REF: zhe yang zuo de yi ju jiu shi su ren tong e er san qi hao wen jian
+HYP: zhe zuo ju jiu shi su ren tong e er san qi hao jian
+
+[009003]
+REF: zhe jiang hui hen da cheng du de huan jie yang lao jin de que kou
+HYP: zhe jiang hui da cheng duo de huai jie yang quan que
+
+[009004]
+REF: wei shen me ji feng wu gao xin jiu you na me da de po huai li
+HYP: wei shen men ji feng gao xing jiu na da de huai li
+
+[009005]
+REF: gang mai de ku zi bu dao shi fen zhong ni jiu nong po le
+HYP: gang lai de ku ku zi bu dao shi zhong jiong nong
+
+[009006]
+REF: yin ci zhi neng yi zui ben de fang shi bu duan yi luan ji shi
+HYP: yin ci neng yi zui ben dao fang bu duan luan ji shi
+
+[009007]
+REF: liang ren cuo che zhi ji mao die die tu ran shuai dao shou shang
+HYP: liang ren cuo che ji mao die die tu ran zhuan dao shou shang
+
+[009008]
+REF: tong shi mu min jiu ye qu dao zhai shou ru zeng zhang huan man
+HYP: tong shi mu jiu ye qu dao zhai shou zeng zheng man
+
+[009009]
+REF: nv ming xing ye shi ping fan ren ni yi wei zai yu le quan pai xi gan tong gao hen rong yi ma
+HYP: nv xing ye yan shi ping fan ren wei zai de quan pai xi gan tong gao rong ma
+
+[009010]
+REF: xu duo dao li ren men yi jing zheng ming guo qian bian wan bian wei shen me hai yao dai zhe jiao xing de xin li zai qu shi yan yi hui ne
+HYP: xu duan dao li ni jing zheng guo qian biao wan bian shen hai zhi jiao xing de xing lin zai
+
