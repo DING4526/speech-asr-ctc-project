@@ -6,8 +6,8 @@ from pathlib import Path
 
 
 DEFAULT_INPUTS = [
-    ("E2_strong", "results/e2_45_robustness_summary.csv"),
-    ("E3_specaugment", "results/e3_45_robustness_summary.csv"),
+    ("E2_strong", "results/e2_90_robustness_summary.csv"),
+    ("E3_specaugment", "results/e3_90_robustness_summary.csv"),
 ]
 
 

@@ -138,9 +138,9 @@ python train.py --config configs/e3_conv_fbank_weak_specaugment_90.yaml --resume
 
 Evaluate waveform-level robustness:
 
-python scripts/evaluate_robustness.py --config configs/e2_conv_fbank_strong_45.yaml --checkpoint checkpoints/e2_conv_fbank_strong/best.pt --summary-out results/e2_45_robustness_summary.csv --records-out results/e2_45_robustness_records.csv --analysis-out results/e2_45_robustness_analysis.json
+python scripts/evaluate_robustness.py --config configs/e2_conv_fbank_strong_90.yaml --checkpoint checkpoints/e2_conv_fbank_strong/best.pt --summary-out results/e2_90_robustness_summary.csv --records-out results/e2_90_robustness_records.csv --analysis-out results/e2_90_robustness_analysis.json
 
-python scripts/evaluate_robustness.py --config configs/e3_conv_fbank_weak_specaugment_45.yaml --checkpoint checkpoints/e3_conv_fbank_weak_specaugment/best.pt --summary-out results/e3_45_robustness_summary.csv --records-out results/e3_45_robustness_records.csv --analysis-out results/e3_45_robustness_analysis.json
+python scripts/evaluate_robustness.py --config configs/e3_conv_fbank_weak_specaugment_90.yaml --checkpoint checkpoints/e3_conv_fbank_weak_specaugment/best.pt --summary-out results/e3_90_robustness_summary.csv --records-out results/e3_90_robustness_records.csv --analysis-out results/e3_90_robustness_analysis.json
 
 Plot robustness comparison:
 
