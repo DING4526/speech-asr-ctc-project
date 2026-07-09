@@ -112,6 +112,8 @@ python scripts/summarize_experiments.py
 
 Continue the strong baseline and SpecAugment runs to 45 epochs:
 
+python train.py --config configs/e1_conv_logmel_45.yaml --resume checkpoints/e1_conv_logmel/last.pt
+
 python train.py --config configs/e2_conv_fbank_strong_45.yaml --resume checkpoints/e2_conv_fbank_strong/last.pt
 
 python train.py --config configs/e3_conv_fbank_weak_specaugment_45.yaml --resume checkpoints/e3_conv_fbank_weak_specaugment/last.pt
