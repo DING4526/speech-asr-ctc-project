@@ -1,0 +1,192 @@
+{
+  "experiment": "D3_R2_beam_lm",
+  "config": "configs\\r2_e3_audio_mixed_125.yaml",
+  "checkpoint": "checkpoints\\r2_e3_audio_mixed\\robust_best.pt",
+  "split": "test",
+  "decoder": "prefix_beam_lm",
+  "beam_width": 25,
+  "topk": 12,
+  "lm_order": 4,
+  "lm_alpha": 0.3,
+  "lm_beta": 0.0,
+  "loss": 0.09040375824272633,
+  "summary": {
+    "num_utterances": 1000,
+    "ref_tokens": 17682,
+    "hyp_tokens": 17653,
+    "errors": 410,
+    "substitutions": 367,
+    "deletions": 36,
+    "insertions": 7,
+    "per": 0.02318742223730347
+  },
+  "decode_seconds": 83.89405249999992,
+  "by_reference_length": [
+    {
+      "length_bin": "001-010",
+      "num_utterances": 108,
+      "ref_tokens": 976,
+      "hyp_tokens": 973,
+      "errors": 20,
+      "substitutions": 17,
+      "deletions": 3,
+      "insertions": 0,
+      "per": 0.020491803278688523
+    },
+    {
+      "length_bin": "011-020",
+      "num_utterances": 596,
+      "ref_tokens": 9682,
+      "hyp_tokens": 9673,
+      "errors": 209,
+      "substitutions": 188,
+      "deletions": 15,
+      "insertions": 6,
+      "per": 0.021586449080768438
+    },
+    {
+      "length_bin": "021-030",
+      "num_utterances": 293,
+      "ref_tokens": 6924,
+      "hyp_tokens": 6907,
+      "errors": 179,
+      "substitutions": 160,
+      "deletions": 18,
+      "insertions": 1,
+      "per": 0.02585210860774119
+    },
+    {
+      "length_bin": "031-040",
+      "num_utterances": 3,
+      "ref_tokens": 100,
+      "hyp_tokens": 100,
+      "errors": 2,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0,
+      "per": 0.02
+    }
+  ],
+  "worst_examples": [
+    {
+      "utt_id": "009828",
+      "ref": "sou hu ze cong qi shi san die zhi wu shi san die fu bai fen zhi e er shi qi",
+      "hyp": "song hu ze cong qi shi san die shi wu shi san die fu bai fen zhua er shi qi",
+      "ref_len": 21,
+      "hyp_len": 20,
+      "errors": 4,
+      "substitutions": 3,
+      "deletions": 1,
+      "insertions": 0,
+      "per": 0.19047619047619047
+    },
+    {
+      "utt_id": "009204",
+      "ref": "yao hui da zhe ge wen ti shou xian bi xu nong qing chu ping zhun ji jin ru shi gan yu de mu di",
+      "hyp": "yao hui da zhe ge wen ti shou xian bi ju nong qing chu ping zhun jie jian ru shi gan yu duan mu di",
+      "ref_len": 25,
+      "hyp_len": 25,
+      "errors": 4,
+      "substitutions": 4,
+      "deletions": 0,
+      "insertions": 0,
+      "per": 0.16
+    },
+    {
+      "utt_id": "009196",
+      "ref": "ju min jing jie shao qi huo di dian wei lan kao ren yuan li hai jia",
+      "hyp": "ju min jing jian shao qi di dian wei lan kao ren yuan lie hai jia",
+      "ref_len": 17,
+      "hyp_len": 16,
+      "errors": 3,
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "per": 0.17647058823529413
+    },
+    {
+      "utt_id": "009320",
+      "ref": "shi gong an ju de wei bo kai de zui zao yin ci ren qi er ye zui zu",
+      "hyp": "shi gong an ju de wei bo kai de zui zao yin zi ren qiu e er ye zui zu",
+      "ref_len": 19,
+      "hyp_len": 20,
+      "errors": 3,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 1,
+      "per": 0.15789473684210525
+    },
+    {
+      "utt_id": "009497",
+      "ref": "shu ren xiong ke xi wan sheng le yi bai nian huo zhe zao sheng le yi bai nian",
+      "hyp": "shu ren xiong ke xi wan sheng le yi ban nian huo zhe zao shang le yi ban nian",
+      "ref_len": 19,
+      "hyp_len": 19,
+      "errors": 3,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 0,
+      "per": 0.15789473684210525
+    },
+    {
+      "utt_id": "009822",
+      "ref": "ke nian gen er zhe hui er zuo xian de jiu cai jia qian zhang de zui li pu",
+      "hyp": "ke nian ge er zhe huo er zuo xie de jiu cai jia qian zhang de zui li pu",
+      "ref_len": 19,
+      "hyp_len": 19,
+      "errors": 3,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 0,
+      "per": 0.15789473684210525
+    },
+    {
+      "utt_id": "009851",
+      "ref": "dang guan zhen hao shen me dou wan er shen me dou hui shen me dou zhuan qian he he",
+      "hyp": "dang guan zhen hao shen me dou wa e er shen me dou hui shen men dou zhuan qian he he",
+      "ref_len": 20,
+      "hyp_len": 21,
+      "errors": 3,
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 1,
+      "per": 0.15
+    },
+    {
+      "utt_id": "009160",
+      "ref": "yin wei hong fan qie wai mian shi hong de ran hou qi shi fan qie li mian ye shi hong de",
+      "hyp": "yin wei hong fan qie wai mian shi hong de rang hou qi shi fan qian li mian ye she hong de",
+      "ref_len": 22,
+      "hyp_len": 22,
+      "errors": 3,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 0,
+      "per": 0.13636363636363635
+    },
+    {
+      "utt_id": "009194",
+      "ref": "jie shi nan jing jiang cheng wei quan guo zui da de bei dou chan ye ying yong fa zhan ji di",
+      "hyp": "jian shi nan jing jiang cheng wei quan guo zui da de bei dou chan yan ying you fa zhan ji di",
+      "ref_len": 22,
+      "hyp_len": 22,
+      "errors": 3,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 0,
+      "per": 0.13636363636363635
+    },
+    {
+      "utt_id": "009420",
+      "ref": "jing zhen duan hao hao bei que zhen wei xiao chuan bing zai zhi hou shu zhou nei duo ci jin xing zhen zhi",
+      "hyp": "jing zhen duan hao hao bei que zhe wei xiao chuan bing zai zhi hou shu zhuang nei duo ci jin jing zhen zhi",
+      "ref_len": 24,
+      "hyp_len": 24,
+      "errors": 3,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 0,
+      "per": 0.125
+    }
+  ]
+}

@@ -146,6 +146,20 @@ Plot robustness comparison:
 
 python scripts/plot_robustness.py
 
+Next-stage robustness and decoder analysis:
+
+python train.py --config configs/r1_e3_audio_mild_99.yaml --resume checkpoints/e3_conv_fbank_weak_specaugment/best.pt --reset-optimizer
+
+python train.py --config configs/r2_e3_audio_mixed_125.yaml --resume checkpoints/r2_e3_audio_mixed/last.pt
+
+python scripts/select_robust_checkpoint.py --config configs/r2_e3_audio_mixed_125.yaml --checkpoint-dir checkpoints/r2_e3_audio_mixed --checkpoints checkpoints/r2_e3_audio_mixed/epoch_119.pt,checkpoints/r2_e3_audio_mixed/epoch_125.pt --conditions clean,noise20,speed0.9,speed1.1,echo --summary-out results/r2_125_robust_dev_summary.csv --analysis-out results/r2_125_robust_dev_analysis.json --selected-out checkpoints/r2_e3_audio_mixed/robust_best.pt
+
+python scripts/evaluate_decoder.py --config configs/r2_e3_audio_mixed_125.yaml --checkpoint checkpoints/r2_e3_audio_mixed/robust_best.pt --split test --decoder prefix_beam_lm --beam-width 25 --topk 12 --lm-alpha 0.3 --lm-beta 0.0 --experiment D3_R2_beam_lm --matrix-out results/decoder_matrix.csv
+
+python scripts/build_final_matrices.py --robust-input R0_E3_specaugment:results/e3_90_robustness_summary.csv --robust-input R1_mild_audio_aug:results/r1_robustness_summary.csv --robust-input R2_mixed_audio_aug:results/r2_robustness_summary.csv
+
+python scripts/plot_optimization_summary.py --decoder-matrix results/decoder_matrix.csv --robust-matrix results/final_robustness_matrix.csv --substitution E3_greedy:results/d0_e3_greedy_substitutions.csv --substitution E3_LM:results/d2_e3_beam_lm_substitutions.csv --substitution R2_greedy:results/d3_r2_greedy_substitutions.csv --substitution R2_LM:results/d3_r2_beam_lm_substitutions.csv
+
 ## Members
 
 - Li Zehao 2312594
