@@ -76,6 +76,7 @@ def ctc_prefix_beam_search_decode(
         skip_token_ids = set(skip_token_ids) | {blank_id}
 
     decoded: List[List[str]] = []
+    id_tokens = {idx: id2token.get(idx, "") for idx in range(vocab_size)}
     for batch_idx, length in enumerate(lengths_cpu):
         beams: dict[tuple[int, ...], tuple[float, float, float]] = {tuple(): (0.0, -math.inf, 0.0)}
         frame_log_probs = log_probs[batch_idx, :length]
@@ -87,6 +88,10 @@ def ctc_prefix_beam_search_decode(
                 frame_items.append((blank_id, float(frame[blank_id].item())))
 
             next_beams: dict[tuple[int, ...], tuple[float, float, float]] = {}
+            prefix_tokens_cache = {
+                prefix: tuple(id_tokens.get(idx, "") for idx in prefix)
+                for prefix in beams
+            }
 
             def update(prefix: tuple[int, ...], pb_add: float, pnb_add: float, lm_score: float) -> None:
                 old_pb, old_pnb, _ = next_beams.get(prefix, (-math.inf, -math.inf, lm_score))
@@ -94,6 +99,7 @@ def ctc_prefix_beam_search_decode(
 
             for prefix, (pb, pnb, lm_score) in beams.items():
                 total = _logaddexp(pb, pnb)
+                prefix_tokens = prefix_tokens_cache[prefix]
                 for token_id, token_log_prob in frame_items:
                     if token_id == blank_id:
                         update(prefix, total + token_log_prob, -math.inf, lm_score)
@@ -110,8 +116,8 @@ def ctc_prefix_beam_search_decode(
                     if acoustic == -math.inf:
                         continue
                     new_prefix = prefix + (token_id,)
-                    token = id2token.get(token_id, "")
-                    lm_delta = lm.score_next(tuple(id2token.get(i, "") for i in prefix), token) if lm else 0.0
+                    token = id_tokens.get(token_id, "")
+                    lm_delta = lm.score_next(prefix_tokens, token) if lm else 0.0
                     update(new_prefix, -math.inf, acoustic, lm_score + lm_delta)
 
             def rank(item: tuple[tuple[int, ...], tuple[float, float, float]]) -> float:
