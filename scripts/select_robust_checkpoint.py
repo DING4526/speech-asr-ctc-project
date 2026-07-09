@@ -57,6 +57,7 @@ def main() -> None:
     parser.add_argument("--config", required=True)
     parser.add_argument("--checkpoint-dir", required=True)
     parser.add_argument("--pattern", default="epoch_*.pt")
+    parser.add_argument("--checkpoints", default=None, help="Optional comma-separated checkpoint paths; overrides pattern.")
     parser.add_argument("--split", choices=["dev", "test"], default="dev")
     parser.add_argument("--conditions", default="clean,noise20,speed0.9,speed1.1,echo")
     parser.add_argument("--summary-out", required=True)
@@ -75,7 +76,10 @@ def main() -> None:
     batch_size = int(cfg["train"]["batch_size"])
     conditions = [item.strip() for item in args.conditions.split(",") if item.strip()]
 
-    checkpoints = sorted(Path(args.checkpoint_dir).glob(args.pattern), key=checkpoint_epoch)
+    if args.checkpoints:
+        checkpoints = [Path(item.strip()) for item in args.checkpoints.split(",") if item.strip()]
+    else:
+        checkpoints = sorted(Path(args.checkpoint_dir).glob(args.pattern), key=checkpoint_epoch)
     if not checkpoints:
         raise RuntimeError(f"No checkpoints matched {args.checkpoint_dir}/{args.pattern}")
 
