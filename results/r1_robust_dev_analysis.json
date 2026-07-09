@@ -1,0 +1,282 @@
+{
+  "config": "configs\\r1_e3_audio_mild_99.yaml",
+  "checkpoint_dir": "checkpoints\\r1_e3_audio_mild",
+  "split": "dev",
+  "conditions": [
+    "clean",
+    "noise20",
+    "speed0.9",
+    "speed1.1",
+    "echo"
+  ],
+  "best": {
+    "checkpoint": "checkpoints\\r1_e3_audio_mild\\epoch_098.pt",
+    "epoch": 98,
+    "robust_score": 0.12208439601205659,
+    "conditions": [
+      {
+        "num_utterances": 1000,
+        "ref_tokens": 17252,
+        "hyp_tokens": 17264,
+        "errors": 710,
+        "substitutions": 620,
+        "deletions": 39,
+        "insertions": 51,
+        "per": 0.04115464873637839,
+        "condition": "clean",
+        "loss": 0.1442977954596281
+      },
+      {
+        "num_utterances": 1000,
+        "ref_tokens": 17252,
+        "hyp_tokens": 17246,
+        "errors": 1099,
+        "substitutions": 939,
+        "deletions": 83,
+        "insertions": 77,
+        "per": 0.06370275910039416,
+        "condition": "noise20",
+        "loss": 0.20688527116179467
+      },
+      {
+        "num_utterances": 1000,
+        "ref_tokens": 17252,
+        "hyp_tokens": 17111,
+        "errors": 3909,
+        "substitutions": 3438,
+        "deletions": 306,
+        "insertions": 165,
+        "per": 0.22658242522606076,
+        "condition": "speed0.9",
+        "loss": 0.8287927603721619
+      },
+      {
+        "num_utterances": 1000,
+        "ref_tokens": 17252,
+        "hyp_tokens": 17067,
+        "errors": 3081,
+        "substitutions": 2746,
+        "deletions": 260,
+        "insertions": 75,
+        "per": 0.17858798979828425,
+        "condition": "speed1.1",
+        "loss": 0.6753430817127227
+      },
+      {
+        "num_utterances": 1000,
+        "ref_tokens": 17252,
+        "hyp_tokens": 17183,
+        "errors": 1732,
+        "substitutions": 1371,
+        "deletions": 215,
+        "insertions": 146,
+        "per": 0.10039415719916532,
+        "condition": "echo",
+        "loss": 0.36445525467395784
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "checkpoint": "checkpoints\\r1_e3_audio_mild\\epoch_094.pt",
+      "epoch": 94,
+      "robust_score": 0.13112682587526084,
+      "conditions": [
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17273,
+          "errors": 731,
+          "substitutions": 618,
+          "deletions": 46,
+          "insertions": 67,
+          "per": 0.04237189891027127,
+          "condition": "clean",
+          "loss": 0.14746546445041894
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17238,
+          "errors": 1131,
+          "substitutions": 961,
+          "deletions": 92,
+          "insertions": 78,
+          "per": 0.06555761650823093,
+          "condition": "noise20",
+          "loss": 0.2174581473469734
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17112,
+          "errors": 4348,
+          "substitutions": 3836,
+          "deletions": 326,
+          "insertions": 186,
+          "per": 0.25202875028982147,
+          "condition": "speed0.9",
+          "loss": 0.947471174955368
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17056,
+          "errors": 3235,
+          "substitutions": 2853,
+          "deletions": 289,
+          "insertions": 93,
+          "per": 0.1875144910734987,
+          "condition": "speed1.1",
+          "loss": 0.712010172367096
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17218,
+          "errors": 1866,
+          "substitutions": 1450,
+          "deletions": 225,
+          "insertions": 191,
+          "per": 0.1081613725944818,
+          "condition": "echo",
+          "loss": 0.38941723108291626
+        }
+      ]
+    },
+    {
+      "checkpoint": "checkpoints\\r1_e3_audio_mild\\epoch_098.pt",
+      "epoch": 98,
+      "robust_score": 0.12208439601205659,
+      "conditions": [
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17264,
+          "errors": 710,
+          "substitutions": 620,
+          "deletions": 39,
+          "insertions": 51,
+          "per": 0.04115464873637839,
+          "condition": "clean",
+          "loss": 0.1442977954596281
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17246,
+          "errors": 1099,
+          "substitutions": 939,
+          "deletions": 83,
+          "insertions": 77,
+          "per": 0.06370275910039416,
+          "condition": "noise20",
+          "loss": 0.20688527116179467
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17111,
+          "errors": 3909,
+          "substitutions": 3438,
+          "deletions": 306,
+          "insertions": 165,
+          "per": 0.22658242522606076,
+          "condition": "speed0.9",
+          "loss": 0.8287927603721619
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17067,
+          "errors": 3081,
+          "substitutions": 2746,
+          "deletions": 260,
+          "insertions": 75,
+          "per": 0.17858798979828425,
+          "condition": "speed1.1",
+          "loss": 0.6753430817127227
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17183,
+          "errors": 1732,
+          "substitutions": 1371,
+          "deletions": 215,
+          "insertions": 146,
+          "per": 0.10039415719916532,
+          "condition": "echo",
+          "loss": 0.36445525467395784
+        }
+      ]
+    },
+    {
+      "checkpoint": "checkpoints\\r1_e3_audio_mild\\epoch_099.pt",
+      "epoch": 99,
+      "robust_score": 0.12289589612798515,
+      "conditions": [
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17261,
+          "errors": 730,
+          "substitutions": 643,
+          "deletions": 39,
+          "insertions": 48,
+          "per": 0.042313934616276375,
+          "condition": "clean",
+          "loss": 0.1470943240225315
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17239,
+          "errors": 1124,
+          "substitutions": 977,
+          "deletions": 80,
+          "insertions": 67,
+          "per": 0.06515186645026663,
+          "condition": "noise20",
+          "loss": 0.21425191685557365
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17072,
+          "errors": 4056,
+          "substitutions": 3568,
+          "deletions": 334,
+          "insertions": 154,
+          "per": 0.2351031764433109,
+          "condition": "speed0.9",
+          "loss": 0.8700637671947479
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17032,
+          "errors": 2942,
+          "substitutions": 2604,
+          "deletions": 279,
+          "insertions": 59,
+          "per": 0.17053095293299328,
+          "condition": "speed1.1",
+          "loss": 0.6444777777194977
+        },
+        {
+          "num_utterances": 1000,
+          "ref_tokens": 17252,
+          "hyp_tokens": 17181,
+          "errors": 1749,
+          "substitutions": 1346,
+          "deletions": 237,
+          "insertions": 166,
+          "per": 0.1013795501970786,
+          "condition": "echo",
+          "loss": 0.369553959608078
+        }
+      ]
+    }
+  ]
+}
