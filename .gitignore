@@ -15,6 +15,7 @@ checkpoints/
 *.ckpt
 
 *.log
+results/smoke_*
 
 .vscode/
 .idea/

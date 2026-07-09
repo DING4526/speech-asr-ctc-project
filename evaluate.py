@@ -98,6 +98,7 @@ def main():
     parser.add_argument("--show", type=int, default=10, help="Number of prediction examples to print")
     parser.add_argument("--predictions-out", default=None, help="Optional CSV path for per-utterance predictions")
     parser.add_argument("--analysis-out", default=None, help="Optional JSON path for aggregate error analysis")
+    parser.add_argument("--max-batches", type=int, default=None, help="Optional maximum number of batches to evaluate")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
@@ -120,7 +121,7 @@ def main():
     examples = []
     records = []
     with torch.no_grad():
-        for batch in loader:
+        for step, batch in enumerate(loader, 1):
             features = batch["features"].to(device)
             lengths = batch["feat_lengths"].to(device)
             targets = batch["targets"].to(device)
@@ -146,6 +147,8 @@ def main():
                 )
                 if len(examples) < args.show:
                     examples.append((utt_id, ref, hyp))
+            if args.max_batches is not None and step >= args.max_batches:
+                break
 
     ter, err, ref_len = token_error_rate(refs_all, hyps_all)
     summary = corpus_error_summary(refs_all, hyps_all)
