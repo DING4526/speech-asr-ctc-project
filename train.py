@@ -18,14 +18,14 @@ from utils.metrics import token_error_rate
 from utils.specaugment import specaugment
 
 
-def run_eval(model, loader, criterion, device, id2token):
+def run_eval(model, loader, criterion, device, id2token, max_batches: int | None = None):
     model.eval()
     total_loss = 0.0
     num_batches = 0
     refs_all = []
     hyps_all = []
     with torch.no_grad():
-        for batch in loader:
+        for step, batch in enumerate(loader, 1):
             features = batch["features"].to(device)
             feat_lengths = batch["feat_lengths"].to(device)
             targets = batch["targets"].to(device)
@@ -37,6 +37,8 @@ def run_eval(model, loader, criterion, device, id2token):
             num_batches += 1
             hyps_all.extend(ctc_greedy_decode(logits, out_lengths, id2token))
             refs_all.extend(batch["target_tokens"])
+            if max_batches is not None and step >= max_batches:
+                break
     ter, err, ref_len = token_error_rate(refs_all, hyps_all)
     avg_loss = total_loss / max(1, num_batches)
     return avg_loss, ter, err, ref_len
@@ -84,7 +86,14 @@ def main():
 
     model = TransformerCTC(vocab_size=vocab_size, **cfg["model"]).to(device)
     criterion = nn.CTCLoss(blank=0, zero_infinity=True)
-    optimizer = torch.optim.AdamW(
+    optimizer_name = str(cfg["train"].get("optimizer", "adamw")).lower()
+    optimizer_cls = {
+        "adam": torch.optim.Adam,
+        "adamw": torch.optim.AdamW,
+    }.get(optimizer_name)
+    if optimizer_cls is None:
+        raise ValueError(f"Unsupported optimizer: {optimizer_name}")
+    optimizer = optimizer_cls(
         model.parameters(),
         lr=float(cfg["train"]["learning_rate"]),
         weight_decay=float(cfg["train"].get("weight_decay", 0.0)),
@@ -105,6 +114,12 @@ def main():
     ensure_dir(output_dir)
     metrics_path = output_dir / "metrics.csv"
     append_metrics = bool(args.resume and metrics_path.exists())
+    max_train_batches = cfg["train"].get("max_train_batches")
+    max_eval_batches = cfg["train"].get("max_eval_batches")
+    if max_train_batches is not None:
+        max_train_batches = int(max_train_batches)
+    if max_eval_batches is not None:
+        max_eval_batches = int(max_eval_batches)
 
     with metrics_path.open("a" if append_metrics else "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(
@@ -117,6 +132,7 @@ def main():
         for epoch in range(start_epoch, int(cfg["train"]["epochs"]) + 1):
             model.train()
             running_loss = 0.0
+            train_batches = 0
             pbar = tqdm(train_loader, desc=f"Epoch {epoch}")
             for step, batch in enumerate(pbar, 1):
                 features = batch["features"].to(device)
@@ -144,11 +160,21 @@ def main():
                 optimizer.step()
 
                 running_loss += float(loss.item())
+                train_batches += 1
                 if step % int(cfg["train"].get("log_interval", 20)) == 0:
                     pbar.set_postfix(loss=running_loss / step)
+                if max_train_batches is not None and step >= max_train_batches:
+                    break
 
-            train_loss = running_loss / max(1, len(train_loader))
-            dev_loss, dev_ter, dev_err, dev_ref = run_eval(model, dev_loader, criterion, device, id2token)
+            train_loss = running_loss / max(1, train_batches)
+            dev_loss, dev_ter, dev_err, dev_ref = run_eval(
+                model,
+                dev_loader,
+                criterion,
+                device,
+                id2token,
+                max_batches=max_eval_batches,
+            )
             print(
                 f"Epoch {epoch}: train_loss={train_loss:.4f}, "
                 f"dev_loss={dev_loss:.4f}, dev_PER={dev_ter*100:.2f}% "

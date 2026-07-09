@@ -10,7 +10,7 @@ Output: pinyin token sequence without tone.
 
 ## Method
 
-The system uses log-Mel filterbank features, Transformer Encoder acoustic modeling, CTC loss, greedy CTC decoding, and PER / WER-like token error rate for evaluation.
+The system uses log-Mel or Kaldi-style Fbank features, Transformer Encoder acoustic modeling, CTC loss, greedy CTC decoding, and PER / WER-like token error rate for evaluation. The optimized experiment line also supports a 4x convolutional subsampling frontend before the Transformer encoder.
 
 ## Dataset
 
@@ -91,14 +91,17 @@ The analysis JSON includes total PER, substitution/deletion/insertion counts, PE
 
 | Experiment | Config | Purpose |
 |---|---|---|
-| Matched SpecAugment | configs/lab6_clean_specaugment_30.yaml | Compare SpecAugment with the 30-epoch baseline under the same epoch budget. |
-| Weak SpecAugment | configs/lab6_clean_specaugment_30_weak.yaml | Test whether milder masks reduce the underfitting observed in the 15-epoch run. |
+| E0 final baseline | configs/e0_final_baseline.yaml | Re-evaluate the current final baseline with unified prediction and error-analysis outputs. |
+| E1 conv log-Mel | configs/e1_conv_logmel.yaml | Isolate the effect of the 4x convolutional subsampling frontend. |
+| E2 conv Fbank strong | configs/e2_conv_fbank_strong.yaml | Train the stronger greedy baseline using the Exp6-inspired frontend, Fbank, and optimizer recipe. |
+| E3 conv Fbank + weak SpecAugment | configs/e3_conv_fbank_weak_specaugment.yaml | Test lightweight robustness augmentation on top of the stronger baseline. |
 
 Recommended order:
 
-1. Run `configs/lab6_clean_specaugment_30_weak.yaml`.
-2. Evaluate dev and test with `--analysis-out`.
-3. Compare `metrics.csv` curves and deletion/insertion/substitution counts with the 30-epoch baseline.
+1. Run `configs/smoke_conv_fbank.yaml` to verify the new frontend and Fbank backend.
+2. Train E1 and E2, then evaluate both test sets with `--predictions-out` and `--analysis-out`.
+3. Train E3 only after E2 is stable, and compare the E2/E3 curves and error breakdowns.
+4. Generate summary figures from all finished experiment outputs.
 
 ## Members
 
