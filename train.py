@@ -48,6 +48,7 @@ def main():
     parser = argparse.ArgumentParser(description="Train Transformer-CTC ASR baseline")
     parser.add_argument("--config", default="configs/base.yaml")
     parser.add_argument("--resume", default=None, help="Optional checkpoint path to resume from")
+    parser.add_argument("--reset-optimizer", action="store_true", help="Resume model weights but start a fresh optimizer.")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
@@ -66,7 +67,13 @@ def main():
     print(f"Vocabulary size: {vocab_size}")
 
     feature_conf = cfg["feature"]
-    train_set = SpeechDataset(cfg["data"]["train_wav_scp"], cfg["data"]["train_text"], token2id, feature_conf)
+    train_set = SpeechDataset(
+        cfg["data"]["train_wav_scp"],
+        cfg["data"]["train_text"],
+        token2id,
+        feature_conf,
+        audio_augment_conf=cfg["train"].get("audio_augment"),
+    )
     dev_set = SpeechDataset(cfg["data"]["dev_wav_scp"], cfg["data"]["dev_text"], token2id, feature_conf)
 
     train_loader = DataLoader(
@@ -104,10 +111,13 @@ def main():
     if args.resume:
         ckpt = torch.load(args.resume, map_location=device)
         model.load_state_dict(ckpt["model_state"])
-        if "optimizer_state" in ckpt:
+        if "optimizer_state" in ckpt and not args.reset_optimizer:
             optimizer.load_state_dict(ckpt["optimizer_state"])
         start_epoch = int(ckpt.get("epoch", 0)) + 1
-        best_dev_ter = float(ckpt.get("best_dev_per", ckpt.get("dev_per", best_dev_ter)))
+        if args.reset_optimizer:
+            best_dev_ter = 1e9
+        else:
+            best_dev_ter = float(ckpt.get("best_dev_per", ckpt.get("dev_per", best_dev_ter)))
         print(f"Resumed from {args.resume}: start_epoch={start_epoch}, best_dev_PER={best_dev_ter*100:.2f}%")
 
     output_dir = Path(cfg["output_dir"])
@@ -191,6 +201,8 @@ def main():
                 "best_dev_per": min(best_dev_ter, dev_ter),
             }
             torch.save(ckpt, output_dir / "last.pt")
+            if cfg["train"].get("save_epoch_checkpoints", False):
+                torch.save(ckpt, output_dir / f"epoch_{epoch:03d}.pt")
             is_best = dev_ter < best_dev_ter
             if is_best:
                 best_dev_ter = dev_ter

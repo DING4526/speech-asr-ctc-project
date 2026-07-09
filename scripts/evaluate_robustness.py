@@ -2,15 +2,12 @@ from __future__ import annotations
 
 import argparse
 import csv
-import hashlib
 import json
 import sys
 from pathlib import Path
 
-import soundfile as sf
 import torch
 import torch.nn as nn
-import torchaudio
 from torch.nn.utils.rnn import pad_sequence
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -24,62 +21,7 @@ from models.transformer_ctc import TransformerCTC
 from utils.common import get_device, load_config
 from utils.ctc_decode import ctc_greedy_decode
 from utils.metrics import corpus_error_summary, utterance_error_summary
-
-
-def stable_seed(text: str) -> int:
-    digest = hashlib.md5(text.encode("utf-8")).hexdigest()
-    return int(digest[:8], 16)
-
-
-def load_waveform(path: str) -> tuple[torch.Tensor, int]:
-    wav, sr = sf.read(path, dtype="float32", always_2d=True)
-    waveform = torch.from_numpy(wav.T).contiguous()
-    if waveform.size(0) > 1:
-        waveform = waveform.mean(dim=0, keepdim=True)
-    return waveform, int(sr)
-
-
-def add_noise(waveform: torch.Tensor, snr_db: float, seed: int) -> torch.Tensor:
-    generator = torch.Generator(device=waveform.device).manual_seed(seed)
-    noise = torch.randn(waveform.shape, generator=generator, device=waveform.device, dtype=waveform.dtype)
-    signal_rms = waveform.pow(2).mean().sqrt().clamp_min(1e-8)
-    noise_rms = noise.pow(2).mean().sqrt().clamp_min(1e-8)
-    target_noise_rms = signal_rms / (10 ** (snr_db / 20.0))
-    return (waveform + noise * (target_noise_rms / noise_rms)).clamp(-1.0, 1.0)
-
-
-def speed_perturb(waveform: torch.Tensor, sample_rate: int, factor: float) -> torch.Tensor:
-    if factor <= 0:
-        raise ValueError(f"speed factor must be positive: {factor}")
-    orig_freq = max(1, int(round(sample_rate * factor)))
-    return torchaudio.functional.resample(waveform, orig_freq=orig_freq, new_freq=sample_rate)
-
-
-def echo_perturb(waveform: torch.Tensor, sample_rate: int, delay_ms: float = 60.0, decay: float = 0.35) -> torch.Tensor:
-    delay = max(1, int(sample_rate * delay_ms / 1000.0))
-    echoed = torch.zeros_like(waveform)
-    if waveform.size(1) > delay:
-        echoed[:, delay:] = waveform[:, :-delay] * decay
-    out = waveform + echoed
-    peak = out.abs().max().clamp_min(1.0)
-    return (out / peak).clamp(-1.0, 1.0)
-
-
-def apply_condition(waveform: torch.Tensor, sample_rate: int, condition: str, utt_id: str) -> torch.Tensor:
-    if condition == "clean":
-        return waveform
-    if condition.startswith("noise"):
-        snr_db = float(condition.replace("noise", ""))
-        return add_noise(waveform, snr_db=snr_db, seed=stable_seed(f"{utt_id}-{condition}"))
-    if condition.startswith("speed"):
-        factor = float(condition.replace("speed", ""))
-        return speed_perturb(waveform, sample_rate=sample_rate, factor=factor)
-    if condition.startswith("volume"):
-        gain = float(condition.replace("volume", ""))
-        return (waveform * gain).clamp(-1.0, 1.0)
-    if condition == "echo":
-        return echo_perturb(waveform, sample_rate=sample_rate)
-    raise ValueError(f"Unsupported robustness condition: {condition}")
+from utils.audio_augment import apply_condition, load_waveform
 
 
 def batch_items(items: list[dict], batch_size: int):

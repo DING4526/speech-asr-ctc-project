@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import random
 from typing import Dict, List, Tuple
 
 import torch
@@ -9,6 +10,7 @@ from torch.utils.data import Dataset
 
 from dataprocess.feature import LogMelExtractor
 from dataprocess.vocab import read_pinyin_file, encode_tokens
+from utils.audio_augment import apply_random_augmentation, load_waveform
 
 
 def read_wav_scp(path: str | Path) -> Dict[str, str]:
@@ -38,6 +40,7 @@ class SpeechDataset(Dataset):
         text_path: str | Path,
         token2id: Dict[str, int],
         feature_conf: dict,
+        audio_augment_conf: dict | None = None,
     ) -> None:
         self.wavs = read_wav_scp(wav_scp)
         self.texts = read_pinyin_file(text_path)
@@ -49,6 +52,8 @@ class SpeechDataset(Dataset):
             raise RuntimeError("No matched utterances found between wav.scp and pinyin file.")
         self.token2id = token2id
         self.extractor = LogMelExtractor(**feature_conf)
+        self.audio_augment_conf = audio_augment_conf or {}
+        self.rng = random.Random(int(self.audio_augment_conf.get("seed", 2026)))
 
     def __len__(self) -> int:
         return len(self.utt_ids)
@@ -58,7 +63,12 @@ class SpeechDataset(Dataset):
         wav_path = self.wavs[utt_id]
         if not Path(wav_path).exists():
             raise FileNotFoundError(f"Audio file for {utt_id} not found: {wav_path}")
-        feat = self.extractor(wav_path)
+        if self.audio_augment_conf.get("enabled", False):
+            waveform, sample_rate = load_waveform(wav_path)
+            waveform = apply_random_augmentation(waveform, sample_rate, self.audio_augment_conf, self.rng)
+            feat = self.extractor.extract_waveform(waveform, sample_rate)
+        else:
+            feat = self.extractor(wav_path)
         target_tokens = self.texts[utt_id]
         target = torch.tensor(encode_tokens(target_tokens, self.token2id), dtype=torch.long)
         return {
