@@ -58,19 +58,14 @@ class LogMelExtractor:
             )
             self.db = torchaudio.transforms.AmplitudeToDB(stype="power")
 
-    def __call__(self, wav_path: str) -> torch.Tensor:
-        wav, sr = sf.read(wav_path, dtype="float32", always_2d=True)
-
-        # soundfile: [num_samples, channels] -> torch: [channels, num_samples]
-        waveform = torch.from_numpy(wav.T).contiguous()
-
+    def extract_waveform(self, waveform: torch.Tensor, sample_rate: int) -> torch.Tensor:
         # convert to mono
         if waveform.size(0) > 1:
             waveform = waveform.mean(dim=0, keepdim=True)
 
         # resample if needed
-        if sr != self.sample_rate:
-            waveform = torchaudio.functional.resample(waveform, sr, self.sample_rate)
+        if sample_rate != self.sample_rate:
+            waveform = torchaudio.functional.resample(waveform, sample_rate, self.sample_rate)
 
         if self.backend == "kaldi_fbank":
             frame_length_ms = self.win_length / self.sample_rate * 1000.0
@@ -100,3 +95,10 @@ class LogMelExtractor:
                 feat = feat / std
 
         return feat.float()
+
+    def __call__(self, wav_path: str) -> torch.Tensor:
+        wav, sr = sf.read(wav_path, dtype="float32", always_2d=True)
+
+        # soundfile: [num_samples, channels] -> torch: [channels, num_samples]
+        waveform = torch.from_numpy(wav.T).contiguous()
+        return self.extract_waveform(waveform, sr)
