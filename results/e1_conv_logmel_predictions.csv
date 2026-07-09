@@ -1,0 +1,1001 @@
+utt_id,ref,hyp,ref_len,hyp_len,errors,substitutions,deletions,insertions,per
+009001,wo men cheng shi de fu su you lai yu ta qiang you li de zheng ce,wo men cheng chi de fu su you lai yu pai qiang you li de zheng ce,17,17,2,2,0,0,0.11764705882352941
+009002,zhe yang zuo de yi ju jiu shi su ren tong e er san qi hao wen jian,zhe yang zuo de yi ju jiu shi zu ren tou e er san xi heng wen jian,18,18,4,4,0,0,0.2222222222222222
+009003,zhe jiang hui hen da cheng du de huan jie yang lao jin de que kou,zhe jiang hui hen da cheng du de huai huan jie yang lang jin de que kao,16,17,3,2,0,1,0.1875
+009004,wei shen me ji feng wu gao xin jiu you na me da de po huai li,wei shen men ji feng wu gao xin jiu you na da de bu huai li,17,16,3,2,1,0,0.17647058823529413
+009005,gang mai de ku zi bu dao shi fen zhong ni jiu nong po le,gang lai de zi bu dao shi fen zhong ni jiu nong pu le,15,14,3,2,1,0,0.2
+009006,yin ci zhi neng yi zui ben de fang shi bu duan yi luan ji shi,yin ci zhi neng yi zui ben de fang shi bu dui duan yi luan ji shi,16,17,1,0,0,1,0.0625
+009007,liang ren cuo che zhi ji mao die die tu ran shuai dao shou shang,liang ren cuo che zhi ji mao die die tu ran shen dao sheng shang,15,15,2,2,0,0,0.13333333333333333
+009008,tong shi mu min jiu ye qu dao zhai shou ru zeng zhang huan man,tong shi mu min jiu ye qu dao zhai shou ru zeng zhang huan man,15,15,0,0,0,0,0.0
+009009,nv ming xing ye shi ping fan ren ni yi wei zai yu le quan pai xi gan tong gao hen rong yi ma,nv ming xing yan shi ping fan ren ni wei zai yong le quan pai xi gan tong gao hen rong yi ma,24,23,3,2,1,0,0.125
+009010,xu duo dao li ren men yi jing zheng ming guo qian bian wan bian wei shen me hai yao dai zhe jiao xing de xin li zai qu shi yan yi hui ne,xu duo dao li ren men yi jing zheng mi guo qian bian wan bian wei shen ne hai yao dai zhe jiao xing de xin li zai qu shi ye yi hui ne,34,34,3,3,0,0,0.08823529411764706
+009011,zuo tian ta xiang cheng du shang bao ji zhe wei wei dao lai,zuo tian ta xiang cheng du shang bang ji yi zhe wei wei dao lai,14,15,2,1,0,1,0.14285714285714285
+009012,lin feng yu duo wei nian qing mo te er na qi dao ju dan gao he zhao,lin fang yu duo wei nian qing mo te er na qi dao ju dan dao he zhang,18,18,3,3,0,0,0.16666666666666666
+009013,dui yu wu li ke tu de ke hu qu dao ye ba ta men qia duan le,dui yu wu li ke tu de ke hu qu dao ye ba ta men qia duan le,18,18,0,0,0,0,0.0
+009014,mei jun wei he hai po bu ji dai de yao dong yong di si bu bing shi,mei ju wei he hai pu bu ji dai de yao dong yong di si bu bing shi,18,18,2,2,0,0,0.1111111111111111
+009015,e er yi min yu guan qia ju yi zhan kai diao cha zhang wo liang ren de zui zheng,e er yi min yu guan qia ju yi zhan kai diao cha zhang wo liang ren de zui zheng,20,20,0,0,0,0,0.0
+009016,wei le duo zheng ji ge fa lang ta mei zhou chao fu he de gong zuo,wei le duo zheng ji ge fa le ta mei zheng fu he de gong zuo,17,16,3,2,1,0,0.17647058823529413
+009017,wei le rang zhang fu qing qing shuang shuang chang nv hai xue hui le li fa,wei le rang zhang fu qing qing shuang shuang chang nv hai xue hui le li fa,17,17,0,0,0,0,0.0
+009018,zhi zhi dao ping lun chun guang de ren chun guang bu hui yu ta tong xing,zhi zhi dao ping lun che guang le ren chun guang bu hui yun ta tong xing,17,17,3,3,0,0,0.17647058823529413
+009019,ju liao jie yu yuan gong guan shi min guo ming yi liu jian xun de jiu ju,ju liao jie yu yuan gong guan shi min ming gong ning yi liu jie xun de jiu ju,18,19,4,3,0,1,0.2222222222222222
+009020,hou mian de hua ta yi jing ting bu dao le bu jian fei ning ke si,hou mian de hua ta yi jian ting bu dao le bu jian fei ning ke si,17,17,1,1,0,0,0.058823529411764705
+009021,jing hun yi ke guo hou ta hui xiang qi shi deng shan zhang mei ning jin,jing hui yi ke guo hou ta hui xiang qi shi deng shan zhang mei nian ji,17,17,3,3,0,0,0.17647058823529413
+009022,xi shui xi chen qu wu ge yin bao hu zhu ji tan deng gong neng,xi shui xi chen chan ju wu ge yin bao hu zhu ji tan deng gong neng,16,17,2,1,0,1,0.125
+009023,bei she sha dong bei hu de lao gong ji mo de pa zai tie long nei,bei shi sha dong bei hu de lao gong ji mo de pa zai tie lou long nei,17,18,2,1,0,1,0.11764705882352941
+009024,you shi mang qi lai le mei ling qian yi lian ji tian dou bu shou wo qian,you shi ma qi lai le mei ying qian yi lian ji tian dou bu shou wo qian,18,18,2,2,0,0,0.1111111111111111
+009025,cheng qi si yi lu gan huo che de cheng ke zui hao ti zao chu fa,chang qi zi yi lu gan huo che de cheng ke zui hao ti zao chu fa,17,17,2,2,0,0,0.11764705882352941
+009026,you xie jia ru le bang bang jun jian tiao zhu gan cong shi huo wu yun song,you xie jia ru le bang bang jun jian tiao zhu gan cong shi hu wu yun zong,18,18,2,2,0,0,0.1111111111111111
+009027,dan ta men hen zhi chi yun xu wo ba zhe ju hua fang dao wang zhan shang,dan tan men hen zhi chi yun xu wo ba zhe ju hua feng de wang zhan shang,18,18,3,3,0,0,0.16666666666666666
+009028,yi qian suo ban de zhan lan deng bu shu yu gu gong guan li,yi qian song zuo ban de zhan lai deng bu shu yu gu gong guan li,15,16,3,2,0,1,0.2
+009029,dan shi jia bao wa ta ye you nv de da nan de de shi hou,dan shi jia dao wa ta ye you nv de da nan de de shi hao,16,16,2,2,0,0,0.125
+009030,qi jian niu niu yi zhi da ku dan dan mou mei you ting shou,qi jie jian niao nian yi zhi da ku dan dan mao mei you ting shou,15,16,4,3,0,1,0.26666666666666666
+009031,bing xue shang wei rong hua chong jian dian wang de bu fa yi kai qi,bing xue shang wei rong hua chong jian ding wang de bu fa yi kai qi,16,16,1,1,0,0,0.0625
+009032,fa xian gong zuo ren yuan tai du man heng de yao yan jia cheng chu,fa du zuo ren yuan tai duo man heng de yang yan jia cheng chu,16,15,4,3,1,0,0.25
+009033,na xie xi huan tiao dian mao bing shuo dian xian hua de ren ye hua bu duo,na xie jie huan tiao dian mao bi shuo dian xie fa de ren ye hua bu duo,18,18,4,4,0,0,0.2222222222222222
+009034,you yu huo chang shang feng li bu duan jia da you jia su le ke ran wu ran shao,you yu huo chang shang feng li bu duan ban jia da you jia suo neng ke ran wu ren shang,20,21,5,4,0,1,0.25
+009035,kuai zou dao di bian shi yuan yuan kan dao di leng hou ge zhe yi jian hua yi shang,kuai zen dao di bian shi yuan yang kan dao di leng hao ge zhe yi jian hua shang,20,19,4,3,1,0,0.2
+009036,fei qi zhu rou zai tu guo li ao lian hei se de zhu you liu dao tong li,fei qi zhu rou zai tu guo li ao lie hei sun de zhu you liu dao tong hong li,19,20,3,2,0,1,0.15789473684210525
+009037,ru jin ge qi yi de zhuang shi gong si zou ru le zheng gui sheng ji wu you,ru jian ge qi yi de zhuang shi gong zi zong ru de zhang gui sheng ji wu you,19,19,5,5,0,0,0.2631578947368421
+009038,luan zi shi cong ji yin ku tiao xuan de lai zi yi ge ni ming de nv zi,nuan zi shi cong ji yin ku tiao xuan de lai zi yi ge ni ming de ni zi,19,19,2,2,0,0,0.10526315789473684
+009039,dan ru guo que fa zi jin que hen nan xi yin you xiu de ruan jian ren cai,dan ru guo que fa zi ji que hen nan xi yin you xiu de ruan jian ren cai,19,19,1,1,0,0,0.05263157894736842
+009040,e er yang hua liu tian jia zai shi pin zhong zhu yao qi piao bai he fang fu zuo yong,e er hua liao tian jia zai shi pin zhong zhui qi tiao bai he fang fu zuo you,21,19,6,4,2,0,0.2857142857142857
+009041,yi wei shi min shuo jing xing hou ting jian le fang wu bei yao dong de zhi zhi sheng,yi wei shi min shuo jing xing hou ting jian le fang wu bei yao dong de zhi zhi sheng,20,20,0,0,0,0,0.0
+009042,jie guo yin ci mei chou jian qian mian de dian xian gan zi yi tou zai shang le,jie guo yi ci mei chou jian qian mian de dian xin gai zi yi tou zai shang lang,19,19,4,4,0,0,0.21052631578947367
+009043,ce jing ji shu dui shi you kan tan de xiao lv he zhi liang zhi guan zhong yao,ce jing ji shu dui shi zhi you kan tan de xiao lv he zhi liang zhi guan zhong niao,19,20,2,1,0,1,0.10526315789473684
+009044,you ren fa chu zhe yang de yi wen fan du zhi zao jia yao mei you ren guan ma,you ren fan chu zhe yang de yi wen fan du zhi zao jia yao mei rang gua ma,20,19,4,3,1,0,0.2
+009045,mei tian da bu fen shi jian ta dou dai zai xiu jia qian mai tou xiu hua,mei tian da bu fen shi jian ta de dai zai xiu jia qian mai tou xiu hua,18,18,1,1,0,0,0.05555555555555555
+009046,e er dao xia ji hou niao bei fei you ke neng zai ya zhou bei bu dai lai yi qing,e er dao xia ji hou niao bei fei you ke neng zai ya zhou bei bu da lai yi qi,21,21,2,2,0,0,0.09523809523809523
+009047,bi ze de hang dao liang pang lin li zhe xiao shou gong zuo fang de zhao pai,bi zi de chang dao liang pang hang lin li zhe xiao shou gong zuo fang de zhao pai,18,19,3,2,0,1,0.16666666666666666
+009048,dan shi xian shi zhong zui zhong yi ban dou nan yi huo de kuan yu de pei chang,dan shi xian shi zhong zui zhong yi ban deng nan yi huo de kuai yu de pei chang,19,19,2,2,0,0,0.10526315789473684
+009049,sheng hai zi ye hen lei a bu yao zai yi shi shei de le hao ma,sheng hai zi ye hen lei ya bu yao zai yi shi shei de le hao ma,17,17,1,1,0,0,0.058823529411764705
+009050,zheng shi zhe zhu ming de feng zheng shi yan cheng jiu le ta dian xue zhi fu de di wei,zheng shi zhe zhu ming de feng zheng shi yan cheng jiu le ta dian xue zhi fu de di wei,21,21,0,0,0,0,0.0
+009051,zhong xian you liang qian san bai nian li shi shi ba wen hua fa xiang di,zhong xian you liang qian san bai nian li shi shi ba wen kua hua fa xiang di,17,18,1,0,0,1,0.058823529411764705
+009052,you shi zhuo zi shang shu hong le yan yu le cheng le ou qi ye bu hao,you shi zhu zi shang shu hong le yan yu le cheng o qi ye bu hao,18,17,3,2,1,0,0.16666666666666666
+009053,wo hai mei yang guo chong wu ne bu guo dao shi hen xiang chang shi yi xia,wo wa hai mei yang guo chong wo ne bu guo dao zhi hen xiang chang shi yi xia,18,19,3,2,0,1,0.16666666666666666
+009054,ju xi lao tai tai du zi yi ren ju zhu shen bian wu ren zhao gu,ju xi lao tai tai du zi yi ren ju zhu shen bian wu ren zhao gu,17,17,0,0,0,0,0.0
+009055,bai ming jiang jun zhi shu yi cheng wei yi wu zhi shu huo dong de dian fan,bai ming jiang jun zhi shu yi cheng wei yi wu zhi shu hu huo dong de dian fan,18,19,1,0,0,1,0.05555555555555555
+009056,han jia zuo ye bian le wei dou shi gong li shi yong zhu yi re de huo,han jia zuo ye bian le wei dou shi gong li shi zhu yi re de huo,18,17,1,0,1,0,0.05555555555555555
+009057,you ci peng you yi qi da ma jiang san que yi you ge peng you dai ge bu ren shi de peng you lai wo men wen ta hui wan ma,you ci peng yao yi ji da ma jiang san que yi you gao peng you dai ge bu ren shi de peng lai wo me wen tan hui wan me,32,31,7,6,1,0,0.21875
+009058,liu xian sheng jue de bu dui jin er xian kai bei zi yi kan wang hui yi jing duan qi sui ji bao jing,liu xian sheng jue de bu dui ju er xian kan bei zi yi kan wang hui yi jing duan qi sui ji bao jing,25,25,2,2,0,0,0.08
+009059,zi ji kan kan ni zhe du zi na xiang e er shi ji sui si wu shi sui dou bu zhi ba,zi ji kan kan ni zhe dong zi na xiang e er shi ji sui si wu shi sui dou bu zhi ba,23,23,1,1,0,0,0.043478260869565216
+009060,bie ju sang huo chu jing cai cai shi dui feng ci zui hao de huan ji dun xia lai gei zi ji yi ge yong bao,bie ju sang huo chu jing cai cai shi dui feng ci zui hao de huan ji dui xia lai gei zi ji yi ge yong bao,27,27,1,1,0,0,0.037037037037037035
+009061,zuo ri bei jing ao yun hui kai mu shi dao yan zhi yi de wang chao ge tou lu le zhe yi xiao xi,zuo ri bei jing ao yong hui kai mu zhi dao yan zhi yi de wang chang ge tong lu le zhe yi xiao xi,25,25,4,4,0,0,0.16
+009062,ru jiang fu yu de dian li mai gei guo jia dian wang bi zhong di de xiao yi yao ti gao hao duo bei,ru jiang fu yu de dian li mai gei gun jia dian fang bi zhong di de xiao yi yao ti gao hao duo bei,25,25,2,2,0,0,0.08
+009063,ting dao ci hua jie mou he han mou hen qi fen,ting dao si hua jie mou he chang mou hen qi fan,12,12,3,3,0,0,0.25
+009064,ren men he wo men hai neng zai kai da long tou rang qing ling ling de zi lai shui zhou ye chang liu ma,ren men he wo ma hai neng zai kai da long tou rang qing ling ling de zi lai shui zhou ye chang liu ma,25,25,1,1,0,0,0.04
+009065,qi jin wei zhi ta reng ran bi geng bu chuo,qi jin wei zhi ta reng ran bi geng bu chuo,11,11,0,0,0,0,0.0
+009066,wo gui nv rang wo gei ta mai hao chi de ne,wo gui nv rang wo gei tan man hao chi de ne,12,12,2,2,0,0,0.16666666666666666
+009067,chao shi li que chao mi fen mai de bu cuo,chao shi li que chao mi fen mai de bu cuo,11,11,0,0,0,0,0.0
+009068,zhu rong ji tong zhi gan dao you hen da ya li,zhu rong ji tong zhi gan dao you hen da ya li,12,12,0,0,0,0,0.0
+009069,gong nei zheng jie li suo lang zhu men chuang yan se xian yan ji ming dian gong zheng zai wei xiu xian lu,gong nei zheng jie li suo lang zhu men chuang ye ze xian yan ji ming dian gou zheng zai wei xiu xian lu,24,24,3,3,0,0,0.125
+009070,deng shang mo tian lun you ke men neng fu kan zi you nv shen xiang tiao wang man ha dun tian ji xian,deng shang mo tian lun you ke men neng fu kan zi you nv shen xiang tiao wang man han dun tian ji xian,24,24,1,1,0,0,0.041666666666666664
+009071,zhe shi zang min de ding li,zhe shi zang ming de ding li yi,7,8,2,1,0,1,0.2857142857142857
+009072,zai shuo le wo ba shou ji huan gei ni wo bu jiu shi zi tou luo wang wo sha ya,zai shuo le wo ba shou ji huan gei ni wo bu jiu shi zi tou luo wang wo sha ya,21,21,0,0,0,0,0.0
+009073,dui yu shang shu tou zi tian lai si de seng ren men biao shi yi wu suo zhi,dui yu shang shu tou zi tian lai zi de seng ren me men biao shi yi wu suo zhi,19,20,2,1,0,1,0.10526315789473684
+009074,zhi shi san yi fang mian ku yu mei you que zao zheng ju,zhi shi san yi fang mian ku yu mei you que zao zheng ju,14,14,0,0,0,0,0.0
+009075,zhang ying qing chuang li de xue ke shou gao du ping jia,zhang ying qing chuang li de xue ke shou gao bu ping jia,13,13,1,1,0,0,0.07692307692307693
+009076,mai ping yin liao ping gai shang xie de zai lai yi ping,mai ting yin liang ping gai shang xie de zai lan yi pin,13,13,4,4,0,0,0.3076923076923077
+009077,rao rang ban nian zui zhong bei pan fa kuan liao shi,yao rang ban nian zui zhong bei pan fa kuan liao shi,12,12,1,1,0,0,0.08333333333333333
+009078,wo de sun nv shuo ta xian zai bu yuan yi qu shang xue,wo de sun nv shuo ta xian zai bu yue yi qu shang xu xue,14,15,2,1,0,1,0.14285714285714285
+009079,ta shen cai ai xiao quan gu tu chu liu zhe xiao hu zi shuo hua yi kou nong zhong de fu jian kou yin,ta shen cai ai xiao quan gu tu chu liu zhe xiao hu zi shuo hua yi kou nong zhong de fu jian kou yin,25,25,0,0,0,0,0.0
+009080,qi shi tian xing jiu shi zhi zhang zhe lv tian xi,qi shi tian xing jiu shi zhi zhang zhe lv tian xi,12,12,0,0,0,0,0.0
+009081,yu yi xing jie chu de ji hui duo chi cu le mei,yu yi xing jie chu de ji hui duo chi cong lang mai,13,13,3,3,0,0,0.23076923076923078
+009082,hen kuai zhang mou e er zi de gong zuo an pai tuo dang,hen kuai zhang mou e er zi de gong zuo an pai tuo dao,14,14,1,1,0,0,0.07142857142857142
+009083,da mo shou xi jing ji xue jia wang qing ze ren wei mu qian de qian zai chong ji shi ke yi kong zhi de,da mo shou xi jing ji xue jia wang qing ze ren wei mu qian de qian zai chong ji shi ke yi kong zhi da,26,26,1,1,0,0,0.038461538461538464
+009084,wo xi huan yun dong dan shi hen shao da lan qiu ne,wo xi huan yun dong dan shi hen shang da lan qing na,13,13,3,3,0,0,0.23076923076923078
+009085,lin jin nian di ge zhong bu tie fen zhi ta lai,lin jin nian di ge zhong bu tie fen zhi tai lai,12,12,1,1,0,0,0.08333333333333333
+009086,tong yang de hou xuan chi cun ye jin xing le suo duan,tong yang de ao hou xuan chi cun ye jin xing le suo dun,13,14,2,1,0,1,0.15384615384615385
+009087,bei bu de ju zhi yin ci bei ceng lan hao duo hui,bei bu de ju zhi ying ci bei ceng le ao duo hui,13,13,3,3,0,0,0.23076923076923078
+009088,wo ting zai hu fen si de ou e er ye hui fa ge tie,wo ting zai hu fen si de ou e er ye hui fa ge tie,15,15,0,0,0,0,0.0
+009089,yi zhi can sai gong ji zhua zi shang zhuang zhe xiao dao,yi zhi can zai gong ji zhua zi shang zhuang zhe xiao dao,13,13,1,1,0,0,0.07692307692307693
+009090,qian xie nian chu xian le xi zao xie tou qi xie deng ge lei da zhe yang cheng hu zhao pai de hu xie,qian xian yan chu xian le xi zao xie tou qi xie deng ge lei da zhe yang hu zhao pai de hu jie,25,24,4,3,1,0,0.16
+009091,nv ren ti yan zhe tong ku e er xing fu de shi ke,ni nv ren ti yan zhe tong ku e er xing fu de shi ke,14,15,1,0,0,1,0.07142857142857142
+009092,wu qi long cheng dang zhi zuo ren chi li bu tao hao,wu qi long cheng dang zhi zuo ren zhi li bu tao hao,13,13,1,1,0,0,0.07692307692307693
+009093,zai gan la ji tong nei que fang zhe ji dan ke,zai gan la ji tong nei que fang zhe ji dan ke,12,12,0,0,0,0,0.0
+009094,dan shi si yue fu lei zai ci dang xuan zong tong bing yin fa le guo nei de bao li chong tu shi jian,dan shi si yue fu lei zai ci dang xuan zong tong bing yin fa le guo nei de bao li chong tu shu shi jin,25,26,2,1,0,1,0.08
+009095,zhan lan jiang dui quan ti guan zhong shi xing mian fei ru chang ti gong yi wu jiang jie,zhan lai jiang dui chen ti guan zhong shi xing mian fei ru chang ti gou yi wu jiang ji,20,20,4,4,0,0,0.2
+009096,hui hou lv se li wei biao shi xiang xin zong tong he hu luo ji de shuo fa,hui hao lv se li wei biao shi xiang xin zong tou he hu long ji de shuo fa,19,19,3,3,0,0,0.15789473684210525
+009097,jiu gang gang qu chao shi mai yan mu ce you yi ge zheng tai si wu sui de yang zi,jiu gang gang qu chang shi mai yan mu ce you yi ge zheng ta si wu zui de yang zi,21,21,3,3,0,0,0.14285714285714285
+009098,chu shi hou gai za guan li nong cun san yang de quan zhi wo men ye hen tou teng,chu shi hou gai za guai li neng cun san yang de quan zhi wo me yan hen teng teng,20,20,5,5,0,0,0.25
+009099,ci wai chi fan hai dei hua qian zan he bei ren jiu tu dou qie zi xi hong shi chi cai lao san yang,ci wan wai chi fan hai dian hua qian zan he bei yuan jiu tu dou qie zi xi hong shi qu cai leng san yang,25,26,5,4,0,1,0.2
+009100,ke pu huo dong jie shu hou jing xuan chu ban le ren wen zhi chuang yi shu shou dao guang da du zhe de huan ying,ke pu huo dong jie shu hou jing xuan chu ban le yuan wen zhi chuang yi shu shou dao guang da du zhe de huan ying,27,27,1,1,0,0,0.037037037037037035
+009101,zai wei lai wu tian li dou you jiang yu wai chu ji de dai hao yu ju,zai wei lai wu tian li dou you jiang yu wan chu ji de dai hao yu ju,18,18,1,1,0,0,0.05555555555555555
+009102,zai qi qi ha e er liang hao de sheng tai huan jing rang dan ding he lai zhe li xiu yang sheng xi,zai qi ji ha e er liang hao de sheng tai huan jing rang dan ding he lai zhen li jiu yang sheng xi,24,24,3,3,0,0,0.125
+009103,xian cheng li ye mei you chu xian qiang gou shi pin deng xian xiang,xian cheng li ye mei you chu xian qiang gou shi pin deng xian xiang,15,15,0,0,0,0,0.0
+009104,shi nian shi yi chuan chuan jiao yin shi nian shi yi ge zhang jie,shi nian shi yi chuan chen jiao yin shi nian shi yi ge zhang jie,15,15,1,1,0,0,0.06666666666666667
+009105,shuang yang shui de yong tu shi gei niu ti niu e er duo piao bai,shuang yang shui de yong tu shi gei niu ti yi niu e er duo piao bai,16,17,1,0,0,1,0.0625
+009106,yan chu jie shu hou zhu rong ji jie jian quan ti yan zhi yuan,ye chu jiu shu hou zhong rong ji ji jian quan ti yi yan zhi yuan,15,16,5,4,0,1,0.3333333333333333
+009107,ao ba ma zong tong bo chi zhe yi shuo fa shi shu huang tang,ao ba man zong tong bo chi zhen yi shuo fa shi shuo huang tang,15,15,3,3,0,0,0.2
+009108,po shi lin cui lu chang geng zu de fang wu yi bei chai chu,po shi lin cui lu chang geng zu de fang wu yi bei chai chu,15,15,0,0,0,0,0.0
+009109,yi xie yan cong bei xiao diao le geng duo yan cong li qi lai,yi xie yan cong bei xiao diao le geng duo ye cong li yi lai,15,15,2,2,0,0,0.13333333333333333
+009110,mei ban fa zhi neng xuan ze chu xing duo duo feng tou,mei ban fa zhi neng xuan ze chu xing duo duo feng tao,13,13,1,1,0,0,0.07692307692307693
+009111,fang pi ni gao su lao niang na li pi qi bao le,fang pi ni gao sun lao nian na li pi qi ba le,13,13,3,3,0,0,0.23076923076923078
+009112,yuan lai ta duo qi lai wan wei bo yu you ren da tan xing zuo,yan lai ta duo qi lai wan wei bo yu you ran da ta xi zuo,16,16,4,4,0,0,0.25
+009113,ran hou ta chuan shang yi jian quan shen bai se de sang fu,ran hou ta chuan shang yi jian quan shen bai zi de zang fu,14,14,2,2,0,0,0.14285714285714285
+009114,xiao zheng biao jie jiu zai zhong qiu jie zhao dao po jia de,xiang zheng biao jie jiu lei zhuang xiu jie zhao dao po jia de,14,14,4,4,0,0,0.2857142857142857
+009115,geng ji shou de shi niu niu de fu qiang gan ran yan zhong,geng ji shou de shi niu niu de fu chang gan ran yan zhong,14,14,1,1,0,0,0.07142857142857142
+009116,wo zui jin zhu yi dao wang shang dui fa gai wei yi lun po duo,wo zui jin zhu yi dao wang shang dui fa gai wei yi lun po duo,16,16,0,0,0,0,0.0
+009117,bu guo zhe ge meng xiang yi shi ban hui er ye hen nan shi xian,bu guo zhe ge nu xiang yi shi ban hui er ye hen nan shi jian,16,16,2,2,0,0,0.125
+009118,ru guo zai xin xi hen nan chuan da dao de shan qu ne,ru guo zai xin hen nan chuan da dao de shan qu nang,14,13,2,1,1,0,0.14285714285714285
+009119,ci shi min jing guo geng jun de ku zi you le gua ceng,ci shi min jing guang geng jun de ku zi you le gua ceng,14,14,1,1,0,0,0.07142857142857142
+009120,qing kao lv zai zhong qing ju de quan qiu ren zhi ji hui,qing tao lv zai zhong qing ju de quan qiu ren zhi ji hun hui,14,15,2,1,0,1,0.14285714285714285
+009121,si nian zhi hou ta men de ju xing di wei yi jiu wen gu,si nian zhi hou ta men de ju xing ding wei yi jiu wen gu,15,15,1,1,0,0,0.06666666666666667
+009122,xin yi lun tou zi sheng yan xi xi rang rang jie wei li lai,xin lun tou zi sheng yan xi xi ran ran jie wei li lai,15,14,3,2,1,0,0.2
+009123,jie fang men fen fen cai ce jing fang ke neng yao qiang gong,jie fang men fen fen cai ce jing fang ke men yao qiang gong,14,14,1,1,0,0,0.07142857142857142
+009124,sui hou chuan shang wa zi he xie he peng you chu men le,sui hou chuan shang wa zi he xie he peng you chu men le,14,14,0,0,0,0,0.0
+009125,bu kua zhang de shuo ta jiang guan xi yi gai de cheng bai,bu kuai zhang de shuo ta jiang guan xi yi gai zhe cheng bai,14,14,2,2,0,0,0.14285714285714285
+009126,qu ba qu ba ming tian ji de zai lai zhao wo bao dao,qu ba qu ba ming tian ji de zai lai zhao wo bao dao,14,14,0,0,0,0,0.0
+009127,wo bu yao fen si le zhi chi wo jiu duo zhuan fa ci tie,wo bu yao fen si le zhi chi wo jiu duo zhuan fa ci ti,15,15,1,1,0,0,0.06666666666666667
+009128,zhe li bi jiao yin bi you chou hen shao ren lai zhe li,zhe li bi jia yin bie you chou hai shang ren lai zhen li,14,14,5,5,0,0,0.35714285714285715
+009129,xue dao cheng chu fa shi jiu hui bei jiu jiu cheng fa biao,xue dao cheng chu fa shi jiu hui bei jiu jiu cheng fa biao,14,14,0,0,0,0,0.0
+009130,san shi gao hao zhai ji di tui chu de zi jin chou cuo,san shi gao hao zhai ji di tui chu de zi jin chou cuo,14,14,0,0,0,0,0.0
+009131,you wang you wen neng bu neng hui yi ji jian liu yang zai xue xiao li de qu shi huo qiu shi,you wang you wan neng peng neng hui yi ji jian liu yang zai xue xiang de qu shi huan qiu shi,23,22,5,4,1,0,0.21739130434782608
+009132,zi liao xian shi jing hu gao tie lang fang duan quan chang san shi dian san si e er gong li,zi liang xian shi jing hu gao tie lang fang duan quan chang san shi dian san si e er gong li,22,22,1,1,0,0,0.045454545454545456
+009133,lao zi chu qi e er zi xie qi ling shan shuo wo fan zheng bu yong gong wo bu nian le,lao zi chu qi e er zi qi ling shan shuo wo fan zheng bu yong gou gong wo bu nie le,22,22,3,1,1,1,0.13636363636363635
+009134,ta ru hua tan zhe fa kuan san yuan,ta ru hua ta zhe fa kuan san yuan,9,9,1,1,0,0,0.1111111111111111
+009135,di san tian xiao dong fa re ke sou ma ma gan jin dai ta qu dang di de zhen yi yuan jiu zhen,di san tian xiao dong fa re ri he ma ma gan jian dan ta shi dang di de zhen yi yuan jiu zhen,24,24,5,5,0,0,0.20833333333333334
+009136,si li yao gao su ji zhe dian dong san lun che zai kuai di shi chang de sheng ming li fei chang wang sheng,si li yang gao su ji zhe dian dong san lun che zai kuai di shi chang de sheng ming li fei chang wang sheng,25,25,1,1,0,0,0.04
+009137,ci wai da shou bei jiao ting li yong li cai chan pin gao xi lan chu de xian xiang ye jiang bei e zhi,ci wai da shou bei jiao ping li yong li kai chai pi gao xi e lai chu de xian xiang jiang bei e zhi,25,25,7,5,1,1,0.28
+009138,liu shi chuang xin si wei tui chu chang gui de jie shi huo dong zeng qiang ti yu sai shi de chuang yi he she ji,liu shi chuang xin si wan tui chu chang gui de jie shi huo dong ze qiang ti yu sai shi de chuang yi he she ji,27,27,2,2,0,0,0.07407407407407407
+009139,cu bu ji fang de ta ji tui liang bu,tu bu ji fang de ta ji tui liang bu,10,10,1,1,0,0,0.1
+009140,ru guo bu neng cong zhe yi jian kan dao lie ren de yong wu na zhe tou shi zi jiu ben dan dao jia le,ru guo bu neng cong zhe yi jian kan dang lie ren de yong wu na zhe tou shi zi jiu ben dan dao jia lao,26,26,2,2,0,0,0.07692307692307693
+009141,zhe yang de tiao zheng fang shi bi jiao wen tuo,zhe yang de tiao zheng fang shi bi jiao wen tu,11,11,1,1,0,0,0.09090909090909091
+009142,shuo ying yu hao nan o wo zheng zai xue xi zhong,shuo ying yu hao nan o wo zheng zai xu xi zhong,12,12,1,1,0,0,0.08333333333333333
+009143,ban fa gui ding le nong chan pin zeng zhi shui jin xiang shui e he ding fang fa,ban fa gui ding le nong chan pin zeng zhi shui jin xiang shui e he ding fang fa,19,19,0,0,0,0,0.0
+009144,zui hou han zhe lei wen le ju shui jia de xiong hai zi jiao xi zao bu da san ge tu,zui hou han zhen lei wen le ju shui jia de xiong hai zi jiang xi zao bu da san ge tu wo,22,23,3,2,0,1,0.13636363636363635
+009145,dui yu yu ying cai e er de hun yin ta hen you zi xin de shuo jie hun jiu shi yi bei zi de shi,dui yu yu ying tai er de hun yi yin ta hen you zi xing de shuo jie huan jiu shi yi bei zi de shi,26,26,5,3,1,1,0.19230769230769232
+009146,an men san nian da xue jing suan shu xue ti le,a men san nian da xue jing zuan shu xue ti le,12,12,2,2,0,0,0.16666666666666666
+009147,xian zai lian ji qi ren ye yao bei cui hun le ma,xian zai lian ji qi ren ye yao bei cui hun le ma,13,13,0,0,0,0,0.0
+009148,gang nong le ge fei chang hao chi de rou bao zi,gang nong le ge fei chang hao chi de rou bao zi,12,12,0,0,0,0,0.0
+009149,zhe zhong dan jing shou pa de ri zi he shi liao,zhe zhong dan jing shou pan de yu zi he shi liao,12,12,2,2,0,0,0.16666666666666666
+009150,zui hou hai yao jing guo shua xi cai neng peng ren,zui hou hai jing guo shi xi yi nong pao peng ren,12,12,5,3,1,1,0.4166666666666667
+009151,dang ran shi mang zhe xue xi bian de geng bang lou,dang ran shi mang zhe xue xi bian de geng bang lao,12,12,1,1,0,0,0.08333333333333333
+009152,ta shui li bian de wu wo shui wai bian de sha fa,ta shui li bian de wu wo shi wai bie de sha fa,13,13,2,2,0,0,0.15384615384615385
+009153,zheng hao qu wei li de yi ge nei bu kan wu yao ren lin fu rong sheng bian ji bian ju jia ban qian,zheng hao qu wei li li yi gen nei bu kan wu yao ren lin fu rong sheng bian ji bian ju jia ban qian,25,25,2,2,0,0,0.08
+009154,dao hun chun shou xian gan shou dao de shi hun chun ren de na fen zi hao gan shi ming gan,dang hun chun shou xian gai shou dao de shi hui chun ren de na fen zi hao gan shi ming gan,22,22,3,3,0,0,0.13636363636363635
+009155,zhe jiu yi wei zhe jin hou gong min ke yi bu can jia jia xiao pei xun e er zhi jie luo kao jia zhao,zhe jiu yi lei zhe jin gong min ke yi bu cai jia jia xiao pei xun e er zhi jie luo kao jia zhao,26,25,3,2,1,0,0.11538461538461539
+009156,ta she bu de hua yi fen qian dou ba qian zan qi lai gei mu qin zhi bing,ta shou bu de hua yi fen qian dou ba qian zai qian lai gei mu qin zhi bian bing,19,20,4,3,0,1,0.21052631578947367
+009157,dang ran zhe bu neng quan guai zhang yi mou zhi guai zi ji zhi shi tai pin fa,dang ran zhe bu neng quan guai zhang yi mou zhi kuai zi ji zhi shi tai pin fa,19,19,1,1,0,0,0.05263157894736842
+009158,zhe jue dui shi shou dao le ta pai she de jing song pian zi zhai de ying xiang,zhe jue dui shi shou dao le ta pai she de jian cong pian zi zhai de yin xiang,19,19,3,3,0,0,0.15789473684210525
+009159,zai fu shi kang yi tian kai hui gong zhang wen ta wei shen me zong shi xiao mi mi de,zai fu shi kang yi tian kai hui gong zhang le ta wei shen me zong shi xiang mi ming de,21,21,3,3,0,0,0.14285714285714285
+009160,yin wei hong fan qie wai mian shi hong de ran hou qi shi fan qie li mian ye shi hong de,yin wai hong fan qi wai mian shi hong de rang hou ji shi fan qian li mian ye shi hong de,22,22,5,5,0,0,0.22727272727272727
+009161,chan shi na chu le yi ge cha zi shen me ye bu shuo nian qing ren huang ran da wu,chan zhi na chu li yi ge cha zi shen me ye bu shuo nian qing ren huang ran da wu,21,21,2,2,0,0,0.09523809523809523
+009162,jin wan ni zai zhe yang shui sha fa qu,jin wan ni zai zhe yang shui sha fa qu,10,10,0,0,0,0,0.0
+009163,she zai he dao zhong yang de shai xi dian,she zai he dao zhong yang de shai xi dian,10,10,0,0,0,0,0.0
+009164,bu fa biao yi jian jin biao shi zhi chi,bu fa biao yi jian jin biao chi zhi chi,10,10,1,1,0,0,0.1
+009165,ta gang cai hai xing zai le huo xian zai zi ji ye zao dao tong yang bu xing de ming yun le,ta gang ca hai xing zai le neng huo xian zai zi ji ye zao dao tou yang bu jing de ming yuan le,23,24,5,4,0,1,0.21739130434782608
+009166,hen kuai a cheng gong gong an quan zhuan jia ju hui ning pai chu suo min jing jiu gan dao le,hen kuan a cheng gong gong an quan zhuan jia ju hui nian pai chu suo min jing jiu gan bao le,22,22,3,3,0,0,0.13636363636363635
+009167,zhao pian zhong li hong ji he zhang gen shuo liang ren zhan zai zhong jian zuo ke ai lie zui zhuang,zhao pei pian zhong li hong ji ke zhang gen shu liang ren zhan zai zhong jin zuo ke ai lie zui zhuang,22,23,4,3,0,1,0.18181818181818182
+009168,bu shao wei guan zhe hao yan xiang quan xiao huo bu dan bu ting zui li hai ma ma lie lie,bu shao wei guan zhe hao ye xiang que xiao huo bu dan bu ting zui liu hai man man lie li,22,22,6,6,0,0,0.2727272727272727
+009169,yu wu lun ci shuo chu xiao li can si xiao xi sui ji xiang song tao xian gong an ju bao jing,yu wu lun ci she chu xiao li can zi xiao xi sui ji xiang zong tang xian guang an ju bao jing,23,23,5,5,0,0,0.21739130434782608
+009170,na tian shi yi nian yi du de gao kao shang wu kao wan hou xiao ming shuo kao de fei chang lan,nan tian shi yi nian yi duo de gao kao shang wo kao wan hou xiang ming shuo kao de fei chang lai,23,23,5,5,0,0,0.21739130434782608
+009171,bu guan xian shi duo me fan fu he rong men ta dou yao shi chang qu wang ling yi ge shi jie,bu xian shi dong me fan fu he rong men ta dou zhi chang qu wang ling yi ge shi jie,23,21,4,2,2,0,0.17391304347826086
+009172,yu ci tong shi xiao shou hui nuan shi fang qi de zi jin ya li de dao ji da huan jie,yu ci tong shi xiao shou hui nuan zhi fang qi de zi ji ya li ge dao ji da huan jie,22,22,3,3,0,0,0.13636363636363635
+009173,zhuan nian xiang zhe zhong xiang fa bu mian pian ji shang hai de jiao yu bu dai biao zhong guo de,zhuan nian xiang zhe zhong xiang fa bu mian pian ji shang hai de jiao yu bu wu dai biao zhong guo de,22,23,1,0,0,1,0.045454545454545456
+009174,yang mi dang zhi wu kui de ren qi nv xing cuan hong su du he da ji mian nan yi qi ji,yang mi dang zhi wu kui de ren qin nv xing cuan hong su du he da jin mian nan yi qi ji,23,23,2,2,0,0,0.08695652173913043
+009175,di fu shuan dang ji jiu zhao dao le tong cun de guang gun han feng mou feng mou biao shi tong yi,di fu shuan dang ji jiu zhe dao le tong cun de guang gun han feng mou feng mou biao shi tong yi,23,23,1,1,0,0,0.043478260869565216
+009176,mian dui yu mi de re qing si hu you xie pi bei de li yu chun biao qing yi zhi you xie mu ne,mian dui yu mi de ren qin si hu you xie ti bei de li yu chun biao xing yi zhi you xie mu neng,25,25,5,5,0,0,0.2
+009177,mu qian zhou bian ge sheng shi de chang tu che zhan yi shi xing shi ming gou piao jin zhan an jian,mu qian zhou bin ge sheng shi de chang tu che zhan yi shi xing shi ming gou piao jin zhan an qi,23,23,2,2,0,0,0.08695652173913043
+009178,you yu wu fa jin ru zhi hui bu ta men shen zhi he zha lan dui mian de bao an ding qi le niu,you yu wu fa jin ru zhi hui bu ta mei shen zhi he zha lan dui mian de bao an ding qi le ni,25,25,2,2,0,0,0.08
+009179,wang you xiao tao yan zhou shuo hai hao wo men de mei ci jia qi hui lai dou hui chai xia lai xi o,wang yao qiao tao yan zhong zhuo hai hao wo men de mei ci jia qi hui lai dou hui chai xia lai xi you,25,25,5,5,0,0,0.2
+009180,zhe ci ao yun gong cheng jian she ke yi shuo shi wo men ge xiang huan bao xin ji shu ying yong de da quan,zhe ci ao yun gong cheng jian she ke yi shuo shi wo men ge xiang huan bao xin ji shu ying de da quan,26,25,1,0,1,0,0.038461538461538464
+009181,shi hou zhang jian bei zhen duan you gu gu jing chu gu zhe zai yi yuan jin xing le shou shu zhi liao,shi hou zhang jian bei zhuan duan you gu gu jing chu gu zhe zai yi yuan jin xing le shou chu zhi liao,24,24,2,2,0,0,0.08333333333333333
+009182,ni zhe ge yue gong zi dou mei shang jiao ni shi bu shi yang xiao san le,ni zhe ge gong zi dou mei shang jiang ni shi de shi yang xiao sa la,18,17,5,4,1,0,0.2777777777777778
+009183,wo men lao ban mei na me yan hai te bie hao ta hui bang ni xia yi xie fu you jiao yu yi yi de dian ying,wo men lao ban mei na men yan hai te bie hao ta hui bang ni xia xie fu you jiao yu yi yi de die ying,28,27,3,2,1,0,0.10714285714285714
+009184,wo men lian xi hao le la sa na bian you liang ge lv you hui zuo hao jie ying,wo men lian xie hao le la sa na bie you liang ge lv yong hui zou hao jie yi ying,20,21,5,4,0,1,0.25
+009185,ta deng da yan jing pao xiao zhe fa chu wu wu sheng yong zhua zi bao hu shi wu,ta deng da yan jing pao xiao zhe fan chu wu wu sheng yong zhua zi bao zhi wu wo,20,20,4,4,0,0,0.2
+009186,you wan mei wan kai zhe che ne bie re wo yao chu le shi gu zen me ban,you wan mei wan kai zhe che ne bie ri wo liang chu le shi guo zen me ba,19,19,4,4,0,0,0.21052631578947367
+009187,zuo zao shang liu zhi min bian xian shen ling tang da dian e er zi yu xi fu ye dao chang,zuo zang sha liu zhi min bian xian shen lin tang da dian e er zi yu xi fu ye dao chang,22,22,3,3,0,0,0.13636363636363635
+009188,zai xin nian de di yi chang gao kao jiao liang zhong kao sheng jiang ying lai yi chang han zhan,zai xin nian dan di chang gao kou jiao lan zhong kao sheng jiang ying lai yi chang zhan,21,19,5,3,2,0,0.23809523809523808
+009189,zhu ming de ping tan lao jiang zhuang ze dong shi dang nian ping pang wai jiao de gong chen,zhu ming de ting tan lao ao jiang zhuang ze dong shi dang nian ping pen wai jiao dong gong chan,20,21,5,4,0,1,0.25
+009190,nin hai ji de na xie bei tian chuan cheng wei qin xiong di de fang bao dui yuan ma,nie hai ji de na xie bei tian chuan cheng wei qi xiong di de fang bao dui yuan ma,20,20,2,2,0,0,0.1
+009191,chong tu zhong qi zhong yi fang de bang shou wu jiang yi ming kan re nao de shi min da shang,chong tu zhong qi zhong yi fang de bang shou wu jiang yi ming kan re nao de shi min da shang,22,22,0,0,0,0,0.0
+009192,dan wo men zong bu neng lv you de shi hou ye chuai ge hu kou bu ba tai ma fan le,dan wo men zong bu neng lv you de shi hou ye chuai ge hu kou bu ba tai ma fan le,22,22,0,0,0,0,0.0
+009193,zhao pian zhong ling dao zhan zai shi tou yin ying xia dan lian shang guang xian reng ming huang huang de,zhao pin zhong ling dang zhan zai shi tou yin ying xia dan lian shang guang xian reng ming huang huang ban,22,22,3,3,0,0,0.13636363636363635
+009194,jie shi nan jing jiang cheng wei quan guo zui da de bei dou chan ye ying yong fa zhan ji di,jie shi nan jing jiang cheng wei quan guo zui da de bei dong chan ye ying yong fa zhan ji di,22,22,1,1,0,0,0.045454545454545456
+009195,ta bing bu zhi dao yi jing huai yun yi zhi yi wei shi zhang pang le,ta ding bu zhi dao jing yun yi zhi yi wei shi zhang pao le,17,15,4,2,2,0,0.23529411764705882
+009196,ju min jing jie shao qi huo di dian wei lan kao ren yuan li hai jia,ju mi jing jie shao ji huo di dian wei lan kao ren yuan lie han jia,17,17,4,4,0,0,0.23529411764705882
+009197,cong di e er tian kai shi ta tian tian shang shan pei nv e er shuo hui er hua,cong di er tian kai shi ta tian tian shang shan di wen nv er shuo hui hua,20,18,5,3,2,0,0.25
+009198,zhe yi wei zhe jiu suan guo mei dian qi zeng fa huo de tong yi huang jia ye you qian kang guo qu,zhe yi wei zhe jiu suan guo mei dian qi zeng fa huo de teng yi huang jia ye you qian kang guo qu,24,24,1,1,0,0,0.041666666666666664
+009199,chu le zhang peng xiao ban deng yu san mian ao shou tao yi ji mian mao deng ye dou fen fen shang zhen,chu zhang peng xiao ban dou yu san nian ao shou tao pin yi ji mian mao deng ye dou fen fen shang zhen,24,24,4,2,1,1,0.16666666666666666
+009200,zhe hai zi sui shou cong dou li na chu yi yuan qian shuo wo gei ni yi yuan qian ni zai rang wo kan hui er xing ma,zhe hai zi sui shou cong dou li na chu yi yuan qian shuo wo gei ni yuan qian ni zai wo kao hui e er xing ma,29,28,4,1,2,1,0.13793103448275862
+009201,e er qie bao ming dong zuo yao kuai yi dian de zhe ge ban hen duo ren bao de,e er xin bang ming dong zuo yao kuai yi dian de zhe ge ban hen duo ran bao de,20,20,3,3,0,0,0.15
+009202,wang chao zhu chun pu de jin hu mu ne qin fen de zu bu chu hu,wang chang zhu chun pu de jin hu mu men qing fan de zu bu chu hu,17,17,4,4,0,0,0.23529411764705882
+009203,fa song wan bi hou zi xi du le yi bian gan jue ming nian wo ke neng you yao yi ge ren guo qing ren jie le,fa zong wan bi hou zi xi du wan yi bie yan gan ju jue ming nian wo ke neng you yao yi ge ren guo qing ren jie le,28,30,5,3,0,2,0.17857142857142858
+009204,yao hui da zhe ge wen ti shou xian bi xu nong qing chu ping zhun ji jin ru shi gan yu de mu di,yao hui da zhe ge wen pi shou xian bi xu nong qing chu yin zhun jin jin ru shi gai yu de mu di,25,25,4,4,0,0,0.16
+009205,jing jin gao su zui tu chu de you shi he liang dian zai yu zhi tong tian jin gang ji zhuang xiang ma tou,jing jin gao su zui chu chu de you shi he liang dian zai yu zhi tong tian jin gang ji zhuang xiang ma tou,25,25,1,1,0,0,0.04
+009206,wo neng gao su ni men zao chen wo ba chu men gen wo shuo rang wo zhong wu zi ji chi pao mian ma,wo neng gang zi ni men zao chen wo ba chu men geng wo shuo rang wo zhong wu zi ji chi pao mian ma,25,25,3,3,0,0,0.12
+009207,wang yang qiang diao yao zai dui wu bao zhang shang gong guan,wa wang yang qiang diao yao zai dui wu bang zhang shang gong guan,13,14,2,1,0,1,0.15384615384615385
+009208,nao le ban tian nin gan qing shi ye cha,nao de ban tian nin gan qing shi ye cha,10,10,1,1,0,0,0.1
+009209,ba shi ren de wei feng luo gu biao yan zhan shi le cao yuan ren min de feng cai,ba shi ren de wei feng luo gu biao yan zhai shi le cao yuan ren min de feng cai,20,20,1,1,0,0,0.05
+009210,wo lve dong dan shi hai bu tai hui,wo lve dong dan shi hai bu pai hui,9,9,1,1,0,0,0.1111111111111111
+009211,ke jian hao hao xue sheng ye bu neng yao,ke jie hao hao xue sheng ye bu neng yao,10,10,1,1,0,0,0.1
+009212,jing cha jiang jin xi song hui jia dan jue jiang de wu hai nan bu yuan yi kai men,jing cha jiang ji xi song hui jia dan jue jiang de wu hai nai bu yuan yi kai men,20,20,2,2,0,0,0.1
+009213,zai lian pu suo you yuan gong zhong gong cheng shi huo de de hui bao zui wei feng hou,zai lian pu suo you yuan gong zhong gong cheng shi huo de de hui bao jiu wei feng hou,20,20,1,1,0,0,0.05
+009214,wo men shi lin shui dao zhe lai xi zao,wo men shi lin shui dao zhe lai xi zao,10,10,0,0,0,0,0.0
+009215,jue jiang de fu qin yi ran zai lu shang,jue jiang de fu qin yi ran zai lu shang,10,10,0,0,0,0,0.0
+009216,chun lei heng yi sheng shuo cai fu de,cun lei heng yi sheng shuo cai fu de,9,9,1,1,0,0,0.1111111111111111
+009217,e er qiu yi ke chen qi deng lao zhu li geng shi xian de cuo tuo le xu duo,e er qiu yi ke chen xi deng lao zhu li geng zhi xian de cuo tuo xu duo,20,19,3,2,1,0,0.15
+009218,you xing zi yi jiu e er si nian ju ban yi lai jin nian yi shi di ba shi liu jie,you xing zi yi jiu e er si nian ju ban lie lai jin nian yi shi di ba shi liu jie,22,22,1,1,0,0,0.045454545454545456
+009219,o zhe ke shi ge nan ao de ri zi,o zhe ke shi ge nan ao de ri zi,10,10,0,0,0,0,0.0
+009220,yin wei wo zhen ji bu qing chu shui zai na er,yin wei wo zhen ji bu qing chu shui zai na e er,12,13,1,0,0,1,0.08333333333333333
+009221,qiang jie de zhu yi shi dong mou chu de,qiang jie de zhu yi shi dong meng mou chu ba,10,11,2,1,0,1,0.2
+009222,huo zhe dian dong che ye ke yi rao xing,huo zhe dian dong ye ke yi rao xing,10,9,1,0,1,0,0.1
+009223,wo ye shi yi ge wu chi de tai wan ren na,wo ye shi yi ge wu chi de tai wan ran na,12,12,1,1,0,0,0.08333333333333333
+009224,ta zhi cheng tai tai yi hen xin ren ta,pai zhi cheng ta tai yi hen xing ren ta,10,10,3,3,0,0,0.3
+009225,hou lai nv qing nian bei min jing la shang jing che dai wang pai chu suo xing jiu,hao lai nv qing nian bei mi jing la shang jing che dai wang pai chu zuo xing jiu,19,19,3,3,0,0,0.15789473684210525
+009226,zhi dao wo zou dao le ta men kai shi ke sou de di fang wo ye ke sou le,zhi dao wo zou dao le ta men ta shi ke zou de di fang wo ye ke zou le,20,20,3,3,0,0,0.15
+009227,long hu wang ji zhe jiang ji xu guan zhu,long hu wang ji zhe jiang ji xu guan zhu,10,10,0,0,0,0,0.0
+009228,wang fei dao xiang gang da chu xie zai ming dian kuang sao liang da dai zhan li pin,wang fei dang xiang gang da chu xie zai ming dian kuang sao liang da dai zhan li pin,19,19,1,1,0,0,0.05263157894736842
+009229,ni bo e er fa sheng xue beng de di dian,ni bo e er fa sheng xue beng de di dian,11,11,0,0,0,0,0.0
+009230,wo men chu lai kan ta hai hou wo men,wo men chu lai kan ta hai hou wo men,10,10,0,0,0,0,0.0
+009231,jiao shang shi mian bu wa zi he pi xie,jiang shang shi mian bu wa zi he pi xie,10,10,1,1,0,0,0.1
+009232,ai fu long de e er zi shuo ta de mu qin yin fei yan bing shi zai man ha dun,ai fu long de e er zi shuo ta de mu qi yin fei yan bing shi zai ma ha de,21,21,3,3,0,0,0.14285714285714285
+009233,xiong mei lia shou shi hao pu gai yong jia zi che la zhe fu qin qu shang xue,xiong mei liang zhou shi hao pu gai yong jia zi che e lai zhu fu qin qu shang xu,19,20,6,5,0,1,0.3157894736842105
+009234,bu shi lei le bu shi gou le shi zhi dao fu mu you duo bu rong yi le,bu shi lei le bu shi gou le shi zhi dao fu mu you duo bu rong yi le,19,19,0,0,0,0,0.0
+009235,shen zhen shi ren da dai biao weng xiao bo ze biao da le bu tong de guan dian,shen jian shi ren dai nai biao weng xiao bu ze biao da le bu tong de guan dian,19,19,4,4,0,0,0.21052631578947367
+009236,piao zi jiu shi shou hui shu e da xiao,piao zi jiu shi shou hui shu da xiang,10,9,2,1,1,0,0.2
+009237,wei he mei you yi jia zhong guo qi ye zuo wei ben jie ya yun hui de zan zhu shang ne,wei he mei you yi jia zhong guo qi yi ye zong wei ben jie ya ying hui de zai zhu shang ne,22,23,4,3,0,1,0.18181818181818182
+009238,gai zu gui mo yu ji jin xian shu ren,gai zu gui mo yu ji jin xian shu ren,10,10,0,0,0,0,0.0
+009239,da sao wu zi shi dui zi ji fu ze ru guo you shou wo yi ding lai bang ni,da sao wu zi shi dui zi ji fu zuo ru guo you shou wo yi ding lai bang ni,20,20,1,1,0,0,0.05
+009240,gong li zhang guo rong ga na jiu zhao,gou li zhang guo rong gai na jiu zhang,9,9,3,3,0,0,0.3333333333333333
+009241,da ren men bu dong wo men de shi jie,da ren men bu dong men de shi ji jie,10,10,2,0,1,1,0.2
+009242,bie wo xing le zhou zi rui ji dao,bie wo xing le zhou zi zui rui ji dao,9,10,1,0,0,1,0.1111111111111111
+009243,zhe li zi yuan fu rao jing se yi ren,zhe li zi yuan fu rao jing se yi yi ran,10,11,2,1,0,1,0.2
+009244,jiu shi gu yi bai nong shi gu yi yuan wang,jiu shi gu yi bai nong shi gu yi yuan wang,11,11,0,0,0,0,0.0
+009245,bing mian shang ye zhu jian re nao qi lai,bing mian shang ye zhu jie re nao qi lai,10,10,1,1,0,0,0.1
+009246,ye xu shi jue de na ge gu niang bi jiao ai xiao li yong yan reng mei you hui xin,ye xu shi jue de na ge gu niang bi jiao ai xiao li yong ye reng mei you hui xin,21,21,1,1,0,0,0.047619047619047616
+009247,wo shuo wo qu ce suo leng jing leng jing,wo shuo wo qu ce suo leng jing leng jie,10,10,1,1,0,0,0.1
+009248,zhu yao yong zuo piao bai ji fang fu ji,zhu yao yong zuo piao bai ji fang fu ji,10,10,0,0,0,0,0.0
+009249,bu tuo dang chu ge wei peng you hai han,bu tu dang chu gou wei peng yao hai han,10,10,3,3,0,0,0.3
+009250,zhe me jian dan you shen me bu hui de,zhe me jian dan you shen me bu hui dan,10,10,1,1,0,0,0.1
+009251,qu diao shi xian cheng de dong bei ren dou neng heng heng ji ju de e er ren zhuan,qu diao shi xian chao ban dong bei ren dou neng heng heng ji ju de e er ren zhuan,20,20,2,2,0,0,0.1
+009252,shang hai de hu po da duo zhan ran le shang hai ren de xiao qi he xia ai,shang hai de hu pu da duo zhan yang le shang hai ren de xiao qi he xia ai,19,19,2,2,0,0,0.10526315789473684
+009253,gui zu chao ting ming guan de si xing chu fa ze duo shi ci si mian xing,hui zu chao ting ming guan de si qing chu fa ze du shi ci zi mian xing,18,18,4,4,0,0,0.2222222222222222
+009254,zhe ke shi kai tian pi di tou yi hui,zhe ke shi kai tian pin di tong yi hui,10,10,2,2,0,0,0.2
+009255,huan zhe shu hou shang shi tian reng zai liu xie ying gai shi qi zhi chuang suo zhi,huan zhe shuo hou shan shi tian reng zan liu xie yin gan shi qin zhi chuang suo zhi,19,19,6,6,0,0,0.3157894736842105
+009256,dan yuan ta de chan hui shi zhen cheng de,dan yuan ta de chan hui shi zhen chang de,10,10,1,1,0,0,0.1
+009257,ni zhang ge yan jing shi chu qi de ma,ni zhang ge yan jing shi chu qi de ma,10,10,0,0,0,0,0.0
+009258,hen ai de dai zhe yi ge xiao hai zi,ceng ai de dai di yi ge xiao hai zi,10,10,2,2,0,0,0.2
+009259,gai che qian hou che pai yi bei zhai diao jiao jing zheng jian cha che liang qing kuang,gai che qian hou che pai yi bei zhai di jiao jing zheng jian cha che liang qing kuang,19,19,1,1,0,0,0.05263157894736842
+009260,zhen shi de fei yao wo fang xia shen duan,zhen shi de fei yao wo fang xia shen dun,10,10,1,1,0,0,0.1
+009261,gui shi shen chai zhe ci a bing na chu le zhen shi shen fen zheng yong yu deng ji,gui shi shen chai zhe ci ai bing nan chu le zhen shi shen fen zheng you yu deng ji,20,20,3,3,0,0,0.15
+009262,qi zhong zui kuai xing dong de dang shu tian mao de lao yuan jia jing dong shang cheng,qi zhong zui kuai xing dong de dang shu tian mao deng lao yuan jia jing dong shang cheng,19,19,1,1,0,0,0.05263157894736842
+009263,zheng ge che xiang dou shi na ge wei er an zhi zuo le yi zhan gan jin huan che le,zhe ge che xiang dou shi na ge wei er an zhi zuo le yi zhan gan jin huan che le,21,21,1,1,0,0,0.047619047619047616
+009264,mu he ma zai shui zhong lie zhe da zui hao xiang zai xiao you ke men pao xiao,mu he ma zai shui zhong lian zhe da zui hao xiang zai xiao you ke men pao xiao,19,19,1,1,0,0,0.05263157894736842
+009265,gai che si ji shi xi an ren lv mou,gai zhe si ji shi xi an ren lv mou,10,10,1,1,0,0,0.1
+009266,yan jin ji zhan nuo yong jiao shi bian zhi,yan jin ji zhan nuo yong jiao shi bian zhi,10,10,0,0,0,0,0.0
+009267,zhe ge fen xi ji ben gong yun zhong li,zhe ge fen xi ji ben gong yun zhong li,10,10,0,0,0,0,0.0
+009268,wo men shi xing xing you e er yuan de xiao peng you,wo mei shi xing xie you e er yuan de xiao peng yao,13,13,3,3,0,0,0.23076923076923078
+009269,chuan shuo shi wen shu pu sa de bian shen,chuan shuo shi wen shu pu sa de bian shen,10,10,0,0,0,0,0.0
+009270,di e er tian shou shang zuo ye lao shi ding zhe ta de zuo wen jiu jiu bu neng yan yu,di e er tian shou shang zuo ye lao shi ding zhe ta de zuo wen jiu jiu bu neng yan yu,22,22,0,0,0,0,0.0
+009271,mei xiang dao nan fang de zhe ju hua yi xia zi re nu le nv fang,mei xiang dao nan fang de zhe ju hua yi xia zi re nong le nv fang,17,17,1,1,0,0,0.058823529411764705
+009272,tong shi hai ke yi guan kan xin ban de dian ying lu shan lian e er ling yi ling,tong shi hai ke yi guan kan xin bai ban de dian ye lu shan lian e er ling yi ling,20,21,2,1,0,1,0.1
+009273,wo bu shi hen shang xiang bu guo wo zui man yi wo de yan jing la ni ne,wo bu sheng hen shang xiang bu guo wo zui man yi wo de yan jing la ni ne,19,19,1,1,0,0,0.05263157894736842
+009274,leng mo guo he chai qiao xin wen cong hui yi li zhuai chu zhe xie zi yan,leng mu guo he chai qiao xin wo cong hui yi li zhuan chu zhe xie zi yan,18,18,3,3,0,0,0.16666666666666666
+009275,you wei xian de di fang bu yao rang xue sheng qing sao bi ru ca chuang hu,you wei xian de di fang bu yao rang xue sheng qing sao bie ru ca chuang hu,18,18,1,1,0,0,0.05555555555555555
+009276,yuan li you ren xi shao zui da de can guan tuan jiu shi zhang hua san ren,yuan li you ren xi shao zui da de can guan tuan jiu shi zhang hua san ren,18,18,0,0,0,0,0.0
+009277,chen hong zhi hao qing le liang ge bang bang ba mu qin tai hui le jia,chen hong zhi hao qing le liang ge bao bang ba mu qin ta hui le jia,17,17,2,2,0,0,0.11764705882352941
+009278,xie mou he yuan mou jing xing meng de zhan qi lai guo lai qiang ping zi,xian mou he yuan mou jing xing meng de zhan qian lai guo lai qiang ping zi,17,17,2,2,0,0,0.11764705882352941
+009279,qing xie xia nin de xing ming xiang xi tong xun di zhi you zheng bian ma,qing xie xia nian de xing ming xiang xi tong xuan bing di zhi you zheng bian ma,17,18,3,2,0,1,0.17647058823529413
+009280,pin guan bu dui sheng chan bu men de chan pin ju you yi piao fou jue quan,guan bu dui sheng chan bu men me chan pin ju you yi piao feng jue quan,18,17,3,2,1,0,0.16666666666666666
+009281,hai zai hen jia de nv tong xue men shi shi hou xue dian er ji neng le,hai zai hen jia de nv tong xue yuan man shi shi hou xue dian er jin neng le,18,19,3,2,0,1,0.16666666666666666
+009282,mo ming bei ci shang dao mei de xu kui zhen zheng shi tang zhe ye ai dao,mo ming bei ci shang dao mei de xu kui zhen zheng shi tang zhen ye ai dao,18,18,1,1,0,0,0.05555555555555555
+009283,bei zhi bai pai de tiao shui lao ren gui qiu zheng fu xiu lu hua mian,bei zhi bai pai de tiao lao ren gui qiu zheng fu xiu lu hua mian,17,16,1,0,1,0,0.058823529411764705
+009284,ji zhe liao jie dao jiu bai ba shi jiu hao qi ye wei gui zhou mao tai,ji zhe liao jie dao you bai ba shi jiu hao qi ye wei gui zhong mao tai,18,18,2,2,0,0,0.1111111111111111
+009285,you bao dao shuo tuo de hai shi ken ta ji zhou de yi ming tong ji fan,you bao dao shuo tuo de hai shi ken ta ji zhou de yi ming tong ji fan,18,18,0,0,0,0,0.0
+009286,a jie rang a yue kan xia sheng xia de he fan he bu he ta de wei kou,a jie rang a yue kan xia sheng xia de he fan he bu he ta ge wei tong,19,19,2,2,0,0,0.10526315789473684
+009287,jian jian de li qiang de ping jia bian cheng le bu kai qiao wo nang fei,jian jian de li qiang de ping jia bian cheng le bu kai qiao wo nao fei,17,17,1,1,0,0,0.058823529411764705
+009288,zhu rong ji can jia qing hua da xue bai nian xiao qing shi ceng xiang guang da tong xue tui jian guo ci shu,zhu rong ji cai jia qing hua da xue bai nian xiao qing zhi cen xiang guang da tong xue tui ci shu,25,23,5,3,2,0,0.2
+009289,guo qiang cai neng guo ning zei cai bu gan dian ji,guo qiang cai neng guo ni zei cai bu gan dian ji,12,12,1,1,0,0,0.08333333333333333
+009290,yin wei jia ting bu ke neng ge she shi ye ke yi deng dai xia yi bo,yin wei jia ting bu ke neng ge she shi ye ke yi deng dai xia yi bo,18,18,0,0,0,0,0.0
+009291,ta shuo wai di ru qi ke yi dao shuang cheng jing ying can yu jing zheng,ta shuo wai di ru qi ke yi dao shang cheng jing ying cai yu jing zheng,17,17,2,2,0,0,0.11764705882352941
+009292,you ren shen zhi kang lai lou ti da zai wei qiang shang si chu zhang wang,you ren shen zhi kang lai lou ti da zai wei qiang shang si chu zhang wang,17,17,0,0,0,0,0.0
+009293,di si jiu shi xuan ze tui fei,di si jiu shi xuan zi tui fei,8,8,1,1,0,0,0.125
+009294,you e er you nv le hen man zu le,you e er you nv le hen man zu le,10,10,0,0,0,0,0.0
+009295,zou ba dai shang wo pa shan qu,zou ba dan shang wo pa shan qu,8,8,1,1,0,0,0.125
+009296,gai xiao xi yi chu cheng tou zhai shi chang sui ji jin ru guai dian,gai xiang xi yi chu cheng tou zhuai shi chang sui ji jin ru guai dian,16,16,2,2,0,0,0.125
+009297,nan dao ni yao pao qi wo le ma,nan da ni yao pao wo le ma,9,8,2,1,1,0,0.2222222222222222
+009298,da mian ji gan luo de he dao,da mian ji gan luo de he dang,8,8,1,1,0,0,0.125
+009299,bu cuo me hai zai zhen hao,bu cuo me hai zai zhen hao,7,7,0,0,0,0,0.0
+009300,ceng jing ye you shao liang de fan qie,cang jing ye you shao lan de fan qi,9,9,3,3,0,0,0.3333333333333333
+009301,li wei fou ren le zhe yi bao dao,li wei fou ren le zhe yi bao dao,9,9,0,0,0,0,0.0
+009302,suo yi hen min gan hen fu za,suo yi hen ming gan hen fu za,8,8,1,1,0,0,0.125
+009303,qian tian na na yin tiao lou hou shang shi guo zhong yi bu zhi shen wang,qian tian na na yin tiao lou hou shang shi guo zhong yi bu zhi shen wang,17,17,0,0,0,0,0.0
+009304,ta bu jin zi ji xi du e er qie ba e er zi ye dai le jin lai,ta bu ji zi ji qi du e er jie ba e er zi ye da le jin lai,19,19,4,4,0,0,0.21052631578947367
+009305,li ru fen nu de xiao niao jiu shi ni hua wo cai de mu ban,li ru fen nu de xiang niao jiu shi ni yi hua wo cai de mu ban,16,17,2,1,0,1,0.125
+009306,gong si fu ze ren de nian du xin chou zeng zhang lv ying di yu gong si xin chou zeng zhang lv,gong si fu zeng ze ren dan nian dong xin chou zeng zhang lv ying di yu gong si xin chou zeng zhang lv yu,23,25,4,2,0,2,0.17391304347826086
+009307,ta mei xia che you kan jian wai guo ren chao lu ren rang rang,ta mei xia che yong kan jin wai guo ren chao lu ren rang rang,15,15,2,2,0,0,0.13333333333333333
+009308,xian zai yi jing jian ge wu shi jiu nian ming xian chao qi le,xian zai yi jing jian ge wu shi jiu nian ming xian chao qi le,15,15,0,0,0,0,0.0
+009309,zhe yi huan jie de shui shou za fei he fan rong de shou xu rang bu shao dai gou zhe ting e er zou xian,zhe yi huan huai jie de shui shou za fei he fan rou de shou xu rang bu shao dai ge zhe ting e er zou xian,26,27,3,2,0,1,0.11538461538461539
+009310,nan jing xian zai ji hou hou yao chai bao ting cheng shi guan li zhe de shui ping rang ren bu gan gong wei,nan jing xian zai ji hou hou yao chai bao ting cheng shi guan li zhe de shui ping rang ren bu gan gong wei,25,25,0,0,0,0,0.0
+009311,tou zi shi bi xu tong shi you yuan jian zhuo shi he shi zai de shu ju zhi cheng,tong zi shi bi xu tong shi you yuan jian zhuo shi he shi zai de shu ju zhi cheng,20,20,1,1,0,0,0.05
+009312,bu xi huan jiao yu dan si xiang jue wu hai mei dao tui fan xian xing jiao yu ti zhi de gao du,bu xi huan jiao yu dan si xiang jue wu hai mei dao tun fan xian xing jiao yu ti zhi de gao du,24,24,1,1,0,0,0.041666666666666664
+009313,you shi hou shi hen ji zhi de zhuang song,you shi hou shi hen ji zhi de zhuang song,10,10,0,0,0,0,0.0
+009314,ta yi ran ji de meng lu dang shi gei ta yi ge nuan nuan de yong bao,ta yi ran ji de meng lu dang shi gei ta yi ge nuan zuan nuan de yong bao,18,19,1,0,0,1,0.05555555555555555
+009315,wei le zhuang dan gan jin na chu sui shen xie dai de bian pao ran fang,wei le zhuang da gan jin na chu sui shen xie dai de bian pao ran fang,17,17,1,1,0,0,0.058823529411764705
+009316,shi e er ri ou yuan dui mei yuan de bi jia shi yi bi yi dian san wu jiu san,shi e er ri ou yuan dui mei yuan de bi jia shi yi yi bi yi dian san wu jiu sai,21,22,2,1,0,1,0.09523809523809523
+009317,chun jiang shui nuan ya xian zhi wo ke yi gao su ni ming tian chuan shen me,chun jiang shui nuan ya xian zhi wo ke yi gang sun ni ming tian chuan sheng ma,18,18,4,4,0,0,0.2222222222222222
+009318,zai shi fa de yao si ling e er shi men kou hai you da tan de xue ji,zai shi ba de yao si ling e er shi men kao hai you da tan de xue ji,19,19,2,2,0,0,0.10526315789473684
+009319,bi ta ta wa ju xi you te shu de ti se biao ji he xing qi guan,bi ta ta wa ju xi you te shu de ti se biao ji he xing qi guan,18,18,0,0,0,0,0.0
+009320,shi gong an ju de wei bo kai de zui zao yin ci ren qi er ye zui zu,shi gong an ju de wei bo kai de zui zao yin zi ren er ye zui zu,19,18,2,1,1,0,0.10526315789473684
+009321,xiao dui wan cheng bu liao ren wu ling dao zhe ye yao fu chu dai jia,xiao dui wan chong bo liao ren wu lin dao zhe ye yao fu chu dai jia,17,17,3,3,0,0,0.17647058823529413
+009322,lao gong hen mei qing diao de wen lao po shuo ma ni xiang yao sha,lao gong hen mei qing diao de wen lao po shuo ma ni xiang yao sha,16,16,0,0,0,0,0.0
+009323,dang nian zong shou ru wei ren min bi qi shi yi dian wu si wu yi yuan,dang mian nian zong shou ru wei ren mi bi ji shi yi die wu si wu yi yuan,18,19,4,3,0,1,0.2222222222222222
+009324,yi sheng qing nin zai cha yi ni shi yi sheng hai shi wo shi yi sheng,yi sheng qing nin zai cha yi ni chi yi sheng hai shu wo shi yi sheng,17,17,2,2,0,0,0.11764705882352941
+009325,ma yun you yi ling e er nian de ji hua wo you san ling nian de ji hua,ma yu you yi lin e er nian de ji hua en you san lian nian de ji hua,19,19,4,4,0,0,0.21052631578947367
+009326,zui jin gan jue ta xiao ting yi xie le wo ye jue de wo ke yi chu lai le,zui jin gan jue ta xiao ting ni xie le wo ye jue de wo ke yi chu lai le,20,20,1,1,0,0,0.05
+009327,ta you zhua zhu shou piao yuan de bao bao dan shou piao yuan bai kai ta de shou zhi pin ming pao xia che,ta you zhua zhu shou piao yuan de bao bao dan xiu piao yuan bai kai ta de shou zhi pin ming pao xia che,25,25,1,1,0,0,0.04
+009328,tiao qi zhuan hou bian dan jiu shen xian zai zhe dao hen ji li hou bei shang ze dui qi yi dao rou,tiao qi zhuan hou bie dan jiu shen xian zai zhe dao hen ji li hou bei shang ze dui qi dao rou,24,23,2,1,1,0,0.08333333333333333
+009329,xin hun ye na tian wan shang ta he de ming ding da zui wo lia ji hu shi he yi e er mian,xin hun ye na tian wan shang ta he de ming di da zui wo lia ji hu shi he yi e er mian,24,24,1,1,0,0,0.041666666666666664
+009330,chu fei you tong tian de neng li dan tian hui sui shi sui di bang ni jiang yu mie huo ma,chu fei you tong tian de neng li dan tian hui sui shi sui di bang ni jiang yu mian huo ma,22,22,1,1,0,0,0.045454545454545456
+009331,yi ge yuan zai zu guo xi bei jiao de ye yu zuo zhe de zuo pin he yi de dao ni men de qing lai,yi ge yuan zai zu guo xi bei jiao de ye yu zuo zhe de zuo pin he yi de dang nian de de qing lai,26,26,3,3,0,0,0.11538461538461539
+009332,yu shi ta bian da dian hua xun wen jia zhong shi fou you shi,yu shi ta bian da dian hua xu wen jia zhong shi fou you shi,15,15,1,1,0,0,0.06666666666666667
+009333,fen mian chi xiang ge da yu gang you zuo dian jiao dian liang ce hai you ba shou,fen mian chi xiang ge da yu gao you zu dian jiang dian liang ce hai you ba shou,19,19,3,3,0,0,0.15789473684210525
+009334,bei cheng zan le zhen kai xin ya,bei cheng zai le zhen kai xin ya,8,8,1,1,0,0,0.125
+009335,nan tong zai che hou wan shua,nan tou zai che huo wan shi,7,7,3,3,0,0,0.42857142857142855
+009336,ni xiang wan dian shen me,ni xiang wan dian sheng me,6,6,1,1,0,0,0.16666666666666666
+009337,ni kan guo wo jia bao xian gui,ni kan gu wo jiang bang xian gui,8,8,3,3,0,0,0.375
+009338,ni ye hao fan ya,ni ye hao fan bai ya,5,6,1,0,0,1,0.2
+009339,ni de di yi xuan ze shi shui,ni de di yi ze shi shui,8,7,1,0,1,0,0.125
+009340,ni xi huan wan shen me you xi,ni xi huan wan shen me you xi,8,8,0,0,0,0,0.0
+009341,chi ge zhong jing shen shi liang,zhi ge zhong jing shei shi liang,7,7,2,2,0,0,0.2857142857142857
+009342,shi ba jie sheng wei wei yuan,shi ba jie sheng wei wei yuan,7,7,0,0,0,0,0.0
+009343,wo zhi xi huan kan xiao shuo,wo zhi xi huan kan xiao shuo,7,7,0,0,0,0,0.0
+009344,xiang gang du sha fu ren la xiang guan wo qiang li tui jian o,xiang gang duo sha fu ren la xiang guan wo qiang li tui jian ao,15,15,2,2,0,0,0.13333333333333333
+009345,di liu qi ba jiu xiang ren wu shu yu jia qiang wan shan qi ye jin rong zhi chi,di liu qi ba jiu xiang ren wu shu yu yi jia qiang wan shan qi ye ji zhi chi,20,20,3,1,1,1,0.15
+009346,zhe nian tou ji qi ren bu hui shang wang hai zen me chu lai hun ne,zhe nian tao ji qi ren bu hui shang wang hai zen me chu lai hun ne,17,17,1,1,0,0,0.058823529411764705
+009347,wo yi qian jiu zuo guo fan yi zhe ci shi chong cao jiu ye yu shi tong kuai de da ying le,wo yi qian jiu zuo guo fan yi zhe ci shi chong keng jiu yi ye yu shi tong kuai de da yi wen le,23,25,4,2,0,2,0.17391304347826086
+009348,wo shen shang zhong yu you yi dian zhu ren de qi zhi le,wo zhen shang zhong yu you yi dian zhu ren de qi zhi le,14,14,1,1,0,0,0.07142857142857142
+009349,zhe bing bu shi pai nao dai zuo chu de jue ding,zhe bing bu zhi pai nao dai zuo chu de jue ding,12,12,1,1,0,0,0.08333333333333333
+009350,deng li de xin sui le tian tian yi lei xi mian,deng li de xin sui le tian tian yi lei xi mian,12,12,0,0,0,0,0.0
+009351,liu jin yao jiao shou zai wei cheng cheng jin xing jian cha,liu jin yang jiao shou zai wei cheng cheng jin xing jian cha,13,13,1,1,0,0,0.07692307692307693
+009352,bu guo ci fan xiao tou hao xiang zou de cong mang hai ba yi ba tie ban shou luo zai le dian li,bu guo ci fan xiao teng hao xiang zou de cong mang hai ba bai tie ban shou luo zai le dian li,24,23,3,2,1,0,0.125
+009353,zhe xie nian ru guo bu shi wo zai zhong jian de hua chen ming liang zao jiu bei zhong ai e er chu diao le,zhe xian nian ru guo bu she wo zai zhong jian de hua chen ming liang zao jiu bei zhong ai e er chu diao le,26,26,2,2,0,0,0.07692307692307693
+009354,zhi ci yu zhong guo ji jian he zuo de fo shan ba lei yu xiang mu shou chuang zhi ye wan quan tui chu,zhi ci yu zhong guo jin jian he zuo de fo shan bai da lei yu xiang mu shou chuang zhi ye wan quan tui chu,25,26,3,2,0,1,0.12
+009355,sui shou pai zhang luo nv shi hai tao de wu pin dou shi dang xia zui re men de you e er bao jian pin,sui shou pai zhang luo nv shi hai tao de wu pin dou shi dang xia zui re men de you e er bao jian pin,26,26,0,0,0,0,0.0
+009356,zhi dao dong chuang shi fa cai zhi dao song yong ta mai yin de wang yuan zhang jing shi zi ji de zhang fu,zhi dao dong chuang shi fa cai zhi dao zong yong ta mai yi dou wang yuan zhang jing shi zi ji de zhang fu,25,25,3,3,0,0,0.12
+009357,jia li mai le bu shao zhong you cha de shu ke guang kan shu ku zao bu shuo hai bu hao dong,jia li mai le bu shao zheng yong de shu ke guang kan shu ku zou bu shuo hai bu hao dong,23,22,4,3,1,0,0.17391304347826086
+009358,zuo ri jin feng biao shi zai jie mu zhong de yan lun wei jing guo yan zheng you shi yan jin he tuo dang,zuo ri jing feng biao shi zai jie jian mu zhong de yan lun wei jing guo yan zheng you shi yan jin he tu dang,25,26,3,2,0,1,0.12
+009359,gai dian shi ming ma shi jia ye ti gong bu tong you hui jing ming de xiao fei zhe dong de xuan ze,gai die shi ming ma shi jia ye ti gou bu tong you hui jing ming de xiao fei zhe beng de xuan ze,24,24,3,3,0,0,0.125
+009360,sui hou you liang ming shen cai lve wei ai xiao de xiao fang guan bing jin ru jia shi shi jin xing ying jiu,sui hou you liang ming shen cai lve wan ai xiao de xiao fang guan bing jin ru jia shi shi jin jing jiu,25,24,3,2,1,0,0.12
+009361,bu shao ren yin ci ren shi le guang zhou ji zhu le hai xin sha xiang wang zhu jiang bian de cui can,bu shao ren yin ci ren shi le guang zhou ji zhu wa hai xin sha xiao wang zhu jiang bian de cun cui can,24,25,3,2,0,1,0.125
+009362,zhe ji ju hua ru kong bu pian li de kong bu yin yue jia shen le yu xiang de ju cu bu an,zhe ji jue hua ru kong bu pian li de kong bu yin yue jia shen le yu xiang de ju cu bu an,24,24,1,1,0,0,0.041666666666666664
+009363,ke yi zuo dao bu shua ya bu zheng li tou fa ye bu chuan xie zi shen zhi bu huan wa zi,ke yi zuo dao bu shuai ya bu zheng li tong fa ye bu chuan xie zi shen zhi bu hua wa zi,23,23,3,3,0,0,0.13043478260869565
+009364,bu neng jiang zheng fu ying dang cheng dan de bu tie zuo wei cai zheng bao fu shuai gei lao bai xing,bu neng jiang zheng fu ying dang cheng dan de bu tie zuo wei cai zhong bao fu shuai gei lao bai xing,23,23,1,1,0,0,0.043478260869565216
+009365,zhan xin de lou fang gao gao song li ran e er yi wang ke zhi xu duo fang zi reng zai kong zhi,zhan xin de lou fang gao gao song li ran e er yi wang ke zhi xu duo fang zi sheng zai kong zhi,24,24,1,1,0,0,0.041666666666666664
+009366,ju huang de deng guang ying zhe jie jing yu xiang xin li fu qi yi zhong shen zai yi xiang de leng qing,ju huang de deng guang ying zhe jian jing yu xiang xin li fu qi yi zhong shen zai yi xiang de leng qing,24,24,1,1,0,0,0.041666666666666664
+009367,ru guo zhen shi chen le jiu chai xiu le you chen zhe tie lu neng bu neng bao zheng an quan ya,ru guo zhen shi chen le jiu chan xiu wei you chen zhe tie lu neng bu neng bao zheng an quan ya,23,23,2,2,0,0,0.08695652173913043
+009368,ji zhang hai shuo zhong guo ren tai rong yi gao dian la gao su ta shi mian fei de ji ke,ji zhang hai shuo zhong guo ren ta rong yi gang dian le gao zu ta shi mian fei de ji ke,22,22,4,4,0,0,0.18181818181818182
+009369,ji nian zhi hou na ge men kan jing ran bei wo men di xiong liang ge ta ao xia qu yi kuai,jin nian zhi hou na ge men kan jing ran dui wo men di xiong liang ge ta ao xia qu yi kuai,23,23,2,2,0,0,0.08695652173913043
+009370,fang jia de gao ba zheng zai cong da hu xing kai shi wa jie bing xiang zhong xiao hu xing man yan,fang jia de gao ba zheng zai tong da hu xing kai shu wa jing bing jiang zhong xiang hu xing me ye,23,23,7,7,0,0,0.30434782608695654
+009371,jiu xiang lan qiu chong man qi jiu peng peng you li ru guo bie le ye jiu da bu qi lai,jiu xiang lai qiu chong man qi jiu peng tong you ri ru guo bi le ye jiu da bu qi lai,22,22,4,4,0,0,0.18181818181818182
+009372,ji jiang dao lai de xin sheng ming ye rang ke e er kan qi lai geng jia wu mei geng jia xing gan,ji jiang dao lai de xin sheng ming ye rang ke e er kan qi lai geng jia wu mei ge jia xing gai,24,24,2,2,0,0,0.08333333333333333
+009373,zhe shi fo ding gu she li chong guang hou shou ci zai zhong guo nei di yi wai di qu gong feng,zhi shi fu ding gu shen li chong guang hao shou ci zai zhong guo nei di yi wai di qu gong feng,23,23,4,4,0,0,0.17391304347826086
+009374,xiao pei ni du guo zhe man chang de hei ye,xiao pei ni duo guo zhe man chang de hei yi ye,11,12,2,1,0,1,0.18181818181818182
+009375,yu mi xiang jing bi tian mi su geng li hai,yun mi xiang jing bi tian mi su geng li hai,11,11,1,1,0,0,0.09090909090909091
+009376,xian zai zhe zhong tui shi ye zheng zai chan ye lian de ge ge huan jie zhong you suo ti xian,xian da zhe zhong kui shi ye zheng zai chai ye lian de ge ge huan jie zhong you suo ti xian,22,22,3,3,0,0,0.13636363636363635
+009377,jin huo shi gong chang gen wo shuo shi chun mian de wo mo qi lai ye bu xiang,jin hong shi gong chang geng wo shuo shi chun mian nian da wo mo qin lai ye bu xiang,19,20,5,4,0,1,0.2631578947368421
+009378,nv jia shi yuan bu le yi le zui li kai shi ma ma lie lie de,nv jia shi yuan bu lun yi le zui li kan shi ma ma lie lian dao,17,17,4,4,0,0,0.23529411764705882
+009379,nan tou xian ri yue tan lan che quan bu zan ting mu qian zheng zai shu san you ke,nan tong xian ri yuan tan lai lan che quan bu zai ting mu qian zheng zai shu sai you ke,20,21,5,4,0,1,0.25
+009380,yin wei gong zuo yuan yin jing chang de zui ren ta ye jing chang shou dao ru ma he wei gong,yin wei gong zuo yuan yin jin chang de zui ren ta ye jing chang shou bang ru ma he wei gong,22,22,2,2,0,0,0.09090909090909091
+009381,e nuo de ti tai rang ren si hao kan bu chu ta ji ge yue qian gang gang sheng wan bao bao,e me de ti ta rang ren suan hao kan lu chu ta ji ge yuan qian gang zang sheng wan bao bao,23,23,6,6,0,0,0.2608695652173913
+009382,zhe du si wang qiang shang dan kong lei lei zhe li shi na cui chu jue fan ren de di fang,jiu duo si wang qiang shang dan kong lei lei zhe li shi zhi na cui chu jue fan ren de di fang,22,23,3,2,0,1,0.13636363636363635
+009383,ling dao jiu jie le ling dao xi fu er ji yan le fa duan xin de nv xia shu wu yu le,lin dao jiu ji le ling dao xi wei er ji ye yang e le fa duan jin de nv xia shu wu yu lao,23,25,8,6,0,2,0.34782608695652173
+009384,jiu hong zhe le le le le ye an jing xia lai le bing mei you chu xian ren he zheng zhuang,jiu hong zhe le le de le ye an jing xia lai le bing mei chu jian ren he zheng zhuang,22,21,3,2,1,0,0.13636363636363635
+009385,zhi yao xiang yi qian yi yang ta ta shi shi de gan yi ding neng hui fu guo lai,zhi yao xiang yi qian yi yang ta ta shi shi de gan yi ding neng nong hui fu guo lai,20,21,1,0,0,1,0.05
+009386,jie shang kong liu xia le shen se cong cong de xing ren,jie shang kong liu xia le shen se cong tong de xing ran,13,13,2,2,0,0,0.15384615384615385
+009387,ba ba duan xiang yi hui shuo wo fa shi zhe shi wo jian guo de zui shuai de guang tou,ba ba duan xiang yi wei shuo wo fa shi zhe shu jian guo de zui de guang tou,21,19,4,2,2,0,0.19047619047619047
+009388,zuo shang dian ti hou ta dou dou tu ran diao xia lai le mei you ren he xian zhao,zuo shang dian ti hou ta dou dou tu ran diao xia lai le mei you ren he xian zhang,20,20,1,1,0,0,0.05
+009389,bu liao liu ci cai guang jin zuo le san ci ta de lian shang jiu qi man ge da,bu liao liu ci can guang jing zuo le san ci ta de lian shang jiu qi man ge da,20,20,2,2,0,0,0.1
+009390,xi huan mei yi ge ai sheng huo de ren ne,xi huan mei yi ge ai sheng huo de ren ne,11,11,0,0,0,0,0.0
+009391,kai mu bo yi zi ji zai ken ni ya ye shi yi ming jing cha,ka mu bo yi zi ji zai ken ya ye shi yi ming ji cha,16,15,3,2,1,0,0.1875
+009392,jin hua xiang yin hua xiang guan jian zhan le ke ji de guang,jin xiang yin kua xiang guan jian zhan le ke ji de guo,14,13,3,2,1,0,0.21428571428571427
+009393,ge wei sheng ba che zi ting zai li ce suo jin de di fang,ge wei sheng bai che zi ting zai li ce suo jin de li fang,15,15,2,2,0,0,0.13333333333333333
+009394,zhu yan lai zhong guo qian ren zong li zhu rong ji de nv e er,zhu yan lai zhong guo qian ren zong li zhu rong ji de nv e er,16,16,0,0,0,0,0.0
+009395,xiao xue wen lao ba ba you mei you bi jiao kong bu de shu,xiao xue wen lao ba ba you me you bi jiao kong bu de shu,15,15,1,1,0,0,0.06666666666666667
+009396,chen shui bian yi san gui jiu kou de fang shi jin ru ling tang,chen shui bian yi yi san guo jiu kou de fang shi jin rong ling tang,15,16,3,2,0,1,0.2
+009397,e er tong que dian hui dao zhi zhi li di xia shen cai ai xiao,e er tong que dian hui dao zhi zhi li ding xia shen can ai xiao,16,16,2,2,0,0,0.125
+009398,na ge nv hai zi ru shang hai de xue ye suan ta wan le,na gen nv hai zi ru shang hai bei xu ye suan ta wan le,15,15,3,3,0,0,0.2
+009399,hao wan qu kan su zhou yuan lin ya gan shou xiao qiao liu shui,hao wan qu kan su zhou yan li ya gan she xiao qiao liu shui,15,15,3,3,0,0,0.2
+009400,nv hai zi de nian ling zen me neng qing yi gao su ni ne,nv hai zi de nian ling zen me neng qing yi gao su ni ne,15,15,0,0,0,0,0.0
+009401,yi sheng dui xiao qin qiang jiu shi fa xian xiao qin yi jing si wang,yi sheng dui xiao jin qiang jiu shi fa xian xiao qin yi jiang si wa,16,16,3,3,0,0,0.1875
+009402,zuo ri jiang xia de sun xian sheng jiu shuan le hui pian zi,zuo ri jiang xia de si xian sheng jiu hui piao zi,14,12,4,2,2,0,0.2857142857142857
+009403,wo xun su xia lai le jie guo bei ma ma da le yi dun,wo si xia lai le jie guo bei ma ma da le yi dun,15,14,2,1,1,0,0.13333333333333333
+009404,e er hao qin shi li san ge ren dou tang zai chuang shang wen shu,e er hao qi zhi li san ge yuan dou tang zai cheng shang wen shu,16,16,4,4,0,0,0.25
+009405,ji tian hou ta jiu ying lai le geng jia hui huang de sheng li,ji tian hou ta jiu ying lai le geng jia hui huang de sheng li,15,15,0,0,0,0,0.0
+009406,cong ci ge dong de le yi ge dao li zuo ren yao cheng shi,cong ci ge dong de le yi ge dang li zuo ren yao cheng shi,15,15,1,1,0,0,0.06666666666666667
+009407,xiang gang hui gui yi zhou nian de ji nian ri ji jiang lai lin,xiang gang hui gui yi zheng nian de ji nian ji jiang lai lin,15,14,2,1,1,0,0.13333333333333333
+009408,teng tong nan ren de wang dan dan sui ji ye tang dao zai di,tong tong nan ren de wang dan dan sui ji ye tang dao zai di,15,15,1,1,0,0,0.06666666666666667
+009409,ming zui yu yang shi de qi lu chi zao hui bao lu chu lai,ming yu yang shi de qi lu chi zao hui bao lu chu lai,15,14,1,0,1,0,0.06666666666666667
+009410,ni shou xian yao zhao ji ge jing bu qi nie de ruan shi zi,ni shou xie yao zhao ji ge jing bu qi nie de ruan shi zi,15,15,1,1,0,0,0.06666666666666667
+009411,san ren xia ban hou dou yu mai ke bu lai de tong duan xin,zan ren xia ban hou dou yu mai chun bu lai de tong dun xin,15,15,3,3,0,0,0.2
+009412,dian yuan cong lai mei zhuang guo du pin xiao de shen me du,dian yuan cong lai mian zhuang gong du pin xiao de shen wen du,14,14,3,3,0,0,0.21428571428571427
+009413,shang ren hen shi zai dang ran zhi dao wen hua ke yi sheng cai,shang ren hen zhi zai dang ren zhi dao wen huai ke yi sheng cai,15,15,3,3,0,0,0.2
+009414,li shi kao zun hua ren de re xue he han shui xie jiu,lei shi kao zun kua hua ren de ri re xue he han chi xie jiu,14,16,4,2,0,2,0.2857142857142857
+009415,zhe shi yi tian nei di e er qi e er tong bai nong qiang zhi zhi ren sang sheng shi jian,zhe shi yi tian nei di e er xie e ang er tong bai qiang zhi zhi ren sang sheng shi jie,22,22,4,2,1,1,0.18181818181818182
+009416,e er liu mou zheng cong dong xiang xi dao che zhi jie jiang lao tai gua dao zai di,e er liu mou zheng cong dong xiang xi dao che zhi jie jiang lao tai wai dao zai di,20,20,1,1,0,0,0.05
+009417,yu mou shang qian hu fu bei nan mou lan zhu qu lu liang ren niu da qi lai,yu nao shang qian hu fu bei nan mou lan zhu qu lu liang ren niu da qian lai,19,19,2,2,0,0,0.10526315789473684
+009418,guo hong ding jie shao qi zhong de yi san wu zhu yao jiu shi zhi gong zu fang,guo hong ding jie shang ji zhong de yi yi san wu zhu yao jiu shi zhi gong zu fang,19,20,3,2,0,1,0.15789473684210525
+009419,guai bu de gu ren chang shuo jin zhu zhe chi wo xian zai que shi yue lai yue xiang zhu ren le,guan bu de gu ren chang shuo ji zhu zhe chi wo xian zai que shi yue lai yue xiang zhu ren le,23,23,2,2,0,0,0.08695652173913043
+009420,jing zhen duan hao hao bei que zhen wei xiao chuan bing zai zhi hou shu zhou nei duo ci jin xing zhen zhi,jing zhen duan hao hao bei que zhe wei xiao chuan bing zai zhi hou shu zhou nei duo ci jin jing zhen zhi,24,24,2,2,0,0,0.08333333333333333
+009421,hai you ta zai si xia qi shi bi jiao la ta xiang xi li ge yi yang,hai yao ta zai si zi xia qi shi bi la ta xiang xi li ge yi ya,18,18,4,2,1,1,0.2222222222222222
+009422,dang shi yi shi shi ren da dai biao de xiao you mei tie chu jing xuan hai bao yi she qu ju min shen fen can xuan,en shi yi shi shi ren da dai biao de xiao yong mei tie chu jing xuan hai bao yi she qu ju mi shen can xuan,28,27,4,3,1,0,0.14285714285714285
+009423,an jian pan jue hou she hui xiao guo hao,an jian bin jue hou sheng hui xiao wo hao,10,10,3,3,0,0,0.3
+009424,ta zhe cai lun qi dao zi zhe shu yu ji qing fan zui bing mei you zhu guan e yi,ta zhe can lun qi dao zi zhe shu yu ji qing fan zui bing mei you zhu guan e e yi,21,22,2,1,0,1,0.09523809523809523
+009425,ci tie li ji zai wang shang yin qi re chao,ci tie li ji zai wang shang yin qi re chang,11,11,1,1,0,0,0.09090909090909091
+009426,ni de tou ding dou tu cheng shen me yang zi le gen wo shang liang guo ma,ni de tou ding dou tuo cheng shen me yang zi le gen wo shang liang guo ma,18,18,1,1,0,0,0.05555555555555555
+009427,sui hou gou zhu ren lian xu chu zhao shuai e er guang yong jiao chuai zhuai tou fa ou da nv dian zhang xie fen,sui hou gou zhu ren lian xu chu zhao shua e er guang yong jiang chuan zhuai tou fa ou dan nv dian zhang xie fen,26,26,4,4,0,0,0.15384615384615385
+009428,yi shen fa yuan xian ran hun xiao le zhe san ge guan xi,yi shen fa yue xian ran hun xiao le zhi san ge guai xi,14,14,3,3,0,0,0.21428571428571427
+009429,gai an mu qian yi jin ru yi jiao fa yuan qi su jie duan,gai an mu qian yi jin ru yi jiao fa yuan ji su jie duan,15,15,1,1,0,0,0.06666666666666667
+009430,ta chuan le yi jian song kua kua de hong se chen shan,ta chuan le yi jian song kua kua de hong se chen shan,13,13,0,0,0,0,0.0
+009431,ran hou jiu chu men le liu xia cuo e de lao po,ran hou jiu chu men le liu xia cuo en e de lao peng,13,14,2,1,0,1,0.15384615384615385
+009432,su jing mei you dian di de xing fen dao shi su mu wei kong tian xia bu zhi si chu da dian hua tong zhi,su jing mei you dian di de xing fen dao shi si mu wen wei kou xia bu zhi si chu da dian hua tong zhi,26,26,4,4,0,0,0.15384615384615385
+009433,gong cheng xian chang you gong ren zai lie ri xia da hang,gong cheng xian chang you ren zai lian ri xia da hang,13,12,2,1,1,0,0.15384615384615385
+009434,nv wo kan dao yi liang bao ma cai bu dao liang bai wan,nv wo kan dai yi yang bang ma cai bu ban liang bai wan,14,14,4,4,0,0,0.2857142857142857
+009435,ba ling hou de yue guang zu ying gai ru he li cai ne,ba ling hou de yue guang zu ying gai ru he li cai ne,14,14,0,0,0,0,0.0
+009436,ta shuo jing ju jiang jiu de shi qin shi si gu,ta shuo jing jun jiang jiu de shi qi shi si gun,12,12,3,3,0,0,0.25
+009437,chi ku nai lao lian xu zuo zhan de zuo feng za yang,chi ku nai lao lian xu zuo zhan de zuo feng da ya,13,13,2,2,0,0,0.15384615384615385
+009438,kan dao zhe ge heng fu xu duo ren re lei ying kuang,kan dao zhe ge hou fu xu duo ren re lei yi ying kuang,13,14,2,1,0,1,0.15384615384615385
+009439,ling wai ren gong du dian jiang jia pai jing li shu tong,ling wai ren gong du dian jiang jia pai jing li shu tong,13,13,0,0,0,0,0.0
+009440,wo yi bao gao ni tao ye jiu de chu fen mei gao ni ting hao le kan yi feng xin you shen me liao bu qi le,wo yi bang gang ni tan hao yi jiu de chu zai mei gao ni ting hao le kan yi feng xin you shen me liao bu qi la,28,29,7,6,0,1,0.25
+009441,liang guo yuan shou gao zhan yuan zhu kai chuang le zhong mei guan xi de xin ju mian,liang guan yuan shou gao zhan yuan zhu kai chuang le zhong mei guan xi de xin ju mian,19,19,1,1,0,0,0.05263157894736842
+009442,quan qiu di yi zuo ping pang qiu pai zao xing de ti yu bin guan xiao guo tu,qian qing di yi zuo ping dang qiu pai zang xing de yu bing guan xiao guo tu,19,18,6,5,1,0,0.3157894736842105
+009443,lao shi zai xiang yi xiang jing chang na yi ba jian dao zai hua cong bian liu da de shi shen me ren,lao shi zai xiang yi xiang jing chang nai ba jian dao zai hua cong bian liu da de shi shen me ren,24,23,2,1,1,0,0.08333333333333333
+009444,ta bu dan da sheng chao rang hai da huai le dian nei hen duo wu pin,ta lu dai da sheng chao rang hai da huan le dian nei hen duo wu pie,17,17,4,4,0,0,0.23529411764705882
+009445,you mei ti zhi yan zhe yang lu gu de jiao yu bu jin wu yong e er qie you hai,you men ti zhi zhe yang lu gu de jiao yu bu jin wu yong e er qie you,21,19,3,1,2,0,0.14285714285714285
+009446,wo yi qie dou hao nin da ke bu bi cao xin,wo yi qie dou hao ni da ke bu dui zi hao xin,12,13,4,3,0,1,0.3333333333333333
+009447,sen lin gong an gan dao hou jiang niao wang chai chu,san lin gong an gan dao hou jiang niao wang chai chu,12,12,1,1,0,0,0.08333333333333333
+009448,dou kuai cheng nian le hai bu zhi dao huan shou a,dou kuai cheng nian le hai bu zhi dao huan shou a,12,12,0,0,0,0,0.0
+009449,bi ru qian shao nai nai zhou xun he zhang yu qi,bi ru qian shang nai nai zhou he zhang yu xi,12,11,3,2,1,0,0.25
+009450,na yang de ri zi jian zhi bu gan xiang xiang na,nai yang de ri zi jian zhi bu gan xiang xiang na,12,12,1,1,0,0,0.08333333333333333
+009451,jin wan deng zhe ni xi fu he ni pin ming ba,jing wan deng zhen ni xi fu he ni pin ming ba,12,12,2,2,0,0,0.16666666666666666
+009452,wo dang shi leng zai na ban tian bu zhi za ban,wo dang shi leng zan na ban tian bu zhi za ba,12,12,2,2,0,0,0.16666666666666666
+009453,yi xie guan yuan ting wan hou jue de huo yi fei qian,yi xie guan yuan ting wan hou jue de huo yi fei qian,13,13,0,0,0,0,0.0
+009454,zai shuo zan zhe li yi yang mei you shui da sao qi lai geng hua gong fu,zai shuo zai zhe li yang mei you shui da zao qi lai geng hua gong fu,18,17,3,2,1,0,0.16666666666666666
+009455,dong hu cheng guan dui yuan zai sao xue,dong hu cheng guan dui yuan zai zao xue jue,9,10,2,1,0,1,0.2222222222222222
+009456,pang bian yi wei zhong nian nan zi jian zhuang lun qi dang kou fu jin de deng zi jiang fan mou da pao,pao bie yi yin wei zhong nian nan zi jian zhuang lun qi dan kou fu jin de deng zi jiang fan mou da pao,24,25,4,3,0,1,0.16666666666666666
+009457,kang yi shi wei zhe sheng cheng jiang jie fang shou du di li bo li,kang yi shi wei zhe sheng cheng jiang jie fang qiu duo di li bo li,16,16,2,2,0,0,0.125
+009458,you mei you fa xian wo xi huan bei ying zhao bu guo wo xiang xin ni xin li yi jing you wo de lun kuo le,you wei fa xian wo xi huan bei zhang bu guo wo xiang xian ni xin li yi jian you wo de lun kuo le,27,25,6,4,2,0,0.2222222222222222
+009459,yang guo sheng bei shao de xiang ge hei ren yi fu gen pi fu zhan zai yi qi,yang guo sheng bei shao de xiang ge hei ren yi fu gen pi fu wu zhai zai yi qi,19,20,2,1,0,1,0.10526315789473684
+009460,na shi hou wo men lia zhen shi pin jian bu neng yi a,na shi hou wo me lia zhen shi pin jian bu neng yi ya,14,14,2,2,0,0,0.14285714285714285
+009461,shi ma li zhi qing shuo zhe pi gu you na yi cun,zhi ma li zhi qing shuo zhe pi guo you nan yi cun,13,13,3,3,0,0,0.23076923076923078
+009462,xuan shi jie shu guo qi huan huan tui chu hui chang,xue shi jie shu guo qi huan huan tui chu hui chang,12,12,1,1,0,0,0.08333333333333333
+009463,jiu suan wu yu wo ye hui yi zhi pei zhe zhu ren de o,jiu suan wu yu wo ye hui yi zhi pei zhe zhu ren de,15,14,1,0,1,0,0.06666666666666667
+009464,ren lei ru he cai neng bai tuo hui mie de ming yun,ren lei ru he can neng bai tuo hui mian de ming yun,13,13,2,2,0,0,0.15384615384615385
+009465,shui neng chu ren e luo si dui xin de zhu jiao lian,shui nang chu ren e luo si dui xin de zhu zhan lie,13,13,3,3,0,0,0.23076923076923078
+009466,qi ta de lai zi yu jing shen bing zhen suo huo yi yuan,qi ta de e lai zi yu jing shen bing zhen suo huo yi yuan,14,15,1,0,0,1,0.07142857142857142
+009467,tong shi jie dao jing duo fang zou fang qiu zheng zui zhong que ren le jiu ren zhe jiu shi feng shi gen,tong shi jie dao jing duo fang zou fang qiu zheng zui zhong que rang le jiu ren zhe jiu shi feng shi gan,24,24,2,2,0,0,0.08333333333333333
+009468,zhi yao mei you tai duo de za nian jiu neng ti hui dao zhen zheng de kuai le la,zhi yao mei you tai duo de za nian jiu neng ti hui wei dang zhen zheng deng kuai le la,20,21,3,2,0,1,0.15
+009469,jin nian jiu you lv you jian yi jin kuai li fa jiang lv you ri jia qi chang tai hua,jin nian jiu you lv you jian yi jin kuai li fa jiang lv yu rui ri jia qi chang tan hua,21,22,3,2,0,1,0.14285714285714285
+009470,zheng zhi zhong zhao mou sui yong shuang shou qia zhu guan mou de bo zi zhi qi si wang,zheng zhi zhong zhao mou sui yong shuang shou qia zhu guan me de bu zi zhi qi si wang,20,20,2,2,0,0,0.1
+009471,dao shang you han fang jian zao de deng ta hai an shao suo he ma tou deng she shi,dao shang you han fang jian zao de deng ta han hai an shang zuo he ma tou de she shi,20,21,4,3,0,1,0.2
+009472,tu zhong you yi chu ming xian cuo wu ji mei you ba tai wan hua wei zhong guo de ling tu,tu zhong you yi chu ming xing cuo ji mei you ba tai wan hua wei zhong guo de ling tu,22,21,2,1,1,0,0.09090909090909091
+009473,xie xian sheng tong zhi le hua xue chang gong zuo ren yuan bing song e er zi qu le yi yuan,xie xian sheng tong zhi le hua xue chang gong zuo ren yuan bing song e er zi qu lei yi yuan,22,22,1,1,0,0,0.045454545454545456
+009474,gai kuo jian guo bo bu hui shi wei le zhan shi zhe xie she chi pin wen hua ba,gai kong jian gu bo bu wei shi wei le zhan zhi zhe jie she chi bi pin wen hua ba,20,21,6,5,0,1,0.3
+009475,ben lai qu tiao jie jiu fen de peng qiao ba zhe ming tao fan jiu chu lai le,ben lai qu tiao jie jiu fen de peng qiao ba zhe ming teng fan jiu chu lai le,19,19,1,1,0,0,0.05263157894736842
+009476,dan zai si nve de sha chen sha bao mian qian ji hua bian cheng tan hua yi meng,dan zai si nve de sha chen sha bang mian qian ji hua bian cheng tang hua yi meng,19,19,2,2,0,0,0.10526315789473684
+009477,zhe gu xuan feng xiang ta de dui mian kuai su yi dong cai gang ban ye gen zhe pao,zhe gu xuan feng xiang ta de dui mian kuan si yi dong ca gang bai ye gen zhe pao,20,20,4,4,0,0,0.2
+009478,mian dui tong yang jue jiang de fu qin wei zi wu ke nai he zhi de bai yi bai shun,mian dui tong yang jun jiang de fu qin wei zi wu ke nai he zhi de bai yi bai shuo,21,21,2,2,0,0,0.09523809523809523
+009479,wo gan jin fan qian bao wan le jiu sheng wu mao le bao jing ba shou ji ne,wo gan jin fan qian bao wan la le jiu sheng wu me le dou jing bang shou ji na,19,20,5,4,0,1,0.2631578947368421
+009480,dang tian mei yuan dui ri yuan ye shang zhang yi dian ling san bao qi shi ba dian liu qi,dang tian mei yuan dui ri yuan ye shang zhang yi dian ling san bang qi shi ba dian liu you qi,21,22,2,1,0,1,0.09523809523809523
+009481,sun xing ken qing gong zhong ba xin ren chong xin jiao hui dao zi ji de shou shang,zi xing ken qing gong zhong ba xin ren chong xin jiao hui dang zi jing de shou shang,19,19,3,3,0,0,0.15789473684210525
+009482,bie ren you bei jing wo men zhi you bei ying bie ren zai lv you wo men zai meng you,bie ren you bei ji wo men zhi you bei ying bian ren zai lv you wo men zai meng you,21,21,2,2,0,0,0.09523809523809523
+009483,jie zhu zhe zhong zeng zhang dong neng wo men jiang neng bao chi shi chang ling xian di wei,jie zhu zhe zhong zeng zhang dong neng wo men jiang neng bao chi shi chang lin xian di wei,20,20,1,1,0,0,0.05
+009484,ke chou lai de na dian qian mei mei zuo ji ci tou xi jiu dou hua guang le,ke chou lai de na dian qian mei mei zuo ji ci tou xi jiu dong hua guang le,19,19,1,1,0,0,0.05263157894736842
+009485,han zi shen hou de tu qiang shang ding zhe yi zhang ying bai zhi pian sha shi re yan,han zi shen hou de tu qiang shang bian ding zhe yi zhang ying ba zhi pian sha shi re ye,20,21,3,2,0,1,0.15
+009486,shang che de shi hou gua yi dang qi bu kao guan tu ran lai le yi ju jia you,shang che de shi hou guai yi da dang qi bu kao guan tou ran lai le yi yi ju jia yang,20,22,5,3,0,2,0.25
+009487,ci wai huan zhe ke you fan ke chu han liu xian si zhi ji rou jing luan hu xi kun nan deng zheng zhuang,ci wai huan zhe ke you fan ke chu han liu xian si zhi ji rou jing luan hu xi nan deng de zhou zhou,25,25,4,2,1,1,0.16
+009488,wo ning yuan gei gou chi ye bu gei ta liu,wo ning gei gou zhi ye bu gei ta liu,11,10,2,1,1,0,0.18181818181818182
+009489,you shen me bu hui de jin guan wen wo ba,you sheng neng bu hui de jin guan wen wo ba,11,11,2,2,0,0,0.18181818181818182
+009490,ying lang de che shen yao xian cong che qian da deng chu qi yi zhi gang jing you li de yan shen xiang hou,yi lang de che shen yao xian cong che qian da dou chu qi yi zhi gang jing you lie de yan shen xiang hou,25,25,3,3,0,0,0.12
+009491,e er e er shi yi yi shi wu hao mu qian shi mou jiao liu xie hui ban gong di dian,a e er e er shi yi yi shi wu hao mu qian shi mou jiao you xie hui ban gong di yi dian yan,22,25,4,1,0,3,0.18181818181818182
+009492,zuo ri ji zhe yu da chu guang gao shou gou luan zi de zhong jie jian mian,zuo ri ji zhe yu da chu guang gao shou guan luan zi de zhong jie jian mian,18,18,1,1,0,0,0.05555555555555555
+009493,zai dang di cun min yan li mao xian mi shi yi ge you xie zhi niu de ren,zai dang di cun min yan li mao xian mi shi yi ge you xie zhi niu de yuan,19,19,1,1,0,0,0.05263157894736842
+009494,da shu xia chang shi pai le pai yao ming de jian yi qie jin zai bu yan zhong,da shu xia chang shi pai le pai yao ming de jian yi qian jian zai bu ye zhong,19,19,3,3,0,0,0.15789473684210525
+009495,jiao shi li yi you ji ge ren shu jia de lian bi zuo wen gang fa xia lai,jiao shi li yi you ji ge ren shu jia de lie bi zuo wen gang fa xia lai,19,19,1,1,0,0,0.05263157894736842
+009496,ci shi yi ming jing cha dan shou bie zai shen hou shou zhong wo you yi chui zi,ci shi yi ming jin cha dan shou bie zai shen hou shou zhuang wo you yi chui zi,19,19,2,2,0,0,0.10526315789473684
+009497,shu ren xiong ke xi wan sheng le yi bai nian huo zhe zao sheng le yi bai nian,shu ren xiong ke xi wan sheng le yi ban nian huo zhen zao shang yi bai nian,19,18,4,3,1,0,0.21052631578947367
+009498,dang shi zheng lun de wen ti jin jin shi gai bu gai zai hu di pu mo,dang shi zheng lun de wen ti jin jin shi gai bu gai zai hu di pu mo,18,18,0,0,0,0,0.0
+009499,yin wei zhi dao zi ji de shi bai yu wu neng yu shi xiang ban fa qu ke fu,yin wei zhi dao zi ji de shi ban yu wu neng yu shi xiang ban fan qu ke fu,20,20,2,2,0,0,0.1
+009500,wang meng jia ping ao feng ji cai deng zhu ming zuo jia ceng li ren hui zhang,wang meng jia ping ao feng ji cai deng zhu min zuo le jia ya ceng li ren hui zhang,18,20,3,1,0,2,0.16666666666666666
+009501,mu qian xiao fang dui yuan zhi neng tan shen shui ni guan yi dian dian pao jue,mu qian xiao fang dui yuan zhi neng tan shui ni gun guan yi dian dian pao ju,18,18,3,1,1,1,0.16666666666666666
+009502,nan hai dai zuo zai di bu shi bao qi jiao zhi tou qing qing yao yi kou,na hai dai zuo zai di bu shi bang jin jiao zhi teng qin qing yang yi ge,18,18,7,7,0,0,0.3888888888888889
+009503,deng che guo cheng zhong ji zhe fa xian bu shao hei che bian chun chun yu dong,deng che guo cheng zhong ji zhe fa xian bu shao hei che bian chun chun yu dong,18,18,0,0,0,0,0.0
+009504,yi fa bei xian zhi ren shen zi you huo bo duo zheng zhi quan li de chu wai,yi fa bei xian zhi ren shen zi you huo bu duo zheng zhi quan li de chu wai,19,19,1,1,0,0,0.05263157894736842
+009505,huo de yi ding fen shu de wai ji ren shi jiang bei shi wei gao ji ren cai,huo de yi ding fen shu de wai ji yan shi jiang bei shi wei dou ji yuan tai,19,19,4,4,0,0,0.21052631578947367
+009506,zhe zhong chang cheng xun yi fei dan de mu biao shi dui zhun na ge guo jia,zhe zhong chang cheng xun yi fei dan de mu bei liao zhi dui zhuan na ge guo jia,18,19,4,3,0,1,0.2222222222222222
+009507,zui hou xun huan li xi xiang jia de chu yi bai e er shi dian ling ling wu wu yuan,zui hou xun huan li xi xiang jia de chu yi ban e er shi dian ling ling wu wu yuan,21,21,1,1,0,0,0.047619047619047616
+009508,bi ru shuo ti chang jian ku fen dou zhe bing bu yi wei zhe wo men yao chuan da bu ding de yi fu,bi ru shuo ti chang jian fen dao zhe bu yi wei zhe wo me yao chuan da bu ding de yi fu,25,23,4,2,2,0,0.16
+009509,you ni zai shen bian pei ban de ri zi gan jue mei tian dou xiang du jia yi yang kai xin ne,you ni zai shen bian pei ba de ri zi gan ju jue mei tian dou xiang du jia yang kai xin ne,23,23,3,1,1,1,0.13043478260869565
+009510,qian hua de zhi lao bai xing ye yuan yi jie nang,qian hua de zhi lao bai xing ye yue yi jian ma,12,12,3,3,0,0,0.25
+009511,de guo li shi you jiu wen hua cui can su you shi ren he zhe xue jia guo du de mei yu,de guo li shi you jiu wen fa cui can su you shi ren he zhi xue jia guo du de mei yu,23,23,2,2,0,0,0.08695652173913043
+009512,gao xin zhan shi gong li de gu li duan xin,gang xi zhan zhi gong li de gu li de xin,11,11,4,4,0,0,0.36363636363636365
+009513,bu jin jin su du kuai e er qie zhi liang gao,bu jian jin su du kuan e er qie zhi liang gao,12,12,2,2,0,0,0.16666666666666666
+009514,jiu shi bi jiao xi huan xie dian dong xi ma,jiu shi bi jiang xi huan xie dian dong xi ma,11,11,1,1,0,0,0.09090909090909091
+009515,wu nian lai zai ji yue shang yong qing chun he re xue shu xie le biao bing shi ce de zhuang li pian zhang,wu nian lai zai ji yue shang yong qing chun he re xue shu xie le biao bi shi ce de zhuang li piao bian zhang,25,26,3,2,0,1,0.12
+009516,ta tie zhe yi ge tu tou nan ren na cai shi tie zhe kan lai shang di ye you lou zhan de shi hou,ta tie zhe yi ge tu tou nan ren na cai shi tie zhi kan lai shang di ye you lou zhai de shi hou,25,25,2,2,0,0,0.08
+009517,qing song ji kua ta li ban zhi hou mei jun mian dui de shi yi pan san sha shi de wu zhuang fen zi,qi song ji kua ta li ban zhi hao mei jun mian dui de shi yi pan san sha shi de wu zhuang fen zi,25,25,2,2,0,0,0.08
+009518,dao zui hou qian ding xie yi shi ta shuo ta ba dong shi zhang dang shang qi ta ni za gao dou xing,dang zui hou qian ding xie yi shi ta shuo ta ba dong shi zhang dang shang qi ta ni za gao de xi,24,24,3,3,0,0,0.125
+009519,wen xun hou lv zong yin li ji tiao xia che zhen cheng bei qie de su shuo da dong le zhi yuan zhe men,wen xun hou lv song yin li ji tiao xia che zhen cheng bei qian ge su shuo da dong le zhi yuan zhe men,25,25,3,3,0,0,0.12
+009520,di fang zheng fu dui ben di qu ru pin zhi liang an quan fu zong ze,di fang zhou fu dui ben di qu ru pin zhi liang an quan fu zong zi,17,17,2,2,0,0,0.11764705882352941
+009521,ge xiao jie de ma ma wang nv shi zhi jin reng ran yi lei xi mian,ge xiang jie de ma ma wang nv shi zhi jin reng ran yi lei xi mian,17,17,1,1,0,0,0.058823529411764705
+009522,e er qie dang ran ye shi gua tou he qian du cai zhe de bi nan suo,e er xian dang ran ye shi gua tao he qian duo cai zhe de bi na suo,18,18,4,4,0,0,0.2222222222222222
+009523,da xue li you yi da pi zhui qiu miao tiao he gu gan de nv hai,da xue li you yi da bi pi zhui qiu miao tiao he gu gan de nv hai,17,18,1,0,0,1,0.058823529411764705
+009524,dan shi wei lai ji nian nei da xue sheng jiu ye xing shi yi ran yan jun,dan shi wei lai ji nian nei da jue sheng jiu ye xing shi yi ran yan ju,18,18,2,2,0,0,0.1111111111111111
+009525,wei xiu bu men bao liu xiao shou deng qi ta ye wu he bing zai yi qi,wei xiu bu men bao liu xiang shou deng qi ta ye yan wu he bing zai yi qi,18,19,2,1,0,1,0.1111111111111111
+009526,zai e er bai wu shi duo wan ming kao sheng zhong bie le e er shi duo tian de qi yi xia zi bao fa chu lai le,zai e er bai wu shi nong wan an ming teng sheng zhong bian le e er shi duo tian de qi yi xia zi bao fa chu lai le,29,30,4,3,0,1,0.13793103448275862
+009527,zai zhu guang de ying zhao xia lao ren yan jiao de lei hua shan shan fa liang,zai zhu guang de ying zhang xia lao ren yan jiang de lei hua shan zhan fa liang,18,18,3,3,0,0,0.16666666666666666
+009528,lin ju fan ying dang shi wu nei ming huo bu da dan shi nong yan qiang ren,li ju fan ban ying dang shi wu nei ming bu da dan shi nong yan qiang ren,18,18,3,1,1,1,0.16666666666666666
+009529,yi shang kuan wu zhe he ren min bi si shi si dian si liu si san wan yuan,yi shang kuan wu zhi he ren mi bi yi si shi zi dian si ling si san wan yuan,19,20,5,4,0,1,0.2631578947368421
+009530,ru ci bian neng rao kai zheng fu zhu guan bu men rong chang de shen pi,ru ci bian neng rang ta zheng fu zhu guan bu mei ru chang de shen pi,17,17,4,4,0,0,0.23529411764705882
+009531,yi hou ni zai zhe me da sheng shuo wo wo jiu gei ni dian yan se kan kan,yi hou ni zai zhe men da sheng shuo wo wo jiu gei ni dian yan se kan kan,19,19,1,1,0,0,0.05263157894736842
+009532,ta men jing guo qian tiao wan xuan zheng ti su zhi hen hao ying gai de dao gao yi xie de dai yu,ta men jing guo qian tiao wan xuan zheng ti su zhi hen hao ying gai de dao gao yi xie de dai yu,24,24,0,0,0,0,0.0
+009533,jiu zuo tian zhe chou nv you shen jing de kai shi da ma nv shen zui hou nv shen qi huai le,jiu zuo tian zhe chou nv you shen jing de kan shi da ma nv zui hou nv shen qi huai le,23,22,2,1,1,0,0.08695652173913043
+009534,bu guo ta xian chang de you mo yu yan que dou de guan zhong he zhong wei jia bin he bu long zui,bu guo tang xian chang de yong mo yu yan que dong de guai zhong he zhong wei jia bing he bu long zi,24,24,6,6,0,0,0.25
+009535,gai guan li yuan li ji ba zi ji suo zai long zi li yi mian qi ta de xing xing ye tao pao,gai guan li yuan li ji ba zi ji suo zai long zi li yi mian qi ta de xing xing ye pao peng,24,24,2,2,0,0,0.08333333333333333
+009536,tui e er yan zhi gu xi la zhe xue shi jing guan de ta fan ying le chao yue xian shi de li xiang,tui er yan zhi gu xie lai zhe xu zhi jing guan ben ta fan le chao yue xian shi de li xia,25,23,8,6,2,0,0.32
+009537,zhi shao zai hua zhuang fang mian wo ke yi bi bie ren shao yong ban xiao shi yin wei bu yong hua mei mao,zhi shang zan hua zhuang fang mian wo ke yu bie ren shao yong ban xiang shi yin wei bu yong hua mei mao,25,24,5,4,1,0,0.2
+009538,qiao jia guan fang de zhe fen hui ying hen kuai bei wai jie shi zuo ji yu pie qing chai qian mao dun,qiao jia guan fang de zhe fen hui wei ying hen kuai bei wai jie shi zuo ji yu pie tie xing chai qian mao dun,24,26,3,1,0,2,0.125
+009539,fu fu lia mei nian de xiu jia quan yong zai le chang tu ba she qu lao jia kan hai zi shang,fu fu lia nei nian de xiu jia quan yong zai le chang tu ba she qu le jia kan hai zi shang,23,23,2,2,0,0,0.08695652173913043
+009540,xu li chang de hen tou ru guan zhong gen zhe chang de ye hen tou ru xian chang hai cheng yi pian,xu li chang de hen tou ru guan zhong gen chang de yan hen tou ru xian chang hai cheng yi pian,23,22,2,1,1,0,0.08695652173913043
+009541,ci wai jin nian qi yong le yi pi xin shi sao xue she bei ti dai rong xue ji de shi yong liang,ci wai ji nian qi yong le yi pi jin shi sao xu she bei ti dai rong xue ji de shi yong liang,24,24,3,3,0,0,0.125
+009542,mu qian chen mou yin she xian gu yi sun hui gong si cai wu bei jing fang xing ju,mu qian chen mou yin she xian gu yi song hui gong zi can wu bei jing fang xing ju,20,20,3,3,0,0,0.15
+009543,ni shi fou xiang guo ni de ge ren xin xi ye xu yi bei zhuan shou shu ci,ni shi fang xiang ni de ge ren xin xi ye xu yi bei zhuan shou shu ci,19,18,2,1,1,0,0.10526315789473684
+009544,yi zheng fa zuo shi you de hai zi zi shu tou yun huo chu xian chou chu,yi zheng fa zou shi you de hai zi zi shu tou yun huo chu xian chu,18,17,2,1,1,0,0.1111111111111111
+009545,bu shi yao pai zhao ma da jia pai hao dui ma li dian,bu shi yao pai zhao me da jia pai hao dui ma li dian,14,14,1,1,0,0,0.07142857142857142
+009546,hao hao shui yi jiao ming tian you shi zhan xin de yi tian,hao hao shui yi jiang ming tian you shi zhan xin lei yi tian,14,14,2,2,0,0,0.14285714285714285
+009547,dan li jia ding yu shi ming jun fou ren,dan li jia di yu shi ming jun feng ran,10,10,3,3,0,0,0.3
+009548,zuo tian ge ye zi jin die po bai fen zhi san zhi bai fen zhi e er dian jiu liu qi yi,zuo tie ge ye zi jin die tou bai fu zhi zai zhi bai fen zhi e er dian jiu liu qi yi,23,23,4,4,0,0,0.17391304347826086
+009549,qi zi de jiao que ze shi yi chang yi liao shi gu de hou yi zheng,qi zi de jiao qu zi shi yi chang yi liang shi gu de hou yi zheng,17,17,3,3,0,0,0.17647058823529413
+009550,shuo bu ding ta hui bi yue han hai yao zao de dong shan zai qi ne,shuo bu ding ta hui bi yuan han hai ya zao de dou shan zai qi ne,17,17,3,3,0,0,0.17647058823529413
+009551,ta ti xing tou zi zhe jing ti hui fou chu xian zhi zhang xian xiang,ta ti xing tou zi zhe jing ti hui fou chu jian zhi shang xian xiang,16,16,2,2,0,0,0.125
+009552,ta jian shi yu xiong mang pao guo qu yu xiong shuo pai wo qian mian,ta jian shi yu xiong mang peng guo qu yu xiong shuo pai wo qian mian,16,16,1,1,0,0,0.0625
+009553,liang guo jing mao he zuo de bu duan kuo da shi mei zhong shuang fang huo yi,liang guo jing me he zuo de bu duan kuo da shi mei zhong shua fang hu yi,18,18,3,3,0,0,0.16666666666666666
+009554,liu yue e er shi qi ri jiao long hao shua xin ji lu xia qian zhi qi qian ling liu shi e er mi,liu yu e er shi qi ri jiang long hang shuai xin ji lu xia qian zhi qi qian li liu sha e er mi,25,25,6,6,0,0,0.24
+009555,ci hou zai xi zang hui fu jiu you de feng jian nong nu zhi du ye cheng wei yong yuan bu ke neng,ci hou zai xi zang hui fu jiu you de feng jian nong nu zhi du ye cheng wei yong yuan bu keng nang,24,24,2,2,0,0,0.08333333333333333
+009556,guo qu ji shi nian yan hai zhi suo yi fa zhan xun su jiu shi yin wei jin xiang wu liu bian li,guo qu ji shi nian yan hai zhi zuo yi fa zhan xun su jiu shi yin wei jin xiang wu liu dian li,24,24,2,2,0,0,0.08333333333333333
+009557,ju xi zai fan qin yan shang zhan shi nv fang jia zhuang shi jin jiang yi dai te you de xi su,ju xi zai fan qin yan shang zhan shi nv fang jia zhuang shi jin jiang yi da de te you de xi su,23,24,2,1,0,1,0.08695652173913043
+009558,jin ru qi che shi dai yi lai ren men si hu yi ke ye li bu kai gun gun de che lun,jin ru qi che shi dai yi lai ren men si hu yi ke ye li bu kai gun wen gun de che lun,23,24,1,0,0,1,0.043478260869565216
+009559,ci wai zheng ge guan zhong hai shou cang zhe jia ping ao de yi xie cang pin he shu hua zuo pin,ci wai zheng ge wan zhong hai shou cang zhe jia ping piao de yi xie cang pin he shu hua zuo pin,23,23,2,2,0,0,0.08695652173913043
+009560,dui yu fan dui pai wo yi zhi jue de ta men hen ang zang,dui yu fan dui pa wo yi zhi jue de ta me hen ao zang,15,15,3,3,0,0,0.2
+009561,shi fou xue ruo le dui nong ye de tou ru,shi fou xue ruo le dui nong ye de tou ru,11,11,0,0,0,0,0.0
+009562,jin se de kua zhang mao ding shou zhuo he shan shan liang de jin se bao bao hu ying de gang gang hao,jin zi de kuang zhang mao ding shou he shan liang de jin se bao wang hu ying de gang gang hao,24,22,5,3,2,0,0.20833333333333334
+009563,zai zuo wan jian cha fan hui bing fang tu zhong lin lin tang zai bing chuang shang bai nong shou ji,zai zou wan jian cha fan hui bing fang tu zhong lin lian tang zai bing chuang shang bai nong shou ji,22,22,2,2,0,0,0.09090909090909091
+009564,bu guo wang you dou fen fen zhi chi ying cai e er zhe yi ba qi xing wei,bu guo wang you de fen fen zhi chi ying e er zhe yi ba xi xing wei,19,18,3,2,1,0,0.15789473684210525
+009565,ta shuo dang shi zai pian chang huo bo ji hu gen suo you ren gan guo jia,ta shuo dang shi zai pian chang huo bo ji hu gen suo you ren gan guo jia,18,18,0,0,0,0,0.0
+009566,xiang zhe xiang zhe zi ji bei zi ji dou le dui zhe jun huo ku zao xing de yu guo tang kai huai da xiao,xiang zhe jiang zhe zi ji bei zi ji dou neng dui zhe jun huo ku zao xing de yu guo pai kai huan da xiao,26,26,4,4,0,0,0.15384615384615385
+009567,zhou zhuang chuan fu de sheng yi ji jia mei ge ren dou hen bu de jiao ye neng hua jiang hao duo la xie sheng yi,zhou zhuang chuan fu de sheng yi ji jia mei ge ren dou hen bu de jiang ye neng hua jiang hao duo la xie sheng yi,27,27,1,1,0,0,0.037037037037037035
+009568,ta he yi bang shuo hua du du nang nang cheng tian tiao wu de ren sheng huo zai yi qi,ta he yi bang shuo hua duo du nang nang cheng tian tiao wu de ren sheng huo zai yi qi,21,21,1,1,0,0,0.047619047619047616
+009569,qu shen zhen da gong zhi qian di di mei mei jiu rang rang zhe yao mai bu dian nao,qu shen zhen da gong zhi qian di di men mei mei jiu rang ran zhe yang mai bu dian nao,20,21,3,2,0,1,0.15
+009570,ta de dao lai shi yi jian hao shi wo hen huan ying ta bu guan shi dai biao ge ren hai shi dai biao ju le bu,ta de dao lai shi yi jian hao shi wo hen huan ying ta bu guan shi dai biao ge ren hai shi dai biao ju lou bu,28,28,1,1,0,0,0.03571428571428571
+009571,xiao nv hai ting guai de mei you ku nao,jiang niu hai ting guai de mei you ku ne,10,10,3,3,0,0,0.3
+009572,you shen me xin shi ma ke yi he wo fen xiang yi xia ya,you shen men xin shi ma ke yi he wo fen xia yi xia ya,15,15,2,2,0,0,0.13333333333333333
+009573,ju min shuo zhe xie liu lang e er si hu tu ran xiao shi le bu zhi qian wang he chu,ju min shuo zhe xian liu la e er si hu tu ran xiao shi le bu zhi qian wa he chu,22,22,3,3,0,0,0.13636363636363635
+009574,beng yi xia he tao wan hao de zai di shang da gun su she men que diao le xia lai,beng yi xia he tang hao wan hao de zai di shang da guo zu sheng men que diao le xia lai,21,22,5,4,0,1,0.23809523809523808
+009575,mian dui yi xi lie de da ji tian zheng yang mei you qi nei fan e er geng jia jian qiang,mian dui yi qi lie de da ji tian zheng yang mei qi nei fan e er geng jia jian qia,22,21,3,2,1,0,0.13636363636363635
+009576,zhe ge kan si ping dan de xiao xi shi ze yi yi zhong da,zhe ge kan si ping da de xiao xi shi zi yi yi zhong da,15,15,2,2,0,0,0.13333333333333333
+009577,suo li de ren zi bei wu gong bu ji fo shan fei hong bang da bu liao guan ji tian jiu fang le chu qu,suo li de ren zi bei wu gong bu ji fu shan fei hong bang da bu liang guan ji tian jiu fang le chu qu xu,26,27,3,2,0,1,0.11538461538461539
+009578,zhi dao zuo tian zhong guo dui yi jing yi jiu kuai jin pai ru zhang zan ju ao yun hui jin pai bang de bang shou,zhi rang zuo tian zhong guo dui yi jing yi jiu kuai jin pai ru zhang zan ju ao yun hui jin pai bang de bang shou,27,27,1,1,0,0,0.037037037037037035
+009579,qian ji nian huo che ti su dan na li de hai zi que bu neng ti su,qian jin nian huo che ti su dan na li dan hai zi que bu neng ti su,18,18,2,2,0,0,0.1111111111111111
+009580,e er ci ci can jia ren shu zhong duo ye rang mai xiang ding dian de nan du zeng jia,e er ci ci can jia ren shu zhong duo ye wang mai xiang ning dian de nan duo zeng jia,21,21,3,3,0,0,0.14285714285714285
+009581,pan mou zhuan shen he he mou dui da bing shi tu qiang guo he mou de cheng tuo,pan mou zhuan shen he he mou dui da bing shi tu qiang guo he mou de cheng po,19,19,1,1,0,0,0.05263157894736842
+009582,wei shen me yi xiang gei ren qin jian yin xiang de de guo ren bian de bu hui guo ri zi le,wei xiang me yi xiang gei ren xin jian yin xiang de de guo ren bian de bu hui guo ri zi le,23,23,2,2,0,0,0.08695652173913043
+009583,ta zhe ge jiu shi lao bai xing shuo de bie yu mi jiu shi qu le pi li tou mei you liang shi le,ta zhe ge jiu zhi lao bai xing shuo de bie yu mi jiu shi qu le pi li tou mei you liang shi le,25,25,1,1,0,0,0.04
+009584,mian dui jiao hua de xian yi ren min jing bai chu zhong zhong zheng ju yi yi fan bo,mian dui jiao hua de xian yi ran min jing bai chu zhong zhong zheng ju yi yi fan guo,20,20,2,2,0,0,0.1
+009585,tu wei shou gang zhi gong zuo ri zai liao chang jin zhang de qiang xie dong mei,tu wei shou gang zhi gong zuo ri zai liang chang jin zhang de qiang xie dong mei,18,18,1,1,0,0,0.05555555555555555
+009586,e er shi liu nian qian wang xin chen dang bing lai dao le nan hai jian dui mou shui jing qu,e er shi liu nian qian wang jin chen dang bing lai dao le nan hai jian dui mou shui jing qu yu,22,23,2,1,0,1,0.09090909090909091
+009587,yi xie dao sai han ba de you ke quan fu wu zhuang xiang shou tian han di dong de ling lei kuai le,yi xie dang san han hang ba de you he quan bu wu zhuang xiang shou tian han di dong de li lei kuai le,24,25,6,5,0,1,0.25
+009588,xin gui shi shi di e er tian wo sheng yi xie di fang de mei kuang zhi xing qing kuang dao di ru he,xin gui shi shi di e er tian wo shen yi xian di fang de mei kong zhi xian qing kuang dao li ru he,25,25,5,5,0,0,0.2
+009589,zuo wei cong ye ren yuan wo yi jing sang shi le kan dian shi ju de le qu,zuo wei cong ye ren yuan wo yi jing sang shi le kan dian shi ju de le qu,19,19,0,0,0,0,0.0
+009590,zhe ci bu ke ye yi yang mei ren yao ting ta de ke,zhe ci bu ke ye yi yang mei ren yang ting ta de ke,14,14,1,1,0,0,0.07142857142857142
+009591,dan gao neng quan de kou shi yuan jin chu le ming de,dan gang neng quan de kou shi yuan jin chu le ming dan,13,13,2,2,0,0,0.15384615384615385
+009592,liang ge dou shi da mei nv hao nan xuan ze ya,liang ge dao shi da mei nv hao nan xuan zi ya,12,12,2,2,0,0,0.16666666666666666
+009593,zai xue xi zen yang rang zi ji bian de geng cong ming,zai xue xi zei yang rang zi ji bian de geng cong min,13,13,2,2,0,0,0.15384615384615385
+009594,ke shi xian ji zheng fu jing zheng cai pan shi shui,ke shi jian ji zheng fu jin zheng can pan shi shui,12,12,3,3,0,0,0.25
+009595,wo you yi ke re ai sheng huo de xin zhe bi shen me dou zhong yao,wo yi ke ri ai sheng huo de xin zhe bi shen me dou zhong yao,17,16,2,1,1,0,0.11764705882352941
+009596,bing dao geng shi zhou ye nan bian fang fu jin ru he dong tian,bing dang gen shi zhou yan nan bian fang fu jin ru he dong tian,15,15,3,3,0,0,0.2
+009597,da dao li mian bu yun xu xiao de pu wei,da dao li mian nian bu yun xu xiang de pu wei,11,12,2,1,0,1,0.18181818181818182
+009598,xue xiao de zou du sheng zai fang xue hou shi bu yun xu zai xue xiao dou liu de,xue xiao de zou duo sheng zai fang jue hou shi bu yun xu zai xiu jiang dao liu de,20,20,5,5,0,0,0.25
+009599,zhang guo li yu luo zhi xiang zhang shao han,zhang guo li yi yu luo zhi xiang zhang shou han,10,11,2,1,0,1,0.2
+009600,lao gong ren wen hua gong ji yi nan pian qu de di ai jian zhu jiang quan bu chai chu,lao gong ren wen hua gong ji yi nan pian qu de di ai jian zhu jiang quan bu chai chu,21,21,0,0,0,0,0.0
+009601,zai zui leng de ji tian zhan shi lu su hu wai teng chu zhang peng an zhi qun zhong,zai zui leng de ji zhan shi lu su hu wai teng chu zhang peng ai an zhi qun zhong,20,20,2,0,1,1,0.1
+009602,yin li jun shuo qi jing hai de fu mu dou shi nong min di xiong wu ge pai hang lao da,ye li jun shuo qi jian hai de fu mu dou shi nong ming di xiong wu ge pai hang lao da,22,22,3,3,0,0,0.13636363636363635
+009603,huo hen da kan bu qing yan ye hen da,huo hen da kan bu qing ye ye hen da,10,10,1,1,0,0,0.1
+009604,san sui na nian he hen duo xiao peng you yi yang xiao qi xi huan shang le yao shou zhi,san sui na nian he hen duo xiao peng you yi yang xiao qi xi huan shang le yao shou zhi,21,21,0,0,0,0,0.0
+009605,gao hao da xue sheng qin shi guan xi zi ran ye yi yi zhong da,gang hao da xue sheng xin shi guan zi ran yan yi yi zhong da,16,15,4,3,1,0,0.25
+009606,ban nian zou yi zhuan shi chuan jiu da lan,ban nian zou yi zhuan shi chuan jiu da la,10,10,1,1,0,0,0.1
+009607,fou ze shi qu yong dun de ping guo jiang hui si de hen can,fou ze shi qu yong dun de ping guo jiang hui si de hen ca,15,15,1,1,0,0,0.06666666666666667
+009608,min jing you sheng yi ji qie duan zhe ming lao shi jia de dian yuan,min jing you sheng yi ji qie duan zhe ming lao shi jia de lie yuan,16,16,1,1,0,0,0.0625
+009609,ci ci sui ran zi jin bu duo dan dui yu zai jian xiang mu reng ran hen jie ke,ci ci sui ran zi jin bu duo dan dui yu zai jian xiang mu reng ran hen jie ke,20,20,0,0,0,0,0.0
+009610,ta ye yong zi ji de ai xin dian zhui le zi ji de sheng ming,ta ye yong zi ji de ai xin dian zhui le zi ji de sheng ming,16,16,0,0,0,0,0.0
+009611,huo che de wei bu yi jing ao xian bian xing,huo zhe de wei bu yi jing ao xian bie xing,11,11,2,2,0,0,0.18181818181818182
+009612,chu fa kan qing mian da dian you shen gong,chu fa pei kan qi mian da dian you shen gong,10,11,2,1,0,1,0.2
+009613,bu guo tu jiao zuo fang bing wei cong ci zai shan dong jue ji,bu guo tu jiang zuo fang bing wei cong ci zai shan dong jue ji,15,15,1,1,0,0,0.06666666666666667
+009614,di san dian shi yun ying chu qi zhe li tou xue wen jiu bi jiao da hen you xuan ji,di san dian shi yun chu qi zhe li tou xue wen jiu bi jiao da hen you xue ji,21,20,2,1,1,0,0.09523809523809523
+009615,wo de shu xue lao shi hai mei jiao guo wo,wo de shu xuan lao shi hai mei jiao guo wo,11,11,1,1,0,0,0.09090909090909091
+009616,jia gei zhe me ge ren wo zhe bei zi ye suan mei zhi wang le,jia gei zhe me ge ren wo zhe bei zi ye suan mei zhi wang le,16,16,0,0,0,0,0.0
+009617,qi zhong bao kuo lao pai ru pin qi ye hang zhou mei li jian ru ye you xian gong si,qi zhong bao kuo lao pai ru pin qi ye hang zhou mei li jie ru ye you xian gong si,21,21,1,1,0,0,0.047619047619047616
+009618,jiao xian sheng shuo qian tian ta he qi zi chen nv shi xiang yue pa shan shang jing,jiao xian sheng shuo qian tian ta he qi zi chen nv shi xiang yue pa shen shang jing,19,19,1,1,0,0,0.05263157894736842
+009619,xiao ning mei you duo xiang jiu shang le che,xiang ning mei you duo xiang jiu shang le che,10,10,1,1,0,0,0.1
+009620,zi you shi ji shi qi da ren men yi shuo qi ta dou duo duo shan shan hui mo ru shen,zi you shi ji shi ji da ren mei yi shuo qi ta dou duo duo shan shan hui mo ru shen,22,22,2,2,0,0,0.09090909090909091
+009621,yi xia shi ji zhe yu he chao yun de fang wen,yi xia shi ji zhe yu he chao yun de fang wei,12,12,1,1,0,0,0.08333333333333333
+009622,wo hai mei kai fa chu zhe ge gong neng ye,wo hai mei kai fa chu zhe ge gong neng ye,11,11,0,0,0,0,0.0
+009623,ji shi ta fan le cuo fu mu qin ye bu hui jiao xun ta,ji shi ta fan le cuo fu mu qin ye bu hui jiao xun ta,15,15,0,0,0,0,0.0
+009624,jian kong pai she dao gai nan zi zou lu shi you xie bo jiao chang fa pian shou,jian kong pan she dao gai nan zi zou shi you xie bo jiang chang fa shou,19,17,4,2,2,0,0.21052631578947367
+009625,hu ji yi jiu kun bang le hu ji ren kou de te xu quan,hu ji yi jiu kun bang le hu ji ren tou de te xu quan,15,15,1,1,0,0,0.06666666666666667
+009626,mei you ren fa lao sao e er shi mao zu jin zhuo shou zheng gai,mei you ren fa lao sao e er shi mao zu jin zhuo shou zheng gai,16,16,0,0,0,0,0.0
+009627,zhe shi yi ge sheng yi ang ran de chun ri sheng ming de qi ji bu duan bei chuang zao,zhe shi yi ge sheng yi ang ran de chun ri sheng mi dei qi ji bu duan bei chuan zao,21,21,3,3,0,0,0.14285714285714285
+009628,chong sheng si san ta wo qiang li tui jian,chong sheng si san ta wo qiang li tui jian,10,10,0,0,0,0,0.0
+009629,wo de ji yi zhi you qi miao pian ni da,wo de ji yi zhi you qi miao ni da,11,10,1,0,1,0,0.09090909090909091
+009630,min jing jie kai sheng zi jiu le nan hai,ming jing jie kai sheng zi jiu le na hai,10,10,2,2,0,0,0.2
+009631,bu liao zhe yi ju hua re nao le li ao,bu liang zhe yi jiu hua re nao le li,11,10,3,2,1,0,0.2727272727272727
+009632,huang chang yong gei chu le zi ji de da an,huang chang you gei chu le zi ji de da an,11,11,1,1,0,0,0.09090909090909091
+009633,ta zai pa xia zhi hou jiu mei xing le,ta zai pa xia zhi hou jiu mei xing le,10,10,0,0,0,0,0.0
+009634,qi shi you you shui hui wu yuan wu gu de zhao ta de ma fan ne,ji shi you you shui hui wu yue wu gu de zhang ta de ma fan ne,17,17,3,3,0,0,0.17647058823529413
+009635,zhong wu shi fen jun dou shan hua xue chang,zhong wu shi zhi fen jun de shan hua xue chang,10,11,2,1,0,1,0.2
+009636,sui hou you yu yi qian lai zu lan de cun min niu da qi lai,sui hou you yu yi qian lai zu lan de cun min niu da qi lai,16,16,0,0,0,0,0.0
+009637,yang guang zhi xia kuai pao zhe wei bi xian da li zhan zhe wei bi neng sheng,yang guang zhi xia kuai pao zhe wei bi xian da li zhan zhe wei bi neng sheng,18,18,0,0,0,0,0.0
+009638,ru guo shi zhuan jia dou dei wang ping gu bao gao shang qian zi,ru guo shi zhuan jia dou dei wang ping gu bao ge shang qian zi,15,15,1,1,0,0,0.06666666666666667
+009639,ta hua qi qian lai da shou da jiao nei xin yi chang leng ku,ta hua ji qian lai da da jiao nei xin yi chang leng ku,15,14,2,1,1,0,0.13333333333333333
+009640,ta tou lu ju bao ren wei xiang ta suo qu ren he bao chou,ta tou lu ju bang ren wei xiang ta suo qu ren he bang chou,15,15,2,2,0,0,0.13333333333333333
+009641,dan you yu min ren wei jin qi shui hu lu de ying xiang yi bu da,dan you yu min ren wei jin xi shui hu lu ben ying xiang yi du da,17,17,3,3,0,0,0.17647058823529413
+009642,jin zao fa xian zi ji bei la hei le,jing zao fa xian zi ji bei la hei yin lao,10,11,3,2,0,1,0.3
+009643,qi huo dian wei yu he bian,xi huo dian wen wei yu he bie,7,8,3,2,0,1,0.42857142857142855
+009644,nu e er bi ye de mu qin shi yi wei jiao shi,nuo e er bi ye de mu qin shi yi wei jiao shi,13,13,1,1,0,0,0.07692307692307693
+009645,kuai ren kuai yu shi li yong bo de ge xing,kuai ren kuai yu shi li you yong bo de ge xie,11,12,2,1,0,1,0.18181818181818182
+009646,jie guo yue shi zhe yang de zui ren yue duo,jie guo yuan shi zhe yang de zui ren yue duo,11,11,1,1,0,0,0.09090909090909091
+009647,zhe shi wo ying gai zuo de bu yong ke qi,zhe shi wo ying gai zuo de bu yong ke ji,11,11,1,1,0,0,0.09090909090909091
+009648,ke tang shang ting bu dong xia ke jiu xiang ge ge jie jie wen,ke tang shang ting bu dong xia ke jiu xiang ge ge jie jie wen,15,15,0,0,0,0,0.0
+009649,wo ba hai qu lao lao jia nao,wo ba hai jiu le le jia nao,8,8,3,3,0,0,0.375
+009650,wo men jiu ke yi rong ren ru ci can bu ren du de ju mian,wo men jiu ke yi zhong ren ru ci can bu ren du de ju mian,16,16,1,1,0,0,0.0625
+009651,fu gui zhou juan kuan shai diao liang ceng pi,fu gui jiu jun kuai shai diao liang teng pi,10,10,4,4,0,0,0.4
+009652,ling wai yao ling ba guo dao yang xian duan ye chu xian le lei si de qing kuang,ling wai yao ling ba guo dao yang xian duan ye chu xian le lei si de qing kuang,19,19,0,0,0,0,0.0
+009653,liu xian sheng gan ga de xiao le xiao jiang yan shou le hui qu,liu xian sheng gan ga de xiao le xiang jiang yan sheng leng hui ju,15,15,4,4,0,0,0.26666666666666666
+009654,yi jun you kai pi le li ba nen zhan chang,yi ju you kai pi le li yi ba nen wen zhan chang,11,13,3,1,0,2,0.2727272727272727
+009655,ju e kui kong hou jiang gong kai qian tao,ju e kui kong kuang jiang gong kai qian tang,10,10,2,2,0,0,0.2
+009656,liu ge nan hai wan dao xing qi shuo qi le huang se xiao hua,liu e nan hai wan dao jing qi shuo qi huang se xiao hua,15,14,3,2,1,0,0.2
+009657,xian zai hai gan jue tou yun shou bi teng,xian zai hai gan jue tou yun shou bi teng,10,10,0,0,0,0,0.0
+009658,ta men ben xiao li wei zui nan jing shou shi chang de zhen dang,ta men ben xiang li wei zui nan jing shou shi chang de zhen dang,15,15,1,1,0,0,0.06666666666666667
+009659,zai li shan lu yi jia chao shi yi wei xiao fei zhe zheng zi xi duan xiang cheng fen biao,zai li shan lu yi jia chao shi zhi ni yi wei xiao fei zhe zheng zi xi duan xiang cheng fen biao,21,23,2,0,0,2,0.09523809523809523
+009660,wo neng hen xin da duan ni bu,wo neng hen xin da duan ni bo,8,8,1,1,0,0,0.125
+009661,ni dian ni dian ni dian e er hun zi,ni di ni die ni dian e er hun zi,10,10,2,2,0,0,0.2
+009662,bei shao cheng kong jia de dian pu zhao pai yi kan bu jian le,bei shao cheng kong jiang de die dian pu zhao pai yi kan bu jian le,15,16,2,1,0,1,0.13333333333333333
+009663,lao fu qin mei nian dou yao di sheng xia qi de qu cui kuan ke zong shi peng bi,lao fu jin mei nian dou yao di sheng xia qi de qu cui kuan ke zong shi peng bi,20,20,1,1,0,0,0.05
+009664,bai pang gao bai e er liang de lian dai ti le deng de gong neng,bai pang gao bai e er liang de lie dai ti le deng de gong neng,16,16,1,1,0,0,0.0625
+009665,ni men dao zhe er bu shi shui jiao lai de,ni me dao zhao e er bu shi she jiao lai de,11,12,4,3,0,1,0.36363636363636365
+009666,beng fang xia bu zhu ti jie gou yi wan cheng,beng fang xia bu zhu li jie gou yi wan cheng,11,11,1,1,0,0,0.09090909090909091
+009667,zhe zuo tu qiu yi jing bei zha chu yi ge shen shen de huo kou,zhe zuo tu qiu yi jing bei zha chu yi ge shen shen de hu huo kou,16,17,1,0,0,1,0.0625
+009668,wu yi tang jun de shuai shou zou ren dui lian you wang luo lai shuo shi xue shang jia shuang,wu yi tang jun de shuai shou zou ren dui lian you wang luo lai shuo shi xue shang jia shuang,21,21,0,0,0,0,0.0
+009669,wang min men shi fou pu bian shou dao guo liu mang ruan jian de sao rao ne,wang min men shi gou pu bian shou zao guo liu mang ruan jian de sao rao ne,18,18,2,2,0,0,0.1111111111111111
+009670,shao wei hui yi dian dan wo hui de bu duo,shang wei hui yi dian dan wo hui de bu duo,11,11,1,1,0,0,0.09090909090909091
+009671,shen me yue qi ya,sheng me yue qi ya,5,5,1,1,0,0,0.2
+009672,bing qie pao shou pu bian zai e er san tao,bing qie pao shou pu bian zai e er san tao,11,11,0,0,0,0,0.0
+009673,wo na dao jiu kan le zhao zuo hai yi dao,wo nai dao jiu kan le zhao zuo hai yi dao,11,11,1,1,0,0,0.09090909090909091
+009674,bu guan xia fang yu bei dui de shi shen me ren dou ke yi hui dao dui wu zhong lai,bu guan xia fang yu bei dui de shi shen me ren dou ke hui zao dui wu zhong lai,21,20,2,1,1,0,0.09523809523809523
+009675,zhe qi zhong yi ou meng de guan qia zui wei guan jian he jian nan,zhe ji zhong yi ou meng de guan qia zui wei guan jian he jian nan,16,16,1,1,0,0,0.0625
+009676,pi ru shuo mei gui zong shi zhang bu hao,ru shuo mei gui zong shi zhang bu hao,10,9,1,0,1,0,0.1
+009677,gei nv you ge jing xi dai nv you qu fu jin de di fang wan,gei nv you ge jing xi dan nv you qu fu jin de di fang wang wan,16,17,2,1,0,1,0.125
+009678,zhe shi liang liang mian bao che dou tie zhe huan wei jian cha zi yang che ding an zhuang zhe la ba,zhe shi liang liang mian bao che dou tie zhe huang wei jian cha zi yang che ding an zhuang zhe la ba,23,23,1,1,0,0,0.043478260869565216
+009679,an ma xian zai wo dou bu lian le lian bu chu lai he he,an ma xian zai wo dou bu lian le lian bu chu lai he he,15,15,0,0,0,0,0.0
+009680,zai ni tou zi zhi qian xi wang ni neng wan wan wo men de you xi,zai ni tou zi zhi qian xu wang ni neng wan wan wo men ben you xi,17,17,2,2,0,0,0.11764705882352941
+009681,zhe me duo xiao hua yi tian jiang bu wan ya,jiu me duan xiao hua yi tian jiang bu wan ya,11,11,2,2,0,0,0.18181818181818182
+009682,wo shi lian le wo lan shou a wo xiang gu,wo shi lian le wo lan shou a wo xiang gu,11,11,0,0,0,0,0.0
+009683,shen me dou bu yong ni gan jiu zhei yang gei wo gui dao tian liang,shen men dao bu yong ni gan jiu zhen yang dian wo gui dao tian lie,16,16,5,5,0,0,0.3125
+009684,ta xiang kang zhe que yi li bu cong xin,ta xiang kang zhe que yi ye li bu cong xin,10,11,1,0,0,1,0.1
+009685,dang shi xin li zhi xiang shao re ma fan,dang shi xin li zhi xiang shao re ma fan,10,10,0,0,0,0,0.0
+009686,di e er nian sheng le ge da pang xiao zi,di e er nian sheng le ge da pang xiao zi,11,11,0,0,0,0,0.0
+009687,ta men neng zai jiang shui he hai shui zhong sheng cun bing qie cheng shu hou hui you dao chan luan di chan luan,ta men neng zai jiang shui he hai shui zhong sheng cun bing qie cheng shu hou hui you dao chan luan di chang luan,25,25,1,1,0,0,0.04
+009688,hai deng dui zou jia hua de lai fang biao shi huan ying,hai dou dui zi jia hua de lai fang biao shi huan ying,13,13,2,2,0,0,0.15384615384615385
+009689,zhe ye shi zuo wei wang luo xie shou zui tong ku de shi,zhe ye shi zuo wei wang luo xie shou zui tong ku de shi,14,14,0,0,0,0,0.0
+009690,mu qian quan guo nai ye zheng ti di mi zhu yao shi xiao fei zhe dui ru pin zhi liang xin xin bu zu,mu qian quan guo nai ye zheng ti di min zhu yao shi xiao fei zhe dui ru pin zhi liang xin ji bo zu,25,25,3,3,0,0,0.12
+009691,dan xin zhang mou bao jing liang ren yong zhen jin wu zhu le zhang mou de zui zhi zhi ta bu zai dong tan,dan xin zhang mou bao ji liang ren you zhen jin wu zhu le zhang mou de zui zhi zhi tan ta bu zai dong ta,25,26,4,3,0,1,0.16
+009692,ri ben de yin shi si xiang yin shi wen hua shi wu peng ren suo shou dao de zui da ying xiang shi zhong guo,ri ben de yin shi zi xiang yin shi wen hua shi wu peng ren suo shou dang de zui da ying xiang shi zhong guo,26,26,2,2,0,0,0.07692307692307693
+009693,zhe xie wai biao guang xian de ren zuo chu le wo chuo ang zang de chou shi ji zhu ta men de ming zi,zhe xie wai biao guang xian de ren zuo chu lou wo chuo ang zang de chou shi ji zhuo ta de ming zi,25,24,3,2,1,0,0.12
+009694,ta ceng xiang guo fang qi jin guan ru jin ta yi shi yan hai mou shi de qing shao nian san da guan jun,ta zeng jiang guang fang qi ji guan ru jin ta yi shi yan mou shi de qing zhang nian san da guan jun,25,24,6,5,1,0,0.24
+009695,qi ci de bang bang shi wei ren huo luo guan xi duo ye wu dou shi shu ren jie shao de,xi ci de bang bang shi wei ren huo luo guan xi duo yi ye wu dou shi shu ren jie shang de,22,23,3,2,0,1,0.13636363636363635
+009696,ji zhe fa xian ming nian fang jia an pai zai zong ti shang bu hui chu xian zui zhe teng chang jia,ji zhe fa xian ming nian fang jia pai zai zong ti shang bu hui chu xian zui zhe teng chang jia,23,22,1,0,1,0,0.043478260869565216
+009697,chuang wai wan feng chui fu shu ye you le huo li hua la la de xiang xiang zai su shuo zhe shen me,chuang wai wan feng chui fu shu ye you le huo li hua la de xiang xiang zai su shuo zhe shen me,24,23,1,0,1,0,0.041666666666666664
+009698,min jing yi lu cong yong xing xian dao chen zhou shi qu di duan ji shi gong li pai cha suo you yi yuan,mi jin yi lu cong yong xing xian dao chen zhou shi qu di duan ji shi gong li pai cha suo zuo you yi yuan,25,26,3,2,0,1,0.12
+009699,tang hong jian xi huan yong dao lu qu zhe lai miao shu zhong guo he dian gong ye de fa zhan li cheng,tang hong jian xi guan yong dao lu qu zhe lai miao shu zhong guo he dian gong ye de fa zhan li yi cheng,24,25,2,1,0,1,0.08333333333333333
+009700,xiong wei de ren min da hui tang qi fen long zhong re lie wan ren da li tang li deng guang cui can,xiong wei dei ren min da hui tang xi fen long zhong re lie wai ren da li tang li dou guang cui can,24,24,4,4,0,0,0.16666666666666666
+009701,zai ci jiao yi shi jie shao ren jian mou he ta de peng you yang mou da qi le qi ta suan pan,zai zi jiao yi shi jie shao ren jian mou he ta de peng yao yang mou da qi le qi ta suan pan,24,24,2,2,0,0,0.08333333333333333
+009702,ji fen yi fen wei dan wei mei ci jin ru zhang hu shi an si she wu ru gui ze qu zheng ji suan,ji fen yi fen wei dan wei mei zi ji ru zhang hu shi an si shou wu zhu wei ze qu zheng ji suan,25,25,5,5,0,0,0.2
+009703,zhe shi lou fang huang de geng jia li hai bo li chuang hua hua de za luo xia lai,zhe shi lou fang hua de geng jia li hai bo li chuang hua hua de za luo xia lai,20,20,1,1,0,0,0.05
+009704,pan shi yi chu le yi ge jia qian wo men zong he kao lv ke yi jiu mai lou,pai shi yi chu wei le yi ge jia qian wo men zong he kao lv ke yi jiu mai lao,20,21,3,2,0,1,0.15
+009705,di ba li que zhen bing li wei yi qi sui nv tong jia na da ji hua ren,di ba li que zhen bing li wei yi yi qi sui nv tong jia na da ji hua ren,19,20,1,0,0,1,0.05263157894736842
+009706,qiao de ling yi duan wei fang zhi ren shang qiao te yi qi qi le yi du ai qiang,qiao de ling ni yi duan wei fang zhi shang xiao te yi qi qi le yi duo ai qiang,20,20,4,2,1,1,0.2
+009707,ran hou you ren guo lai na zhe ge men er de hua tong yao ba ta qing chu qu,yao hou you guo lai na zhe ge men er de hua tong yao ba tan qing chu qu,20,19,3,2,1,0,0.15
+009708,wo ling dao le ta wu shi qi nian ye bu ke bi mian de fan le yi xie cuo,wo ling dang de ta wu shi jin nian ye bu ke bi mian mei de fan le yi xie cuo,20,21,4,3,0,1,0.2
+009709,tiao li dui wu ran yuan pu cha de zu zhi shi shi zuo le na xie gui ding,tiao li dui wu ran yuan pu cha de zu zhi shi shi zuo le shu xie gui ding,19,19,1,1,0,0,0.05263157894736842
+009710,lao bei mei ci liang xiang qian dou yao xi xin de tu zhi mo fen yi fan ne,lao bei mei ci liang xiang qian dou yao xi xin de tu zhi mo fei yi ba ne,19,19,2,2,0,0,0.10526315789473684
+009711,qu nian he lan wu qi de zui da mai jia shi dan mai mei guo he an man,qu nian he lan wu qi de zui da mai jia shi dan na mei gu he ge an man,19,20,3,2,0,1,0.15789473684210525
+009712,za jiao shui dao ying yong ze shi ti gao shui dao chan liang de zui jia xuan ze,za jiao shui dao ying yong ze shi ti gao shui dao cha liao de zui jia xuan ze,19,19,2,2,0,0,0.10526315789473684
+009713,ling shi shi jiu fen xu hai xun san yao e er wu qi hao di da shi fa shui yu,ling shi shi jiu fen xu hai xun san yao e er wu qi hao di ran shi fa shui yu,21,21,1,1,0,0,0.047619047619047616
+009714,pao che che shen ye zheng ge ao xian xia qu che tou he che shen bu wei wan hao,pao che che shen ye zheng ge ao xian jia qu che tou he che zhe bu wei wan hao,20,20,2,2,0,0,0.1
+009715,jin tian ben bao jiang wei nin feng xian zui xiang xi de zhong zhuan jie xu fang an,jin tian ben bang jiang wei ni feng xian zui xiang xi de zhong zhuan jie xu fang an,19,19,2,2,0,0,0.10526315789473684
+009716,yu shu dang di seng lv zheng zai ji ji jiu yuan bei kun fei xu de min zhong,yin shu dang di song lv yu zheng zai ji ji jiu yuan bei kun fei xu de min zhong,19,20,3,2,0,1,0.15789473684210525
+009717,peng zhong xin dai de ji ge ren you yu gua bu di zhong ze si chu tao ming,peng zhong xin dan de ji ge ren you yu guan bu di zhong zi si chu tang ming,19,19,4,4,0,0,0.21052631578947367
+009718,jin tian de jiu quan wei xing fa she zhong xin qiu gao qi shuang yang guang can lan,jin tian de jiu quan wei xing fa she zhong xin qiu guang qi shuang liang guang can lan,19,19,2,2,0,0,0.10526315789473684
+009719,wang qi gu shen yi ren wu e er wu nv kao zheng fu bu zhu he shi huang du ri,wang xi gu shen yi ren wu e er wu nv kao zheng fu bu zhu he shi huang du ri,21,21,1,1,0,0,0.047619047619047616
+009720,ji zhe men yi ban dou shi zai da wen huan jie cai tu ran jing shen dou sou,ji zhe men yi ban dou shi zai da wen huan jie cai tuo ran jing shen dou sou,19,19,1,1,0,0,0.05263157894736842
+009721,duo mi ni jia ren hen xiang liao jie zhong guo cai he dian xin zen me zuo,duo mi ni jia ren hen xia liao jie zhong guo cai he dian xin zou me zuo ao,18,19,3,2,0,1,0.16666666666666666
+009722,tu di you mei you fu ken hao he bu he ge quan kao yan shou lai ba guan,tu di you mei you fu ken hao he bu he ge quan kao yan shou lai ba guan,19,19,0,0,0,0,0.0
+009723,jie shu tai guo you hou zhou jie lun lou zhe ma ma bu chu tao yuan ji chang,jie shuo tai guo you hou zhou jian lun leng zhe ma ma bu chu tao yuan ji chang,19,19,3,3,0,0,0.15789473684210525
+009724,yi ming nv shi ku hao zhe bei xiao yue deng ren chan fu zhe li kai,yi ming nv shi ku hao zhe bei xiao yue deng ren chan fu zhe li kai,17,17,0,0,0,0,0.0
+009725,hao wu yi wen ke nu te shi shi jie shang zui shou huan ying de dong wu,hao wu yi wen ke nu te shi shi jie shang zui shou huan ying de dong wu,18,18,0,0,0,0,0.0
+009726,shou shang cun min yi song dao dang di yi yuan jie shou zhi liao,zhou shang cun min yi song dao dang di yi yuan jie shou zhi liang,15,15,2,2,0,0,0.13333333333333333
+009727,jiu jing hao lai wu he di si ni de mei li he zai,jiu jing hao lai wu he ding si ni de mei li he zai,14,14,1,1,0,0,0.07142857142857142
+009728,hou de zhi ta huan you yan zhong zhi chuang ying xiang zou lu,hou de zhi ta huan you yan zhong zhi chuan chuang ying xiang zou lu,14,15,1,0,0,1,0.07142857142857142
+009729,yi xie zhu wo peng de cun min yin zheng le zhe yi shuo fa,yi xie zhu wo peng le cun min yin zheng le zhe yi shuo fa,15,15,1,1,0,0,0.06666666666666667
+009730,wu shi xiong hou de cai li zhi chi qi chi xu ling xian,wu zhi xiong kuang de cai li zhi chi ji chi xu lin xie,14,14,5,5,0,0,0.35714285714285715
+009731,zhe yang cai neng zhu hao chao cai neng yin lai hao feng huang,zhe yang cai neng zhu hao chang cai neng yin lai hao feng huang,14,14,1,1,0,0,0.07142857142857142
+009732,qiao bu si zai wu shi liu sui shi yin yi xian ai bing shi,qiao bu si zai wu shi liu sui shi yin yi xian ai bing shi,15,15,0,0,0,0,0.0
+009733,chuan shang xi zhuang shi yan yuan tuo xia xi zhuang shi nong min,chuai shang xi zhuang shi yan yuan tu xia xi zhuang shi nong min,14,14,2,2,0,0,0.14285714285714285
+009734,ni nian fang shi ba yi zhi hua nian fang e er ba hui cheng jia nian fang san ba you qian hua zen me yang zhun ma,ni nian fang shi ba yi zhi hua nian fang e er ba hui cheng jia nian fang san ba you qian hua zen mei yang zhun me,28,28,2,2,0,0,0.07142857142857142
+009735,dan ta de luan chao deng sheng zhi qi guan fa yu zheng chang,dan ta de luan chang deng sheng zhi qi guan fa yu zheng chang,14,14,1,1,0,0,0.07142857142857142
+009736,pan bing shi yi wei po you te dian he ge xing de xuan shou,pan bi shi yi wei po you te dian he ge xin de xuan shou,15,15,2,2,0,0,0.13333333333333333
+009737,wo tian tian chao cai zuo fan gei ta wei de bao bao de,wo tian tian chang can zuo fan gei ta wei de bao bao de,14,14,2,2,0,0,0.14285714285714285
+009738,dui you men feng feng guang guang de lun fan chu qu bi sai,dui you men feng feng guang guang de lun fan chu qu bi sai,14,14,0,0,0,0,0.0
+009739,sun da dian hua gei wang lin yao ta jiao xun chen mou liang,sun da ding hua gei wo wang li yao ta jiao xun chen mou liang,14,15,3,2,0,1,0.21428571428571427
+009740,bi ru da zha xie shang shi le jiu fa pang xie quan,bi ru da zha xie shang shi le jiu fang pang xie quan,13,13,1,1,0,0,0.07692307692307693
+009741,bu ran jiu hui zao cheng ji da de wu chuan he cai ce,bu ran jiu hui zao cheng ji da de wu chuan he cai ce,14,14,0,0,0,0,0.0
+009742,zhe me ji qie de hu huan wo shi bu shi xiang wo le,zhe me ji qie de hu hua wo shi bu shi xiang wo le,14,14,1,1,0,0,0.07142857142857142
+009743,na hui er xin qing ye hen yu men xing hao ta men lai le,na hui er xin qing ye hen yu mai xing hao de men lai le,15,15,2,2,0,0,0.13333333333333333
+009744,weng mei ling zi sha de zui zhu yao yuan yin shi gong zuo ya li,weng wei ling zi sha de zui zhu yao yuan yi shi gong zuo ya li,16,16,2,2,0,0,0.125
+009745,bu yao fen nu ye bu yao shi tu gai bian you xi gui ze,bu yao fen nu ye dui yao shi tu gai bian you xi gui zi,15,15,2,2,0,0,0.13333333333333333
+009746,e er qie ta ke yi zheng chang xing zou jiu shi you dian bo,e er xin ta ke yi zheng chang xing zou jiu shi you dian bu wo,15,16,3,2,0,1,0.2
+009747,she de qi ta bu fen shuo ni mei you yan jing bi zi zen me neng zhi yin wo men xiang qian zou,zhe de qi ta bu ben shuo ni mei you yan ji bi zi zen me neng zhi yin wo men xiang qian zou,24,24,3,3,0,0,0.125
+009748,qi shi wo bu shi te bie xi huan zhao xiang lao ji wo zai ni xin li de yang zi jiu hao le,qi shi wo bu shi tui bian xi huan zhao xiang lao ji wo zai ni xin li de yang zi jiu hao le,24,24,2,2,0,0,0.08333333333333333
+009749,ta shuo sui ran ta de gou dui ren hen you hao dan mei ci liu gou dou yong sheng zi shuan zhe,ta shuo zui ran ta de gou dui ren hen you hao de mei zi liu gou dou yong sheng zi shuai zhe,23,23,4,4,0,0,0.17391304347826086
+009750,bi sai zhong ji hu mei yi ming xuan shou dou shi ci ya lie zui tong ku bu kan de biao qing,bi sai zhong ji hu mei yi ming xue shou dou shi ci ya lie zi zui tong ku bu ta de biao qing,23,24,3,2,0,1,0.13043478260869565
+009751,dui yu bi sai zhong de cu ye chang mian bu lun dan ren wei bi sai ji lie ke yi li jie,dui yu bi sai zhong de cu ye chang mian bu lun dan wei bi sai ji li lie ke yi li jie,23,23,2,0,1,1,0.08695652173913043
+009752,miao miao qiang xian dian le gan guo pan shui guo pan ge yi ge pi jiu hong jiu ruo gan,miao miao qiang xian dian le gan guo pai shui guo pan ge yi ge pi jiu hong jiu ruo gan,21,21,1,1,0,0,0.047619047619047616
+009753,guo jin long ping jia lu yong shi ye xin ze ren gan jiao qiang zu zhi xie tiao neng li qiang,guo jin lou ping jia lu rong shi ye xin ze ran gai jiao qiang zu zhi xie tiao neng li qiang,22,22,4,4,0,0,0.18181818181818182
+009754,zhong guo zheng fu hen zhou quan wu ke tiao ti,zhong guo zheng fu hen zhou quan wu ke tiao li ti,11,12,1,0,0,1,0.09090909090909091
+009755,ke yi qu jiu jin de zhu guan shui wu ju shen bao ru guo you jiao yi ping zheng ke yi xie dai,ke yi qu jiu jian de zhu guan shui wu ju shen bao ru guo you jiao yi ping zheng ke yi xie dai da,24,25,2,1,0,1,0.08333333333333333
+009756,tai wan si fa ji gou jin lai chou wen bu duan,ta wan si fa ji gou jin lai chou wen bu duan an,12,13,2,1,0,1,0.16666666666666666
+009757,ju ti kai ting shen li shi jian dan ling xian fa yuan zai tong bao zhong wei ti ji,ju ti kai ting shen li shi jian dan ling xian fa yuan zai tong bao zhong wei ti ji,20,20,0,0,0,0,0.0
+009758,ka mei lun biao shi gan xie bing qing zhuan da dui wen jia bao zong li de wen hou,ta mei lun biao shi gai xie bing qing zhuan da dui wen jia bao zong li de wen hou,20,20,2,2,0,0,0.1
+009759,dan ying cai e er hou lai fa xian na ci fen ming shi ta you wang le mai li wu,dan ying cai e er hou lai fa ba xian na ci fen ming shi ta you wang le mai li wu,21,22,1,0,0,1,0.047619047619047616
+009760,sheng wei sheng ting zhuan jia wei zai qu qun zhong jiang jie yu fang ji bing zhi shi,sheng wei sheng ting zhuan jia wei zai qu qun zhong jiang jin yu fang ji bing zhi shi,19,19,1,1,0,0,0.05263157894736842
+009761,lai zheng zhou shi ji nian liu kui yuan dou mei neng dai lao ban chu qu wan wan,lai zheng zhou shi ji nian liu kui yuan dou mei neng dai lao ban chu ju wan wai,19,19,2,2,0,0,0.10526315789473684
+009762,shang xue de shi hou wo jiu hen lian jia ping shi ye hui xie dian er dong xi,shang xue de she hao wo jiu hen lian jia bin ping shi ye e xie dian er dong xi,19,20,4,3,0,1,0.21052631578947367
+009763,liang mou jie zhe jiu jin er bu ting de zai qi fu mu mian qian shu luo wo,liang mou jie zhe jiu ji e er bu ting de zai qi fu mu mian qian shu luo wo,19,20,2,1,0,1,0.10526315789473684
+009764,yu xiang lian dou de yong qi ye mei you zhi you zai bei di li ma de ben shi,yu xiang lian dao de you qi ye mei you zhi you zai bei li li ma de ben zhi,20,20,4,4,0,0,0.2
+009765,jin li hen hao wan ke yi chi dao ge zhong cheng du te se xiao chi ya,jin li hen ceng hao wan ke yu chi dao ge zhong cheng du te se xiao shi ya,18,19,3,2,0,1,0.16666666666666666
+009766,chuang zao geng duo de shang ye li run,chou zang geng duo de shang ye li yi,9,9,3,3,0,0,0.3333333333333333
+009767,shang le li yi ba ni jiu dong le,shang le li yi ba ni jiu dong le,9,9,0,0,0,0,0.0
+009768,ling wo zhi jin nan wang de hai you zhou zong li na shuang lang de xiao sheng,ling wo zhi jin nan wang de hai you zhou zou li na shuang lang de xiao sheng,18,18,1,1,0,0,0.05555555555555555
+009769,zhe ci zhu ren ba wo nan dao le,zhe ci zhu ren ba wo nan dao le,9,9,0,0,0,0,0.0
+009770,wai biao han hou que gong yu xin ji,wai biao han hou que gou yu xin ji,9,9,1,1,0,0,0.1111111111111111
+009771,ta jiang bei kong fei fa chuang ru yi ji miao shi fa ting liang zong zui,ta jiang bei kong fei fa chuang ru yi ji miao shi fa ting liang zong zui,17,17,0,0,0,0,0.0
+009772,zui hou shi zai ao bu guo ta ting ting he hai zou jin le bin guan,zui hou shi zai bu guo ta ting ting he ha zou jin le bing guai,17,16,4,3,1,0,0.23529411764705882
+009773,chou wen ming xing zou bu liao chang xian,chou wo ming xing zou bu liao chang xian,9,9,1,1,0,0,0.1111111111111111
+009774,zhe fu he guang da fa zhan zhong guo jia de li yi ye you li yu tui jin qi hou bian hua guo ji he zuo,zhe fu he guang da fa ran zhong guo jia de li yi ye you li yu te jin qi bian hua guo ji he zuo,27,26,3,2,1,0,0.1111111111111111
+009775,bu yao lang fei shi jian che dan la,bu yao lang fei shi jian che da la,9,9,1,1,0,0,0.1111111111111111
+009776,chen ji ming ren wei dui fang qiao bu qi ta liang ren fa sheng zhua che,chen jin ming ren wei dui fang qiao bu qi ta liang ren fa sheng zhua che,17,17,1,1,0,0,0.058823529411764705
+009777,ji zhe shu le yi xia biao qian shang de shu zi zui gao wei liu shi yi,ji zhe shu lei yi xia biao xian shang de shu zi zui gao wei liu shi yi,18,18,2,2,0,0,0.1111111111111111
+009778,lang ge zhe zhong yu qi shuo hua ma,lang ge zhe zhong yu qi shuo hua ma,9,9,0,0,0,0,0.0
+009779,si di xia ye bu ceng jian mian guo,si di xia ye bu ceng jian mian guo,9,9,0,0,0,0,0.0
+009780,zhu zai xiang xia de shang bu qi ya,zhu zai xiang xia dei shang bu qi ya,9,9,1,1,0,0,0.1111111111111111
+009781,yi ge you leng jiao de shu sheng mu yang,yin ge you leng jiao de shu sheng mu ya,10,10,2,2,0,0,0.2
+009782,ti dao shang qiu bu ying gai zhi rang ren jian dan de xiang dao hong se,ti dao shang qiu bu ying gai zhi rang ren jian dan de xiang dao hong se,17,17,0,0,0,0,0.0
+009783,di e er zhan shi e er yue de nong xin bei,di e er zhai shi e er yue de nong xin bei,12,12,1,1,0,0,0.08333333333333333
+009784,tu wei chen guang biao shou peng xian jin,tu wei chen guang biao shou pao xian jin,9,9,1,1,0,0,0.1111111111111111
+009785,bi ci bi ci ban jin ba liang,bi ci bie ci ban jin ba lia,8,8,2,2,0,0,0.25
+009786,ni shi fou you xing qu yu ta de ju long feng zheng yi qi fei tian ne,ni shi fou you xing qu yu ta de ju long feng na yi xie fei tian ne,18,18,2,2,0,0,0.1111111111111111
+009787,xiao ming zhang de xiang bing gun zai shui li you yong you zhe you zhe mei le,xiang ming zhang de xiang bing guo zai shui li you yu you zhe you zhe mei lang,18,18,4,4,0,0,0.2222222222222222
+009788,ni ke song dui ci zan bu jue kou yi lian chi le liu zhi hun tun,ni ge song dui ci zan bo jue kao yi lian chi le liu zhi hun tun,17,17,3,3,0,0,0.17647058823529413
+009789,jiang wan gu shi bao zheng ni kai xin,jiang wan gu shi bao zheng ni kan xin,9,9,1,1,0,0,0.1111111111111111
+009790,zhang nv shi ye shun shou na qi fang zai zhen bian de mu gun chao na ming nan zi tou shang lun qu,zhang nv shi ye shui shou na xi fang zai zhen bian de mu gun chang na ming nan zi tou shang lun qu,24,24,3,3,0,0,0.125
+009791,ta zuo de cai te bie hao chi tong shi xi huan lai ceng dun fan chi,ta zuo de can te bie hao chi tong shi xi huan lai ceng duo fan zhi,17,17,3,3,0,0,0.17647058823529413
+009792,suo yi gu ge zhe ci ren shi bian dong shou dao wai jie pu bian guan zhu,suo zuo yi gu ge zhe ci ren shi bian dong shou dao wai jie pu bian guan zhu,18,19,1,0,0,1,0.05555555555555555
+009793,su ya hu hu bian de mai di li bei du si de ye ji he xi que sui chu ke jian,su ya hu hu bie de mai di li bei du si ci de ye ji he xi que sui chu ke jie,22,23,3,2,0,1,0.13636363636363635
+009794,chun yun qi jian guang tie ji tuan ri kai xing dong che zu lie che e er bai wu shi liu dui,chun yun qi guang ti ji tuan ri kai xing dong che zu lie che e er bai wu shi liu dui,23,22,2,1,1,0,0.08695652173913043
+009795,bao ming shi zhao ming yi dian hou men er ye mei zou guai guai zai ren qun zhong pai dui ling hao,bang ming shi zhao ming yi dian hong e er ye mei zao guai guai zai ren qun zhong pai dui ling hao,23,23,4,4,0,0,0.17391304347826086
+009796,dian hua na tou ruo ruo de shuo wo jiu zai ni hou mian wo jiu shi na ge e er bi,dian hua na tou hou ruo ruo de shuo wo jiu zai ni hou mian wo jiu shi na ge e er bi,22,23,1,0,0,1,0.045454545454545456
+009797,ni na na me duo fei hua gei lao niang gui hao,ni nai na me duo fei hua gei lao niang gui wei xu hao,12,14,3,1,0,2,0.25
+009798,gan die die cheng qi yu san man man zou le guo qu,gan die die cheng qi yu san man men tiao le guo qu,13,13,2,2,0,0,0.15384615384615385
+009799,yu xiong shi ge shao yan de ren yi xin yi yi zai chi mian,yu xiong shi ge shao yan de ren yi xin yi yi zai chi mian,15,15,0,0,0,0,0.0
+009800,zhi you li le hun wo cai neng xue zhe geng jian qiang ya,zhi you li le hun wo can neng xue zhe ge jian qiang ya,14,14,2,2,0,0,0.14285714285714285
+009801,peng shang zhe yang de xiang he ying jiu hui fei chang kun nan,peng shang zhe yang de xiang he ying jiu hui fei chang kun na,14,14,1,1,0,0,0.07142857142857142
+009802,wan yi shui zhao shi wu zi jiu bei fang huo shao le ne,wan yi shui zhao shi wu zi jiu bei fang huo shao neng ne,14,14,1,1,0,0,0.07142857142857142
+009803,jing qu zheng fu yu duo fang xie tiao chong xin shang lu,jing qu zheng fu yu duo fang xie tiao chong xin shang lu,13,13,0,0,0,0,0.0
+009804,ta men dan xin ye xiang ban jia hou ke neng chong fan,ta men dan xin ye xiang ban jia hou ke neng chong fa,13,13,1,1,0,0,0.07692307692307693
+009805,nv fang da ni song lao niang de ye zhe me da,nv fang da ni song lang niang de ye zhen me da,12,12,2,2,0,0,0.16666666666666666
+009806,guan zhong zong hui you xin chong bu fu nian jiu ren,guan zhong zong hui you xin chong bu fu nian jiu ren,12,12,0,0,0,0,0.0
+009807,sui hou xian chang zhong ren yi tong qi hong bi hun,sui hou xian chang zhong ren yi tong xi bi hun,12,11,2,1,1,0,0.16666666666666666
+009808,ta shuo zhe zhong pan yan shi zui chun jing de yun dong,ta shuo zhe zhong pan yan shi zui chun jing de yun dong,13,13,0,0,0,0,0.0
+009809,huo cong san jiao xing de ku long kai shi ran shao,guo huo cong zan jiao xing de ku luo kai shi ran shang,12,13,4,3,0,1,0.3333333333333333
+009810,ji zhe zhao dao le qin shi bu zhi zhe xiao ma,ji zhe zhao dao le qin shi bu zhi zhe xiao me,12,12,1,1,0,0,0.08333333333333333
+009811,gang ren shi jiu yao mei zi zao pian zai liao shi kuai qian de ba,gao ye shi jiu yao mei zi zao pian zai yao shi kuai qian de ba,16,16,3,3,0,0,0.1875
+009812,duo mu cui can de deng guang jiao zhi zhe ji qing peng pai de yin yue,duo mu cui can de deng guang jiao zhi zhe ji qing teng pai li yi yue,17,17,3,3,0,0,0.17647058823529413
+009813,lao ba fei shen yi jiao shuo ni ge zai tan zheng shi ni gan ma,lao ba fei zhen yi jiao shuo ni ge zai tan zheng shi ni gan ma,16,16,1,1,0,0,0.0625
+009814,ma de bao de li lun ke shang de ren xin huan san liang ge li bai li tui she de ren shu dao le shi wu ge,ma de bang de li lun ke shang de ren xin hua zai liang ge li bai li tui she de ren shu dao le shi wu ge,28,28,3,3,0,0,0.10714285714285714
+009815,hua yuan kou yu jiang jun ba dao zheng zhou kan huang he bi ran xian dao hua yuan kou,hua yuan kou yu jiang jun ba dao zheng zhou kan huang he yi ran xian dao hua yuan kou,20,20,1,1,0,0,0.05
+009816,zai lin nv shi xin zhong xiao rong cong xiao guai qiao dong shi jiu xiang ta de tie xin xiao mian ao,zai lin nv shi xin zhong xiao rong cong xiao guai qiao dong shi jiu xiang ta de tian xin xiao mian ao,23,23,1,1,0,0,0.043478260869565216
+009817,qin shu men si hao mei you huai yi jiang ping ri ji zan de cun kuan jiao dao le ta de shou shang,jin shu men si hao mei you huai yi jiang ping ri ji zan le cun kuan jiao dao e ta de shou shang,24,24,3,3,0,0,0.125
+009818,yi sheng jian cha fa xian die die zhi chang chuan kong li ji wei ta shi shi le shou shu,yi sheng jian cha fa jian dian dian zhi chang chuan hong li ji wei ta shi shi le shou shu,21,21,4,4,0,0,0.19047619047619047
+009819,ren men shou peng xian hua zai lin shi she zhi de deng hou qu li huan huan qian xing,ran men shou peng qian hua zai lin shi she zhi de deng hou qu li huan huan qian xing,20,20,2,2,0,0,0.1
+009820,yong ren dan wei bu de ju jue zu nao,you ren dan wei bu de ju jue zu ne,10,10,2,2,0,0,0.2
+009821,ping shi wo ye bu ai chu men zai jia kan kan bao zhi xie xie bi ji sha de,ping shi wo ye bo ai chu men zai jia kan ken bao zhi ji jie bi ji sha de,20,20,4,4,0,0,0.2
+009822,ke nian gen er zhe hui er zuo xian de jiu cai jia qian zhang de zui li pu,ke nian gua er zhou hua er zuo xian de jiu ta jia qian zhang de zui li pu,19,19,4,4,0,0,0.21052631578947367
+009823,zhe yi ci bao diao chuan zhi bei si sou ri ben chuan ji zhi sheng ji bao wei dong tan bu de,zhe yi ci bang duan chuan zhi bei zi sou ri ben chuan ji zhi sheng ji bao wei dong tan bu de,23,23,3,3,0,0,0.13043478260869565
+009824,dian pu nei bo li sui bian di,dian pu nei bu li sui bian di,8,8,1,1,0,0,0.125
+009825,bu hao pan duan ju ti shi jian,bu hao pan duan ju ji ti shi jian,8,9,1,0,0,1,0.125
+009826,kao gu zhuan jia gan dao nao tou,kao gu zhuan jia gan dao nao tou,8,8,0,0,0,0,0.0
+009827,geng nv shi gan jin bao le jing,geng nv shi gan jin bao le jing,8,8,0,0,0,0,0.0
+009828,sou hu ze cong qi shi san die zhi wu shi san die fu bai fen zhi e er shi qi,sou hu zi cong qi shi san die shi shi san bie fu bai fen zhua e er shi qi,21,20,5,4,1,0,0.23809523809523808
+009829,shen me shi hou gei wo huan ge cai ping shou ji,shen me shi hou gei wo huan wen ge cai ping shou ji,12,13,1,0,0,1,0.08333333333333333
+009830,wo de pu tong hua hai shi ting biao zhun de ba,wo de fu tong hua hai shi ting biao zhun de ba,12,12,1,1,0,0,0.08333333333333333
+009831,zhi yu dang chu bao kao nan ke da ta ye zhi shi xiang tao bi gao kao sui bian kao zhe wan wan,zhi yu dang chu bao kou nan ke da tan zhi zhi xiang tou bi gao kao sui bian kao zhe wan wan,24,23,5,4,1,0,0.20833333333333334
+009832,yu shi lei jun cong zi ji de ren sheng he li xiang jiang qi,yu shi lei jun cong zi ji de ren sheng he li xiang jiang qi,15,15,0,0,0,0,0.0
+009833,ta jian zhe hao wan zheng chou xi jiao shui mei chu dao shun da shi dao le xia qu,ta jian zhe hao wan zheng chou qi jiao shui mei chu dao shun da shi dang le xia qu,20,20,2,2,0,0,0.1
+009834,yi ge ren ku zuo zai yin an de jiao luo li jiu zhe da tui wen zi ji zen me ban,yi ge ren ku zuo zai yin an de jiao luo li yi jiu zheng da tui wen zi ji zen me ban,22,23,2,1,0,1,0.09090909090909091
+009835,mei ren gao su ta di yi ci jian mian dei qian xu xie bie rang nv hai nan kan,mei ren gao zu ta di ci jian mian dei qian xu xie bie rang nv hai nan kai,20,19,3,2,1,0,0.15
+009836,you le ke xue zhi yin zhi xing sou jiu ren wu de guan bing dun shi dou zhi bei zeng,you le ke xue zhi ye zhi xing sou jiu ren wu de guan bing dui shi dou zhi bei zeng,21,21,2,2,0,0,0.09523809523809523
+009837,ta chuan shang qian shui yi shen shang shuan le gen sheng zi yi hen xin tiao le xia qu,ta zhuan shang qian shui yu yi shen shang shuan le gen sheng zi yi hen xin tiao le xia qu,20,21,2,1,0,1,0.1
+009838,dao le hu tou liang ge xiao hai fa jue bu dui jin xiang ta rang rang yao hui jia,dao le hu tao liang xiao hai fa jue bu duo jin xiang tai rang rang yao hui jia,20,19,4,3,1,0,0.2
+009839,tong shi jiang jia da sa shui che song shui li du gu li ju min shui jing qu shui,tong shi jiang jia da sa zhe che song shui li du gu li ju min shui jing qu shui,20,20,1,1,0,0,0.05
+009840,liang nian qian xiong jie zai nan jing san pai lou fu jin kai le yi jia zu liao dian,liang nian qian xiong jie zai nan jing san pai lou fu ji kai le yi jia zu liang die,20,20,3,3,0,0,0.15
+009841,yi ge ju da de pi zang wan zheng de tuo chu bo li jie za bing cheng gong qie chu,yi ge ju da de pi zang wan zheng de tuo chu bo li jie zai bing cheng gong qian chu,21,21,2,2,0,0,0.09523809523809523
+009842,zhong ri guan xi yue lai yue mi qie xue xi han yu de ri ben ren yi bu ji qi shu,zhong rui guan xi re lai yue mi qie xue xin han yu dui ri ben ren yi bu ji qi shu,22,22,4,4,0,0,0.18181818181818182
+009843,guan yin jian yi bu ru rang liang hou xuan ze zui ai de shui guo zhong sheng jie mi mang,guan yin jian yi bu ru rang liang hou xuan zi zui de shui gun zhong sheng jian mi ma,21,20,5,4,1,0,0.23809523809523808
+009844,dang ran shang wang ye bu guang shi kan qi ye liao liao tian cha cha you jian shen me de,dang ran shang wang ye bu guang shi kan xi ye liang liang tian cha cha you jian shen me de,21,21,3,3,0,0,0.14285714285714285
+009845,nuan nuan gui xia le wo zai ye bu fan cuo wu le ma ma ni gan jin qu yi yuan ba,ne nuan gui xia le wo zai ye bu fan cuo wo le ma ma ni gan jin qu yi yuan ba,22,22,2,2,0,0,0.09090909090909091
+009846,yan qiu ling shuo zi shi yong hei se ji hao bi xie de bu shi yong dao zi ke de,ye qiu ling shuo zi shi yong hei zi ji hao bi xie de bu shi dao zi ke de,21,20,3,2,1,0,0.14285714285714285
+009847,shi xia ni bei jie gu le zai mei guo shen wei liu xing cheng le yi ju shi mao yu,shi xia ni bei xie gu le zai mei guo shan wei liu xie cheng le yi ju shi mao yu,21,21,3,3,0,0,0.14285714285714285
+009848,xing man shi fang hou de gao yi qiang bu si hui gai bing ran shang du bo de e xi,xing lan shi fang hong de gao yi qiang bu si hui gai bing ran shang du bo de e ji,21,21,3,3,0,0,0.14285714285714285
+009849,di e er tian you e er bai ling san jia chang fang he ba bai ling wu jia shang pu bei ding gou,di e er tian you e er bai ling jiang jia chang fang he ba bai ling wu jia shang pu bei ding gou,24,24,1,1,0,0,0.041666666666666664
+009850,ni zhe po fen shu jiu shi xiao shi hou luan qi ba zao shu kan tai duo de yuan yin,ni zhou po fen shu jiu shi xiao shi hou luan xin ba zao shu kan ta duo de yuan yin,21,21,3,3,0,0,0.14285714285714285
+009851,dang guan zhen hao shen me dou wan er shen me dou hui shen me dou zhuan qian he he,dang guan zhen hao shi me zou wa er sheng me dou hui sheng men dun zhuan qian he he,20,20,7,7,0,0,0.35
+009852,zai chen shui bian dan ren tai bei shi yi yuan shi su huan zhi ceng dan ren bian zhu li,zai chen shui bie dai ren tai bei shi yi yuan shi zu huan zhi ji ceng dai ren bian zhu li,21,22,5,4,0,1,0.23809523809523808
+009853,gang kai shi ta hai lian xi gu zheng yin wei tan qin shou zhi dou mo po le ta ye bu han ku,gang shi ta hai lian xi gu zheng yi wei tan xin shou zhi dou mo pu le ta ye bu han ku,24,23,4,3,1,0,0.16666666666666666
+009854,xi xi chuai mo si hu ye po wei fu he zheng zhou huang he gong lu da qiao de qian shi jin sheng,xi xi chuan mo si hu ye po wei fu he zhong zhou huang he gong lu da qiao de qian shi jin sheng,24,24,2,2,0,0,0.08333333333333333
+009855,ta xi huan kai wan xiao bi ru wo ju qiang ju le shi fen zhong ta jiu zou guo lai shuo lei ba,ta xi huan kan wan xiang bi ru wo ju qiang ju le shi fan zhong ta jiu zou guan lai shuo lei ba,24,24,4,4,0,0,0.16666666666666666
+009856,you yu luo shui hou lian qiang le ji kou shui shang an hou de po po jing hun wei ding lian se cang bai,you yu luo shui hou lian qiang le ji kou shui shang an hou de peng po jing huan wei ding lian he cang bai,25,25,3,3,0,0,0.12
+009857,xin hua she ji zhe zu jie yi sou dang di yu chuan kao jin le zai qian hai zhong de zhong guo yu chuan,jing hua zhe jin zhe zu jian yi sou dang bi yu chuan kao jin le zai qiang hai zhong de zhong guo yu chuan,25,25,6,6,0,0,0.24
+009858,xi ri tu niu er bian shi shang la mei rang da zhong kan dao le yi ge bu duan cheng zhang de hai qing,xi ri tu niu er bian shi shang la mei rang da zhong kan dang le yi ge bu duan cheng zhang de hai xing,25,25,2,2,0,0,0.08
+009859,yin wei pan chan ji hu hao jin san ren zhi neng kao lin ju he bao an de jie ji mian qiang du ri,yin wei pai chan ji hu hao jie san ren zhi neng kao lin ju he bao an de jie ji mian qiang du ri,25,25,2,2,0,0,0.08
+009860,hong guang lu shang de qin e pang gong jing qu yi du rang ren men ren wei zhe li jiu shi e pang gong,hong guang lu shang de qin e pang gong jing qu yi duo yang ren men ren lei zhe li jiu shi e le pang gong,25,26,4,3,0,1,0.16
+009861,zhe wei lao bo chi lao ren mian fei zheng shang che cai qu ge zhong ban fa xing sao rao nv cheng ke,jiu wei lao bo zhi lao ren nian fei zheng shang che cai qu ge zhong ban fa xing zao rao nv cheng ke,24,24,4,4,0,0,0.16666666666666666
+009862,ping xing de you shan yao bai luo bo gan shu ma ling shu nan gua xi hong shi mo gu deng,ting xing de you shan yao bai luo bu gan shu ma ling shu nan guan xing hong shi mo gu deng,22,22,4,4,0,0,0.18181818181818182
+009863,zhe feng kuang de yi mu ye xu zhi you deng dao da chao tui qu luo yong zhe cai hui fu chu shui mian,zhe feng kuang de yi mu ye xu zhi deng dang da chao tui xu luo yong zhe cai hui fu chu shui mian,25,24,3,2,1,0,0.12
+009864,yi hou bi cheng tong zhi shuai bu can jia le liang ci lian shui bao wei zhan ce ying le su bei da zhan de sheng li,yi hou bi cheng tong zhi shuai bu cai jia le liang si lian shui bao wei zhan cun yang le zu bei da zhan de sheng li,28,28,5,5,0,0,0.17857142857142858
+009865,wei le neng pao qi lai fang bian ta men zhi bei zhe jian dan de gong ju hu xiang zhao ying zhe neng pao jiu pao,wei le neng pao qi fang bian ta men zhi bei zhen jian dan de gong ju hu xiang zhao ying zhe neng pao jiu pao,27,26,2,1,1,0,0.07407407407407407
+009866,cong qian you ge da hui lang ni cai da hui lang shi shui,kong cong qian you ge da hui lang ni cai da hui lang shi shui,14,15,1,0,0,1,0.07142857142857142
+009867,shou fei nian xian fen bie chi xu zhi e er ling san e er nian ji e er ling si ling nian,shou fen nian xian fen bie chi xu zhi e er ling sang e er nian ji e er ling si ling nian,23,23,2,2,0,0,0.08695652173913043
+009868,ru guo chi qi lai fei chang xi ni ze shuo ming yu mi fen jia de bu duo,ru guo chi xie lai fei chang xi ni ze shuo ming yu mi fen jia de bu duo,19,19,1,1,0,0,0.05263157894736842
+009869,ren men zhi hui pei fu na xie you chuang zao xing gong xian de ren,men zhi hui pei fu na xie you chuang nang xin gong xian de ren,16,15,3,2,1,0,0.1875
+009870,jiao gong liang wo ba zui hao de xiao mai yu mi song dao liang guan suo,jiao gong liang wo ba zui hao de xiao mai yu mi song dao liang guan suo,17,17,0,0,0,0,0.0
+009871,bu hui ya zhu ren ma ren shi bu dui de,bu hui ya zhu ren ma ren shi bu duan de,11,11,1,1,0,0,0.09090909090909091
+009872,cao hong liang shuo hai you ji ge kong zhe mei guan xi rang wo chao chao,tiao cao hong liang shuo hai you ji ge kong shen mei guan xi piao wo chao chang,17,18,4,3,0,1,0.23529411764705882
+009873,zhao gu niang bei zhe ge shuang jian bao zuo xia shi shun shi fang zai yi bian,zhang gu niang bei zhe ge shuang jian bao zuo xia shi shun shi fang zai yi bian,18,18,1,1,0,0,0.05555555555555555
+009874,wo shuo yan bu xia zhe kou qi,wo shuo yan bu xia zhe kou qi,8,8,0,0,0,0,0.0
+009875,ma si qing shu ne,ma si qing shuo ne,5,5,1,1,0,0,0.2
+009876,ying gai shi bi mo zhi yan ba,ying gai shi bi mo zhi ye ba,8,8,1,1,0,0,0.125
+009877,yu mei jue ding pou fu chan,yu mei ju ding peng fu chan,7,7,2,2,0,0,0.2857142857142857
+009878,wo bu chi ni na tao,wo bu chi ni na ta,6,6,1,1,0,0,0.16666666666666666
+009879,zou cha bu duo ji fen zhong,zeng zou chan bu duo ji fen zhong,7,8,2,1,0,1,0.2857142857142857
+009880,dao shui de xue sheng zhi ting dao qian ban ju zun qi ming zai qing qi yu shui bian dao bian jiao qu ni de,dao shui de xue sheng zhi ting dao qian ban ju jing qin ming zai qing qi yu shui bian dao bian jiao qu ni de,26,26,2,2,0,0,0.07692307692307693
+009881,liang ren yi chang e dou sheng fu nan fen zhi hao ba mao tou dui zhun zai du ying yu de xie jing yuan dao ni ne,liang ren yi chang e dou sheng fu nan fen zhi hao ba ma tou dui zhe zai du ying yu de xie jing yuan dao ni na,28,28,3,3,0,0,0.10714285714285714
+009882,zhou bian ju min shi chang hui kan dao you yan qi cong lv chang lin li de da yan cong zhong pai chu,zhou bian ju min shi chang hui kan dao you yan qi cong lv chang lie li de da ye yan cong zhong pai chu,24,25,2,1,0,1,0.08333333333333333
+009883,shi ren shen zhen shi si fa ju fu ju zhang de xu jian shou ming she ji yi tao zheng gai fang an,zhi shen zhen shi si fa ju fu ju zhang de xu yu jian shou ning she ji yi tang hao zheng gan fang an,24,25,7,4,1,2,0.2916666666666667
+009884,qian wei chang dui yin shi cong bu tiao ti ji bu chou yan ye bu he jiu yin cha ye bu jiang jiu,qian wei chang dui yi shi cong bu tiao ti ji bu chou yan ye bu he jiu yi chang ye bu jiang jiu,24,24,3,3,0,0,0.125
+009885,yi hou wo sheng ri jiu bu neng ling li wu le he he ke neng ta shi wei le sheng li wu ba,yi hou wo sheng ri jiu bu neng ling li wu wo le he he ke neng ta shi wei le sheng li wu ba,24,25,1,0,0,1,0.041666666666666664
+009886,qi ge ren mian mian xiang qu ran hou shuo ni zou cuo di fang le wo men shi hu lu wa,qi ge ren mi mian xiang qu rang shuo ni zou cuo di fang le wo men shi hu lu wa,22,21,3,2,1,0,0.13636363636363635
+009887,wu ya de si shi zi ji zao cheng de yuan yin zhi zai yu ta mei you zuo diao cha shi tan huo dong,wu ya de si shi zi ji zao cheng de yuan yin zhi zai yu ta mei you zuo diao cha shi tang huo dong,25,25,1,1,0,0,0.04
+009888,jie zhi mu qian wa jue gong zuo yi jing jie shu mu qian ya lu ji zheng zai hang shi di ji,ji zhu mu qian wa jue gong zuo yi jing jie shu mu qian ya long ji zheng zai hang shi di ji,23,23,3,3,0,0,0.13043478260869565
+009889,gai ren shi ti xing bu yao sui yi yi qi quan zhi gei shi min chu xing dai lai an quan yin huan,gai ren shi ti xing bu yao sui yi yi qi quan zhi gei shi min chu xing da lai an quan yin hua,24,24,2,2,0,0,0.08333333333333333
+009890,zhe lei wen zi de tu mo gong ju bu zai shi ji hao bi e er shi lei si mei hui de wu zhi,zhe lei wen zi de tu mo gong ju bu zai zhi ji hao bi e er shi lei si mei hui de wu zhi,25,25,1,1,0,0,0.04
+009891,nan you shi zhe yang wo ji de wo shi zai yi ge yue se meng long de wan shang xiang ni qiu de hun,nai yao shi zhe yang wo ji de wo shi zai yi ge yue se meng long dong wan shang xiang ni qiu de hun,25,25,3,3,0,0,0.12
+009892,jing fang cha xun le wu liao ling qu dan ju ri qi yu an zhuang shi jian xiang fu,jing fang cha xun lou wu liang ling qu dan ju ri qi yu an zhuang chi jian xiang fu,20,20,3,3,0,0,0.15
+009893,ju xi zhe ge liu dong de luo tuo zhao xiang tan bing wei ban li ren he shou xu,ju ji zhe ge liu dong de luo tuo zhao xiang tan bing wei ban li ren he shou xu,20,20,1,1,0,0,0.05
+009894,tong shi yu suan an de dian zi ban ye jiang shang wang ren he ren dou ke yi cha yue,tong shi yin suan an de dian zi bai ye jiang shang wang yuan he ren dong ke cha yue,21,20,5,4,1,0,0.23809523809523808
+009895,qi chu he cheng ming lou zhe yi wei nv xing you ren de ge bo bian zou bian liao,qi chu he cheng ming lou zhe yi wei nv xing you ren de ge bo bian zou bie bian liang,20,21,2,1,0,1,0.1
+009896,neng bei xuan zuo ji xin ge zi liao de shou cang zhe ye lu shen gan rong xing,neng bei xuan zuo ji xin ge zi liang de shou cang zhe yi ye lu shen gai rong xing,19,20,3,2,0,1,0.15789473684210525
+009897,zhe he gao ceng guan li zhe jing shen ya li da ying chou duo you hen da guan xi,zhe he gao ceng guan li zhe jing zhe ya li yi da yi chou duo you hen da guan xi,20,21,3,2,0,1,0.15
+009898,zan men mu min qun zhong te bie re xin te bie hao ke fei chang shan liang,zan men mu min qun zhong te bie re xin te ke bie hao ke fei chang shan liang,18,19,1,0,0,1,0.05555555555555555
+009899,mei yi ge huo jian guan dou shun li de sheng shang qu le ran ran ruo xing guang,mei yi ge huo jian guan dou shun li de sheng shang qu le ran ran ruo xin guang,19,19,1,1,0,0,0.05263157894736842
+009900,mei tian ba lao sao na chu lai shai shai tai yang xin qing jiu bu hui que gai,mei tian ba le sao na chu lai shan shan tai yang xin qing jiu hui que gai,19,18,4,3,1,0,0.21052631578947367
+009901,zuo ri zhe ming shang zhe yu yi sheng quan bu bei jing fang yi fa xing shi ju liu,zuo ri zhe min shang zhe yu yi yi sheng quan bu wei jing fang yi fa xing shi ju liu,20,21,3,2,0,1,0.15
+009902,qian wei chang xiang dao shang hai lai ban xue xiao shi jing guo shen si shu lv de,qian wei chang xiang dao shang hai lai ban xue xiao shi jin guo shen zi shu lv de,19,19,2,2,0,0,0.10526315789473684
+009903,ta jian wo yi jin men jiu ma chi fan shi ye ma ma de wo tai bu qi tou,ta jian wo yi jin men jiu ma chi fan shi ye ma ma de wo tai bu qi tao,20,20,1,1,0,0,0.05
+009904,li shu de zai li kai zhi qian zhi shuo le yi ju zhu tuo sha fu qin le,li shu de zai li kai zhi qian zhi shuo le yi ju zhu tu sha fu qing le,19,19,2,2,0,0,0.10526315789473684
+009905,zhe zhong che piao he bao xian dan kun bang chu shou shu yu chong fu xing gou mai,zhe zhong che piao he bao xian dan kun bang chu shou shu yu chong fu xing gou mai,19,19,0,0,0,0,0.0
+009906,dai pei ni de nan you xi mi lu jie chang qing ge rang ta fei chang kai xin,dai pei ni de nan you xi mi lu jie chang qing ge rang ta wei chang kai jin,19,19,2,2,0,0,0.10526315789473684
+009907,guan da shi mou da ju chu da ce shi zhong shi gai yuan de ban yuan fang zhen,guan da shi meng da ju chu da ce shi zhong shi gai yuan de ban yun fang zhen,19,19,2,2,0,0,0.10526315789473684
+009908,ta men qi zhe mo tuo hui jia zheng hao wei nong mang shi de fu mu bang mang,ta men qi zhe mo tuo hui jia zheng hao wei nong ma shi de bu mo bang ma,19,19,4,4,0,0,0.21052631578947367
+009909,dan shi yin wei hai mei dao tui xiu nian ling zhi neng bai zhe zhi tou ai ri zi,dan shi yin wei hai mei dao tui jiu nian li zhi neng bai zhi zhi tong ai ri zi,20,20,4,4,0,0,0.2
+009910,zhe ji tian yu shui bu duan ren men hen bu de dai zai jia li bu chu men,zhe ji tian yu shui bu duan ye men hen bu de dai zai jia li bu chu men,19,19,1,1,0,0,0.05263157894736842
+009911,mei xiang dao xu yun zhang hai xiang liang ren jiu ci wan qi le ren jian zheng fa,mei xiang dao xu yun zhang hai xiang liang ren jiu ci wan xi lei dian jian zhong fa,19,19,4,4,0,0,0.21052631578947367
+009912,teng cun ci fan fa yan ke neng shi wei le tu xian ye tian de ling dao neng li,teng cun ci fan fa yan ke le shi wei le tu xian ye tian de ling dang neng li,20,20,2,2,0,0,0.1
+009913,cheng chang geng sheng zai qing wang chao jia qing nian jian an hui de qian shan xiao xian,cheng chang geng sheng zai qing wang chao jia qing nian jian an hui de qian zhan xiao xian,19,19,1,1,0,0,0.05263157894736842
+009914,nan hai hai yu zong he bu ji ji di ma tou xiang mu zheng zai lun zheng zhong,nan hai hai yu zong he bu ji ji di ma tou xiang mu zheng zai lun zheng zhong,19,19,0,0,0,0,0.0
+009915,ye jiu shi shuo jin wan cheng du shi min ji you ke neng zai ci kan dao piao xue,ye jiu shi shuo jin wan cheng du shi min ji you ke neng zai ci kan dao piao xu,20,20,1,1,0,0,0.05
+009916,sui zhe tian qi zhuan re ge di de you yong chang suo kai shi ren tou cuan dong,sui zhe tian ji zhuan re ge di de you yong chang suo kai shi ren tuan cuan dong,19,19,2,2,0,0,0.10526315789473684
+009917,geng rang xu xian sheng na men de shi fang ke de shou ji ye da bu tong le,geng rang xu xian sheng na men de shi fang ke de shou jie da bu tong le,19,18,2,1,1,0,0.10526315789473684
+009918,yu dao dian bo shi ying ting cong cheng wu yuan de an quan zhi ling hui zuo wei zuo hao,yu de dian bo shi ying ting cong cheng wu yuan de an quan zhi ling hui zong wei zuo hao,21,21,2,2,0,0,0.09523809523809523
+009919,ta zai hou mian dai guan le pa zi ji yi cha shen hou de ren hui bu man bu gan pai jin qu,ta zai hou mian dai guan le pa zi ji yi cha shen hou de ren hui bu man bu gan pai jin qu,24,24,0,0,0,0,0.0
+009920,bang wan qi ge xiao ren hui lai le bai xue gong zhu shuo ni men jiu shi wo ming zhong de qi ge xiao ai ren ba,bang wan qi ge xiao ren hui lan le bai xu kong zhu shuo ni men jiu shu wo ming zhong de qi ge xiao ren ba,28,27,5,4,1,0,0.17857142857142858
+009921,ta ben xiang shuo jiao yu ju guan zhe ge ta men shi yi lu de zhe yang yi guan qi bu shi ji nv qi piao ke,ta ben xiang shuo jiao yu xu guan zhe ge ta men shi yi lu de zhe yang yi guan qi bu shi jin nv qi piao ke,28,28,2,2,0,0,0.07142857142857142
+009922,yi zhong biao shi shang pin suo you quan de cai wu zheng quan ye cheng shang pin zheng quan ru ti huo dan jiao huo dan,yi zhong biao shi pie zuo you quan de cai wu zheng quan ye cheng shang pin zheng quan ru ti huo dan jiao huo dan,27,26,3,2,1,0,0.1111111111111111
+009923,hui you hen feng fu de dong xi liu xia lai shuo dou shuo bu wan,hui you hen feng fu de dong xie liu xia lai shu dou shuo bu wan,16,16,2,2,0,0,0.125
+009924,zhe ju hua xiang cong tian e er jiang xia de si zhou yi pian ji jing,zhe ju hua xiang cong tie e er jiang xiang de si zhou yi pian ji jing,17,17,2,2,0,0,0.11764705882352941
+009925,ji zhe suo zai de shi shou hai ren jia shu suo zai de you qu,ji zhe suo zai de shi shou hai ren jia shu zuo zai de you ju,16,16,2,2,0,0,0.125
+009926,bu guan ha da ye qu na ta dou yi bu bu li de gen zhe,bu guan ha da ye qu na ta dou yi bu bu li de gen zhe,16,16,0,0,0,0,0.0
+009927,da jia tai tou wang qu yi zhi lao shu zheng pa zai diao ding shang,da jia tai tou wang qu yi zhi lao shu zheng pan zai diao ding shang,16,16,1,1,0,0,0.0625
+009928,wo jue ding guo nian jiu ci zhi jie shou wo ba de fei pin zhan,wo jue ding guo nian jiu ci zhi jie shou wo ba de fei pin zhai,16,16,1,1,0,0,0.0625
+009929,zui zhong zhong guo nan zi ping pang qiu dui huo de ci jiang xiang,zui zhong zhong guo nan zi ping pao qiu dui huo de ci jiang xiang,15,15,1,1,0,0,0.06666666666666667
+009930,fang xun kang han liang shou zhua kang han xiang dui zhua de bu gou,fang xun kao han liang shou zhua kang han xiang dui zhua de bu gou,15,15,1,1,0,0,0.06666666666666667
+009931,tu men jiang xia you di qu kai fa kai fang de jin zhan ru he,tu nen jiang xia you di qu kai fa kai fang de jin zhan ru he,16,16,1,1,0,0,0.0625
+009932,zhe yao qiu zhong guo bi xu you yi ge jian qiang de zheng dang ling dao,zhe yao qiu zhong guo bi xu you yi ge jian chang de zheng dang ling dao,17,17,1,1,0,0,0.058823529411764705
+009933,zai shuo guan yu li yi shang de shi an lia dou bu hao kai kou,zai shuo guan yu li shang de shi an liang dou bu hao kai kou,16,15,2,1,1,0,0.125
+009934,ming dai wa la da da ru qin ming jing ye shi tong guo ci di,ming da wa la da da ru qi ming jing ye shi tong guo ci di,16,16,2,2,0,0,0.125
+009935,mi mi tian zhe hai zi ba ta shen shang de mao tian gan jing,ni mi tian zha hai zi bai tan shen shang neng mao tian gai jing,15,15,6,6,0,0,0.4
+009936,shi fou zhe ci de guo biao xiu ding bei da qi ye bang jia le,zhi fou zhe ci de guo biao xiu ding bei da qi ye bang jia le,16,16,1,1,0,0,0.0625
+009937,pan jue hou yao mou qi zi hu mou bu fu ti qi shang su,pan jue hou yao mou qi zi hu mou bu fu ti qi shang su,15,15,0,0,0,0,0.0
+009938,you ci ke yi kan chu han gang de jing ji xiao yi lai zi he chu,you ci ke yi kai chu hai gang de jing ji xiao yi yin lai zi he chu,17,18,3,2,0,1,0.17647058823529413
+009939,lin da shuo shi yu jia gai bian le ta he ma e er de sheng huo,lin da shou shi yu jia gai bian le ta he ma e er de sheng huo,17,17,1,1,0,0,0.058823529411764705
+009940,lou xia de bao an gao su ji zhe zhe li bu zu ye bu mai,lou xiang de bao an gao su ji zhe zhe li bu zi ye bu ma,16,16,3,3,0,0,0.1875
+009941,xi jin ping shuo zhong si liang guo ren min chuan tong you yi shen hou,xi jin ping shuo zhong se liang guo ren min chuan tong you yi shen hao,16,16,2,2,0,0,0.125
+009942,chuan wen yue lai yue duo hou lai lian lao han er zi ji dou pa le,chuan wan yue lai yue duo hou lai lian lao er zi ji dou pa le,17,16,2,1,1,0,0.11764705882352941
+009943,wo nu hou yi sheng chong shang qu ju qi zhuan tou za le guo qu,wo nu hou yi sheng chong shang qu yu ji zhuan tou za le guo qu,16,16,2,2,0,0,0.125
+009944,wo xian zai hai bu hui zhe jiu hui qu wen wen fa ming wo de ren,wo xian zai hai bu hui zhe jiu hui qu wen fa ming wo de ren,17,16,1,0,1,0,0.058823529411764705
+009945,xian ran luo yang xing nu an bu ju bei shang shu liang ge qian ti,xian ran luo yang xing mo an bu ju bei shang shu liang ge qian ti,16,16,1,1,0,0,0.0625
+009946,ling wai jie ke xun you wen chun xian yan xian mei mao de dong zuo,ling wai ji ke xun you wen chun xian ye xian mei mao de dong zuo,16,16,2,2,0,0,0.125
+009947,zuo wan hua xi du shi bao ji zhe dian hua cai fang le yin qi,zuo wan hua jing du shi ma ji zhe dian hua cai fang le yin qi,16,16,2,2,0,0,0.125
+009948,nie la ji ke wei tou lu zhe xie hang kong gong si de ming cheng,ye lai ji ke wai tou lu zhe xie hang gong gong si de ming cheng,16,16,4,4,0,0,0.25
+009949,cong yun xing gui ji shang lai shuo ta ye bu ke neng shi xing xing,cong yun xing gui ji shang lai shuo ta ye bu ke neng shi xing xing,16,16,0,0,0,0,0.0
+009950,mu qian kan ru guo ji xu jia xi ye cun zai liang nan wen ti,mu qian kan ru guo ji xu jia xi ye cun zai liang nan wen ti,16,16,0,0,0,0,0.0
+009951,zeng bao yi zai jie mu lu zhi xian chang da bao guan zhong qiu shi,zeng bao yi zai jian mu lu zhi xian chang da bao guan zhong qiu shi,16,16,1,1,0,0,0.0625
+009952,dan ren ping zhou mou zen me jiao nan zi reng han shui bu xing,dan ren ping zhou mou zen de jiao nan zi reng han shui du xing,15,15,2,2,0,0,0.13333333333333333
+009953,lao da ye shuo xiao zi ni dang wo cai lu le zhi dao bu,da ye shuo xiao zi ni deng wo cai lu le zhi dao bu,15,14,2,1,1,0,0.13333333333333333
+009954,mei liao dao chuang xia da tou fo de a wei hai bu zhi hui gai,mei liang dao chuan xia da fo de a wei hai bu zhi hui gai,16,15,3,2,1,0,0.1875
+009955,ka zha fei bu luo shi tong zhi yi zao yu bu luo nei hong,ka zha fei bu luo shi tong zhi yi zao yu bu luo nei hong,15,15,0,0,0,0,0.0
+009956,zhe ge hai zi de sheng ming yi ban lai yuan yu ling yi wei nv shi juan zeng de leng dong luan zi,zhe ge hai zi de sheng mi ning yi ban lai yuan yu ling yi wei nv shi juan zang de leng dong luan zi,24,25,3,2,0,1,0.125
+009957,chu xian zhe zhong ni qiu nei ge de ju mian ji shi ye tian you yi wei zhi ye shi shu wu nai,chu xian zhe zhong ni qiao nei ge de ju mian ji zhi ye tian you yi wei zhi ye shi shu wen nai,24,24,3,3,0,0,0.125
+009958,ji qing gao su ji nan hua shan zhang qiu zou ping zhou cun zi bo lin zi zhan,ji qing gang su ji nan hua shai shan zhang qiu zou bin ping zhao cun zi bo lin zi zhai,19,21,5,3,0,2,0.2631578947368421
+009959,zhao ling fei de hua fan ying le shen yang sai qu suo you ao yun zhi yuan zhe de gong tong xin sheng,zhang ling fei de hua fan ying le shen yang zai qu zuo you ao yun zhi yuan zhe de gong tong xin sheng,24,24,3,3,0,0,0.125
+009960,yin wei wo men suo fa chu de li liang bi hui yin nan du jia da e er jian ruo,yin wei wo men suo fa chu de li liang bi hui yin nan duo jia da e er jian ruo,21,21,1,1,0,0,0.047619047619047616
+009961,fa sheng shi gu de lou ti guai jiao chu reng ke kan dao xue ji,fa sheng shi guo de le ti guai jiao chu reng ke kan dao xue ji,16,16,2,2,0,0,0.125
+009962,xiang guo jin gong an ke neng shen gao bu gou lao han er ye bu rang wo jin qu,xiang guo jin gong an ke neng shen gao bu gou lao han er ye bu rang wo jin qu,20,20,0,0,0,0,0.0
+009963,lu shang guan qia hen duo wei le fang bian che li zhi hao qing zhuang qian jin,lun shang guan qia hen duo wen le fang bian che li zhi hao qin zhuang qian jin,18,18,3,3,0,0,0.16666666666666666
+009964,yuan lai bi e er gai ci jiu shi mei guo wei ruan gong si lian he chuang shi ren ya,yuan lai bie er gai ci jiu shi mei guo wei ruan gong zi lian he chuang shi ya,21,19,4,2,2,0,0.19047619047619047
+009965,zhi hou ta men yi jia san kou jiang yu shuang fang fu mu wang ke li dao lv you,zhi hou ta men yi jia san kou jiang yu shuang fang bu mu wang ke li dao lv,20,19,2,1,1,0,0.1
+009966,xie xie zong li ye gan xie guang da wang you de can yu wo men ming nian zai jian,xie xie zong li ye gan xie guan guang dang wang you de can yu wo men ming nian zai jie,20,21,3,2,0,1,0.15
+009967,shi shi shang shi cong lai mei you yi ge qi shan pa e de ren neng zuo chu guo shao da yi dian de cheng jiu,shi shi shang shi cong lai mei you yi ge qi shang pa ta e de ren neng zuo chu guo shao da yu dian de cheng jiu,27,28,3,2,0,1,0.1111111111111111
+009968,wo hui da kai you jian ni ke yi cong na li ji xu,wo hui da kai you jian ni ken yi cong na li ji xu,14,14,1,1,0,0,0.07142857142857142
+009969,mei fang dui jin qi dong hai ju shi biao shi guan qie,mei fang dui jin xi dong hai ju shi de shi guan xie,13,13,3,3,0,0,0.23076923076923078
+009970,ju xi ao ba ma yi jia ren dui zhe zuo dong ji bai gong ji wei man yi,ju xi ao ba ma yi jia ren dui zhe zuo dong ji bai gong ji wei mai yi,19,19,1,1,0,0,0.05263157894736842
+009971,da sao wan ni hui hen you cheng jiu gan de shi yi shi ni jiu xin le,da sao wan di guo hen you cheng jiu gan de shi yi shi ni jiu xin le,18,18,2,2,0,0,0.1111111111111111
+009972,nuo man zhan zai hua ban che shang ge jiu ge wei zhun bei chu fa la,nuo man zhan zai hua bai che shang ge jiu ge wei zhun bei chu fa la,17,17,1,1,0,0,0.058823529411764705
+009973,ta he de han ye qi wen jiang dao le ling xia san shi duo she shi du,ta he de han ye qi wen jiang dao le ling xia san shi duo she shi du,18,18,0,0,0,0,0.0
+009974,qi jian lian po liu dian liu liu dian wu liu dian si liu dian san wu deng duo ge zhong yao guan kou,ji jian lian pu liu dian diao de dian wu li dian si de dian san wu deng duo ge zhong yao guan kou,24,24,6,6,0,0,0.25
+009975,suan ming qi shi zhi shi ren men de yi zhong zi wo an wei he zi wo an shi e er yi wo men hai shi yao xiang xin ke xue cai hao,fen ming qi shi zhi shi ren men de yi zhong zi wo an wei zi wo an shi e er yi wo me hai shi yao xiang xi ke xue cai hao,34,33,4,3,1,0,0.11764705882352941
+009976,zhe yi qie dou ling ren huan xin gu wu a ne xi mei li you bu jian chi dao zui hou,zhe yi qie dou ling ren huan jin gu wu a lun xi mei li you bu jian chi dao zui hou,22,22,2,2,0,0,0.09090909090909091
+009977,zhi zhi gong yuan qian yi wan yi qian nian ta you zai ci chu xian,zhi zhi gong yuan qian yi wan yi qian nian ta you zai ci chu xian,16,16,0,0,0,0,0.0
+009978,jin liang shao wan dian nao shao kan dian shi shao da you xi,jin liang shou wen dian nang shao ken dian shi shao da you xi,14,14,4,4,0,0,0.2857142857142857
+009979,cong wu dao qi qian hou ye jiu shi liu ge yue de shi jian,cong wu dao qi qian hou ye jiu shi liu ge yue yuan de shi jian,15,16,1,0,0,1,0.06666666666666667
+009980,yi jin ka fei dian ta jiu yu jian yi zhang shu xi de lian,yi jin ta fei die ta jiu yu jian yi zhang shu xi de lian,15,15,2,2,0,0,0.13333333333333333
+009981,hao zai zhong di xiong kan dao le ba ta zhui le hui lai,hao zai zhong di xiong kan dao le ba ta zhui le hui lai,14,14,0,0,0,0,0.0
+009982,you yi ge ren shuo ge men er wo men pao guo ta cai neng huo,you yi ge ren shuo ge me er wo men pao guo ta cen neng hu,16,16,3,3,0,0,0.1875
+009983,tong le ta yi hou mo hu ji de ta mei za dong le,tou le ta yi hou mo huo ji de ta mei za dong le,14,14,2,2,0,0,0.14285714285714285
+009984,cong xiao dao da ge qi yi mei you shou dao guo ya sui qian,cong xiao dao da ge qi yi mei you shou dao guo ya sui qian,15,15,0,0,0,0,0.0
+009985,wu tai xia de ni hui dui wu tai shang de ni shuo shen me,wu tai xia de ni hui dui wu tai shang de ni shuo shen ma,15,15,1,1,0,0,0.06666666666666667
+009986,dan kao sheng pu bian ren wei shi ti de guai duo guo nan,dan kao sheng pu bian ren wei shi ti de gua duo guo nan,14,14,1,1,0,0,0.07142857142857142
+009987,wo xi wang mei ge ren dou neng gou zun zhong wo men de yin si,wo xi wang mei ge ren dou neng gou zun zhong wo men de yin si,16,16,0,0,0,0,0.0
+009988,man tian de hong xia shi jin gei liang ren zeng tian qi fen,man tian de hong xia shi jin gei liang ren zeng tian ji fen,14,14,1,1,0,0,0.07142857142857142
+009989,wan shang jia wan ban kai che hui jia tai lei le mi mi hu hu kai zhe che zou yi ban de shi hou dang yi sheng,wan shang jiang wan ban kan che hui jia ta lei le mi ming gu hu kai zhi che zou yi ban de shi hong dang yi sheng,28,28,7,7,0,0,0.25
+009990,gai che jiang san ren zhuang dao hou zai da wu zhong tao cuan,gai che jiang san ren zhuang dao hong hou zai da wu zhong tao cuan,14,15,1,0,0,1,0.07142857142857142
+009991,zhe ren yi duo suo fang xiang pan ye ba bu wen le cha dian zhuang shang le gao su bian dao hu lan,zhe ren yi duo suo fang xiang pan ye ba bu wen le chan dian zhuang shang le gao su bian dao huo lan,24,24,2,2,0,0,0.08333333333333333
+009992,na nv hai er wei qu de shuo wo yi hui tou jian ni yi jing jin qu le wo bu gan jin qu a,na nv e er wei qu de shuo wo yin hui teng jian ni yi yi jing jin qu le wo bu gan jin qu,25,25,5,3,1,1,0.2
+009993,xiao ming yao yao tou shuo bu shi wo zhi shi mei nv kan duo le xiang huan ge kou wei e er yi,xiao ming yao yao tou shuo bu shi wo zhi shi mei nv kan duo le xiang huang ge kou wei e er yi,24,24,1,1,0,0,0.041666666666666664
+009994,jie xia lai hong niang yao qiu ji zhe jiao fei ji zhe biao shi bu zhi biao jie shen fen zheng hao ma,jie xiang lai kong niang yao qiu ji zhe jiao fei ji zhe biao shi bu zhi biao jie shen de zheng hao ma,24,24,3,3,0,0,0.125
+009995,li dong weng biao shi zi ji dang shi zai fa ting shang fa biao le yi ci du te de gong su yi jian,li dong mou biao shi zi ji dang shi zai fa ting shang fa biao le yi ci du te de gong su yi jian,25,25,1,1,0,0,0.04
+009996,ling yi nan zi pu le shang lai shou li na zhe ming huang huang de chang dao xiang ta xiong kou zhi ci,ling yi nan zi pu le shang lai shou lin nai zhe ming huang guang de chang dao xiang ta xiong kou zhi zi,24,24,4,4,0,0,0.16666666666666666
+009997,jin tian kuai di yuan na zhe yi ge kuai di zai ban gong shi han qin wang shi na ge you ta kuai di,jin tian kuai di yuan na zhe yi ge kuai di zai ban gong shi han qi wang shi na ge you ta kuai di,25,25,1,1,0,0,0.04
+009998,zhe chang kang yi huo dong jiu jing shi ru he fa zhan yan bian de you jiu jing shi shui shang hai le shui,zhe chang kang yi guo dong jiu jing shi ru he fa zhai yan bian de you jiu jing shi shui shang han le shui,25,25,3,3,0,0,0.12
+009999,yin hua guo feng xiao ji mu di she ji gen ju qi shu xiang she ji,yin hua guang feng xiang ji mu die she ji gen ju ji shu xiang she ji,17,17,4,4,0,0,0.23529411764705882
+010000,zai yu zhong zhang ming bao hui hen jiao jia xie le yi fen chan hui shu,zai yu zhong zhang ming bao hui hen jiang jia xie le yi fen chang hui shu,17,17,2,2,0,0,0.11764705882352941

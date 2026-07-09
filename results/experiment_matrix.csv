@@ -1,5 +1,5 @@
 experiment,best_epoch,best_dev_per,test_per,test_errors,test_ref_tokens,substitutions,deletions,insertions,metrics_path,analysis_path
 E0_final_baseline,,,,,,,,,checkpoints/lab6_clean_baseline_30/metrics.csv,results/e0_final_baseline_analysis.json
-E1_conv_logmel,,,,,,,,,checkpoints/e1_conv_logmel/metrics.csv,results/e1_conv_logmel_analysis.json
+E1_conv_logmel,30,0.11048,0.11966972061983938,2116,17682,1779,144,193,checkpoints/e1_conv_logmel/metrics.csv,results/e1_conv_logmel_analysis.json
 E2_conv_fbank_strong,30,0.089555,0.0721637823775591,1276,17682,1006,146,124,checkpoints/e2_conv_fbank_strong/metrics.csv,results/e2_conv_fbank_strong_analysis.json
 E3_conv_fbank_weak_specaugment,30,0.091062,0.0783282434113788,1385,17682,1139,115,131,checkpoints/e3_conv_fbank_weak_specaugment/metrics.csv,results/e3_conv_fbank_weak_specaugment_analysis.json

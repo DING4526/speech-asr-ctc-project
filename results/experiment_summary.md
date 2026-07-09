@@ -14,6 +14,7 @@ Main Results:
 | Transformer-CTC Baseline | 15 | 23.64% | see baseline15_test_result.txt | baseline model |
 | Transformer-CTC + SpecAugment | 15 | 26.77% | 27.59% | augmentation did not improve performance |
 | Transformer-CTC Baseline | 30 | 13.16% | 15.69% | final main result |
+| Transformer-CTC + ConvSubsampling + log-Mel | 30 | 11.05% | 11.97% | frontend ablation |
 | Transformer-CTC + ConvSubsampling + Fbank | 30 | 8.96% | 7.22% | stronger greedy baseline |
 | Transformer-CTC + ConvSubsampling + Fbank + weak SpecAugment | 30 | 9.11% | 7.83% | robustness ablation |
 

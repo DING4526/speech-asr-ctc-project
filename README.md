@@ -61,6 +61,7 @@ Verified local packages include `torch 2.7.1+cu118` and `torchaudio 2.7.1+cu118`
 | Transformer-CTC Baseline | 15 | 23.64% | see results/baseline15_test_result.txt |
 | Transformer-CTC + SpecAugment | 15 | 26.77% | 27.59% |
 | Transformer-CTC Baseline | 30 | 13.16% | 15.69% |
+| Transformer-CTC + ConvSubsampling + log-Mel | 30 | 11.05% | 11.97% |
 | Transformer-CTC + ConvSubsampling + Fbank | 30 | 8.96% | 7.22% |
 | Transformer-CTC + ConvSubsampling + Fbank + weak SpecAugment | 30 | 9.11% | 7.83% |
 
