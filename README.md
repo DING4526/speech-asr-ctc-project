@@ -103,6 +103,10 @@ Recommended order:
 3. Train E3 only after E2 is stable, and compare the E2/E3 curves and error breakdowns.
 4. Generate summary figures from all finished experiment outputs.
 
+Summarize finished experiments:
+
+python scripts/summarize_experiments.py
+
 ## Members
 
 - Li Zehao 2312594
