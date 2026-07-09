@@ -29,6 +29,36 @@ def make_padding_mask(lengths: torch.Tensor, max_len: int) -> torch.Tensor:
     return positions >= lengths.unsqueeze(1)
 
 
+def conv_out_length(lengths: torch.Tensor) -> torch.Tensor:
+    """Length after Conv2d(kernel=3, stride=2, padding=1)."""
+    return (lengths + 1) // 2
+
+
+class Conv2dSubsampling(nn.Module):
+    """Two-layer 2D convolutional frontend with about 4x time subsampling."""
+
+    def __init__(self, input_dim: int, d_model: int) -> None:
+        super().__init__()
+        hidden_channels = max(1, d_model // 2)
+        self.conv = nn.Sequential(
+            nn.Conv2d(1, hidden_channels, kernel_size=3, stride=2, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(hidden_channels, d_model, kernel_size=3, stride=2, padding=1),
+            nn.ReLU(),
+        )
+        freq_after = int(conv_out_length(conv_out_length(torch.tensor(input_dim))).item())
+        self.out = nn.Linear(d_model * freq_after, d_model)
+
+    def forward(self, features: torch.Tensor, lengths: torch.Tensor) -> tuple[torch.Tensor, torch.Tensor]:
+        # [B, T, F] -> [B, 1, T, F] -> [B, C, T', F']
+        x = self.conv(features.unsqueeze(1))
+        batch_size, channels, time_steps, freq_bins = x.shape
+        x = x.transpose(1, 2).contiguous().view(batch_size, time_steps, channels * freq_bins)
+        x = self.out(x)
+        out_lengths = conv_out_length(conv_out_length(lengths))
+        return x, out_lengths
+
+
 class TransformerCTC(nn.Module):
     def __init__(
         self,
@@ -39,9 +69,16 @@ class TransformerCTC(nn.Module):
         num_layers: int = 4,
         dim_feedforward: int = 512,
         dropout: float = 0.1,
+        frontend: str = "linear",
     ) -> None:
         super().__init__()
-        self.input_proj = nn.Linear(input_dim, d_model)
+        if frontend not in {"linear", "conv2d_subsample4"}:
+            raise ValueError(f"Unsupported frontend: {frontend}")
+        self.frontend_type = frontend
+        if frontend == "linear":
+            self.input_proj = nn.Linear(input_dim, d_model)
+        else:
+            self.subsampling = Conv2dSubsampling(input_dim=input_dim, d_model=d_model)
         self.pos_encoding = PositionalEncoding(d_model, dropout=dropout)
         encoder_layer = nn.TransformerEncoderLayer(
             d_model=d_model,
@@ -64,12 +101,16 @@ class TransformerCTC(nn.Module):
             lengths: [B]
         Returns:
             logits: [B, T, vocab_size]
-            out_lengths: [B], unchanged because no time subsampling is used.
+            out_lengths: [B]
         """
-        x = self.input_proj(features)
+        if self.frontend_type == "linear":
+            x = self.input_proj(features)
+            out_lengths = lengths
+        else:
+            x, out_lengths = self.subsampling(features, lengths)
         x = self.pos_encoding(x)
-        padding_mask = make_padding_mask(lengths, features.size(1))
+        padding_mask = make_padding_mask(out_lengths, x.size(1))
         x = self.encoder(x, src_key_padding_mask=padding_mask)
         x = self.norm(x)
         logits = self.classifier(x)
-        return logits, lengths
+        return logits, out_lengths
