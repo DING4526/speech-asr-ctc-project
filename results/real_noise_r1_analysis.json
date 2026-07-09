@@ -1,0 +1,61 @@
+{
+  "config": "configs\\r1_e3_audio_mild_99.yaml",
+  "checkpoint": "checkpoints\\r1_e3_audio_mild\\robust_best.pt",
+  "split": "test",
+  "real_noise_root": "data\\noise\\ms_snsd_noise_test",
+  "real_noise_files": 51,
+  "conditions": [
+    {
+      "num_utterances": 1000,
+      "ref_tokens": 17682,
+      "hyp_tokens": 17714,
+      "errors": 563,
+      "substitutions": 473,
+      "deletions": 29,
+      "insertions": 61,
+      "per": 0.03184028956000452,
+      "condition": "clean",
+      "loss": 0.10234106335043908,
+      "relative_degradation": 0.0
+    },
+    {
+      "num_utterances": 1000,
+      "ref_tokens": 17682,
+      "hyp_tokens": 17822,
+      "errors": 1587,
+      "substitutions": 1151,
+      "deletions": 148,
+      "insertions": 288,
+      "per": 0.08975229046487954,
+      "condition": "real_noise20",
+      "loss": 0.3400336353182793,
+      "relative_degradation": 1.8188277087033748
+    },
+    {
+      "num_utterances": 1000,
+      "ref_tokens": 17682,
+      "hyp_tokens": 17889,
+      "errors": 4494,
+      "substitutions": 3161,
+      "deletions": 563,
+      "insertions": 770,
+      "per": 0.25415676959619954,
+      "condition": "real_noise10",
+      "loss": 1.1767031540870667,
+      "relative_degradation": 6.982238010657195
+    },
+    {
+      "num_utterances": 1000,
+      "ref_tokens": 17682,
+      "hyp_tokens": 17534,
+      "errors": 7579,
+      "substitutions": 5421,
+      "deletions": 1153,
+      "insertions": 1005,
+      "per": 0.4286279832598122,
+      "condition": "real_noise5",
+      "loss": 2.265551706314087,
+      "relative_degradation": 12.461811722912966
+    }
+  ]
+}

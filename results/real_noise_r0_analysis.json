@@ -1,0 +1,61 @@
+{
+  "config": "configs\\e3_conv_fbank_weak_specaugment_90.yaml",
+  "checkpoint": "checkpoints\\e3_conv_fbank_weak_specaugment\\best.pt",
+  "split": "test",
+  "real_noise_root": "data\\noise\\ms_snsd_noise_test",
+  "real_noise_files": 51,
+  "conditions": [
+    {
+      "num_utterances": 1000,
+      "ref_tokens": 17682,
+      "hyp_tokens": 17753,
+      "errors": 766,
+      "substitutions": 621,
+      "deletions": 37,
+      "insertions": 108,
+      "per": 0.043320891301888924,
+      "condition": "clean",
+      "loss": 0.15857419542968273,
+      "relative_degradation": 0.0
+    },
+    {
+      "num_utterances": 1000,
+      "ref_tokens": 17682,
+      "hyp_tokens": 17816,
+      "errors": 2614,
+      "substitutions": 1910,
+      "deletions": 285,
+      "insertions": 419,
+      "per": 0.14783395543490555,
+      "condition": "real_noise20",
+      "loss": 0.6591029467582703,
+      "relative_degradation": 2.412532637075718
+    },
+    {
+      "num_utterances": 1000,
+      "ref_tokens": 17682,
+      "hyp_tokens": 17784,
+      "errors": 7707,
+      "substitutions": 5673,
+      "deletions": 966,
+      "insertions": 1068,
+      "per": 0.4358669833729216,
+      "condition": "real_noise10",
+      "loss": 2.4879152183532716,
+      "relative_degradation": 9.06135770234987
+    },
+    {
+      "num_utterances": 1000,
+      "ref_tokens": 17682,
+      "hyp_tokens": 17256,
+      "errors": 11423,
+      "substitutions": 8717,
+      "deletions": 1566,
+      "insertions": 1140,
+      "per": 0.6460242054066282,
+      "condition": "real_noise5",
+      "loss": 4.491979698181153,
+      "relative_degradation": 13.912532637075719
+    }
+  ]
+}

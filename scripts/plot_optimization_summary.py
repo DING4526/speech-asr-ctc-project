@@ -99,6 +99,8 @@ def plot_robustness(robust_matrix: str | Path, output_dir: Path) -> None:
     ax.set_ylabel("Mean perturbed PER (%)")
     ax.set_title("Clean vs robustness trade-off")
     ax.grid(True, alpha=0.3)
+    ax.set_xlim(left=0, right=max(row[1] for row in trade_rows) * 1.18)
+    ax.set_ylim(bottom=0, top=max(row[2] for row in trade_rows) * 1.18)
     fig.tight_layout()
     fig.savefig(output_dir / "clean_vs_robust_tradeoff.png")
     plt.close(fig)

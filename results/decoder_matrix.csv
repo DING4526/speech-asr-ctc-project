@@ -3,4 +3,5 @@ D0_E3_greedy,test,greedy,,,,,,0.15857419542968273,0.043320891301888924,766,17682
 D1_E3_beam_bw10,test,prefix_beam,10,12,,,,0.15857419542968273,0.04258568035290126,753,17682,625,32,96,19.62626150000001,results\d1_e3_beam_predictions.csv,results\d1_e3_beam_analysis.json
 D2_E3_beam_lm,test,prefix_beam_lm,25,12,4,0.3,0.0,0.15857419542968273,0.037269539644836557,659,17682,566,65,28,82.1394554,results\d2_e3_beam_lm_predictions.csv,results\d2_e3_beam_lm_analysis.json
 D3_R2_greedy,test,greedy,,,,,,0.09040375824272633,0.028616672322135505,506,17682,437,20,49,0.03693109999999855,results\d3_r2_greedy_predictions.csv,results\d3_r2_greedy_analysis.json
+D4_R2_fast_beam_lm,test,prefix_beam_lm,10,12,4,0.3,0.0,0.09040375824272633,0.02318742223730347,410,17682,367,36,7,36.48818559999999,results\d4_r2_fast_beam_lm_predictions.csv,results\d4_r2_fast_beam_lm_analysis.json
 D3_R2_beam_lm,test,prefix_beam_lm,25,12,4,0.3,0.0,0.09040375824272633,0.02318742223730347,410,17682,367,36,7,83.89405249999992,results\d3_r2_beam_lm_predictions.csv,results\d3_r2_beam_lm_analysis.json

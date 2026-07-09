@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import random
 from collections.abc import Sequence
+from pathlib import Path
 
 import soundfile as sf
 import torch
@@ -31,6 +32,51 @@ def add_noise(waveform: torch.Tensor, snr_db: float, seed: int) -> torch.Tensor:
     return (waveform + noise * (target_noise_rms / noise_rms)).clamp(-1.0, 1.0)
 
 
+def list_noise_files(root: str | Path) -> list[Path]:
+    root = Path(root)
+    if not root.exists():
+        raise FileNotFoundError(f"real noise root does not exist: {root}")
+    suffixes = {".wav", ".flac", ".ogg"}
+    files = sorted(path for path in root.rglob("*") if path.is_file() and path.suffix.lower() in suffixes)
+    if not files:
+        raise FileNotFoundError(f"no supported noise files found under: {root}")
+    return files
+
+
+def mix_real_noise(
+    waveform: torch.Tensor,
+    sample_rate: int,
+    noise_paths: Sequence[str | Path],
+    snr_db: float,
+    seed: int,
+) -> torch.Tensor:
+    if not noise_paths:
+        raise ValueError("real_noise condition requires at least one noise file")
+    noise_path = Path(noise_paths[seed % len(noise_paths)])
+    noise, noise_sr = load_waveform(str(noise_path))
+    if noise_sr != sample_rate:
+        noise = torchaudio.functional.resample(noise, orig_freq=noise_sr, new_freq=sample_rate)
+
+    target_len = waveform.size(1)
+    if noise.size(1) <= 0 or target_len <= 0:
+        return waveform
+    if noise.size(1) < target_len:
+        repeats = (target_len + noise.size(1) - 1) // noise.size(1)
+        noise = noise.repeat(1, repeats)
+    if noise.size(1) > target_len:
+        max_offset = noise.size(1) - target_len
+        offset = stable_seed(f"{noise_path.name}-{seed}-offset") % (max_offset + 1)
+        noise = noise[:, offset : offset + target_len]
+    else:
+        noise = noise[:, :target_len]
+
+    noise = noise - noise.mean(dim=1, keepdim=True)
+    signal_rms = waveform.pow(2).mean().sqrt().clamp_min(1e-8)
+    noise_rms = noise.pow(2).mean().sqrt().clamp_min(1e-8)
+    target_noise_rms = signal_rms / (10 ** (snr_db / 20.0))
+    return (waveform + noise * (target_noise_rms / noise_rms)).clamp(-1.0, 1.0)
+
+
 def speed_perturb(waveform: torch.Tensor, sample_rate: int, factor: float) -> torch.Tensor:
     if factor <= 0:
         raise ValueError(f"speed factor must be positive: {factor}")
@@ -48,9 +94,24 @@ def echo_perturb(waveform: torch.Tensor, sample_rate: int, delay_ms: float = 60.
     return (out / peak).clamp(-1.0, 1.0)
 
 
-def apply_condition(waveform: torch.Tensor, sample_rate: int, condition: str, utt_id: str) -> torch.Tensor:
+def apply_condition(
+    waveform: torch.Tensor,
+    sample_rate: int,
+    condition: str,
+    utt_id: str,
+    real_noise_paths: Sequence[str | Path] | None = None,
+) -> torch.Tensor:
     if condition == "clean":
         return waveform
+    if condition.startswith("real_noise"):
+        snr_db = float(condition.replace("real_noise", ""))
+        return mix_real_noise(
+            waveform,
+            sample_rate=sample_rate,
+            noise_paths=real_noise_paths or [],
+            snr_db=snr_db,
+            seed=stable_seed(f"{utt_id}-{condition}"),
+        )
     if condition.startswith("noise"):
         snr_db = float(condition.replace("noise", ""))
         return add_noise(waveform, snr_db=snr_db, seed=stable_seed(f"{utt_id}-{condition}"))

@@ -32,7 +32,7 @@ def main() -> None:
     parser.add_argument("--decoder-out", default="results/decoder_matrix.csv")
     parser.add_argument(
         "--decoder-order",
-        default="D0_E3_greedy,D1_E3_beam_bw10,D2_E3_beam_lm,D3_R2_greedy,D3_R2_beam_lm",
+        default="D0_E3_greedy,D1_E3_beam_bw10,D2_E3_beam_lm,D3_R2_greedy,D4_R2_fast_beam_lm,D3_R2_beam_lm",
     )
     args = parser.parse_args()
 

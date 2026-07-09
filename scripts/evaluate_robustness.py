@@ -21,7 +21,7 @@ from models.transformer_ctc import TransformerCTC
 from utils.common import get_device, load_config
 from utils.ctc_decode import ctc_greedy_decode
 from utils.metrics import corpus_error_summary, utterance_error_summary
-from utils.audio_augment import apply_condition, load_waveform
+from utils.audio_augment import apply_condition, list_noise_files, load_waveform
 
 
 def batch_items(items: list[dict], batch_size: int):
@@ -52,6 +52,7 @@ def evaluate_condition(
     batch_size: int,
     device: torch.device,
     max_items: int | None = None,
+    real_noise_paths: list[Path] | None = None,
 ) -> tuple[dict, list[dict]]:
     model.eval()
     items = []
@@ -59,7 +60,7 @@ def evaluate_condition(
         if utt_id not in texts:
             continue
         waveform, sample_rate = load_waveform(wavs[utt_id])
-        waveform = apply_condition(waveform, sample_rate, condition, utt_id)
+        waveform = apply_condition(waveform, sample_rate, condition, utt_id, real_noise_paths=real_noise_paths)
         features = extractor.extract_waveform(waveform, sample_rate)
         target_tokens = texts[utt_id]
         target = torch.tensor(encode_tokens(target_tokens, token2id), dtype=torch.long)
@@ -166,6 +167,7 @@ def main() -> None:
     parser.add_argument("--conditions", default="clean,noise20,noise10,noise5,speed0.9,speed1.1,volume0.5,volume1.5,echo")
     parser.add_argument("--batch-size", type=int, default=None)
     parser.add_argument("--max-items", type=int, default=None)
+    parser.add_argument("--real-noise-root", default=None, help="Directory for real_noise* conditions")
     parser.add_argument("--summary-out", required=True)
     parser.add_argument("--records-out", default=None)
     parser.add_argument("--analysis-out", required=True)
@@ -183,10 +185,17 @@ def main() -> None:
     wavs = read_wav_scp(cfg["data"][f"{args.split}_wav_scp"])
     texts = read_pinyin_file(cfg["data"][f"{args.split}_text"])
     batch_size = args.batch_size or int(cfg["train"]["batch_size"])
+    conditions = [item.strip() for item in args.conditions.split(",") if item.strip()]
+    real_noise_paths = None
+    if any(condition.startswith("real_noise") for condition in conditions):
+        if not args.real_noise_root:
+            raise ValueError("--real-noise-root is required for real_noise* conditions")
+        real_noise_paths = list_noise_files(args.real_noise_root)
+        print(f"Loaded {len(real_noise_paths)} real noise files from {args.real_noise_root}")
 
     summaries = []
     all_records = []
-    for condition in [item.strip() for item in args.conditions.split(",") if item.strip()]:
+    for condition in conditions:
         print(f"Evaluating condition: {condition}")
         summary, records = evaluate_condition(
             model=model,
@@ -200,6 +209,7 @@ def main() -> None:
             batch_size=batch_size,
             device=device,
             max_items=args.max_items,
+            real_noise_paths=real_noise_paths,
         )
         summaries.append(summary)
         all_records.extend(records)
@@ -214,6 +224,8 @@ def main() -> None:
         "config": args.config,
         "checkpoint": args.checkpoint,
         "split": args.split,
+        "real_noise_root": args.real_noise_root or "",
+        "real_noise_files": len(real_noise_paths or []),
         "conditions": summaries,
     }
     Path(args.analysis_out).parent.mkdir(parents=True, exist_ok=True)

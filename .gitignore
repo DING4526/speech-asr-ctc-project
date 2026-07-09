@@ -17,6 +17,11 @@ checkpoints/
 *.log
 results/smoke_*
 results/lm/
+results/report_writing_prep.md
+
+# Local report drafts are kept outside Git. Figures are tracked under results/figures/.
+report/
+docs/real_noise_eval.md
 
 .vscode/
 .idea/
