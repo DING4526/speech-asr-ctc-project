@@ -41,6 +41,7 @@ train:
   weight_decay: 0.0
   grad_clip: 5.0
   log_interval: 100
+  use_tqdm: false
   num_threads: 4
   use_specaugment: false
   time_mask_param: 24

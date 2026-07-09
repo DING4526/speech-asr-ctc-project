@@ -133,7 +133,7 @@ def main():
             model.train()
             running_loss = 0.0
             train_batches = 0
-            pbar = tqdm(train_loader, desc=f"Epoch {epoch}")
+            pbar = tqdm(train_loader, desc=f"Epoch {epoch}", disable=not cfg["train"].get("use_tqdm", True))
             for step, batch in enumerate(pbar, 1):
                 features = batch["features"].to(device)
                 feat_lengths = batch["feat_lengths"].to(device)
