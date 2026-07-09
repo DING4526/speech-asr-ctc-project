@@ -1,0 +1,53 @@
+test loss: 0.2444
+test PER/WER-like token error rate: 7.83% (1385/17682)
+error breakdown: S=1139 D=115 I=131
+
+PER by reference length:
+001-010: 6.66% (65/976, n=108)
+011-020: 7.37% (714/9682, n=596)
+021-030: 8.52% (590/6924, n=293)
+031-040: 16.00% (16/100, n=3)
+
+Prediction examples:
+[009001]
+REF: wo men cheng shi de fu su you lai yu ta qiang you li de zheng ce
+HYP: wo men cheng shi de fu su you lai tai qiang you li de zheng ce
+
+[009002]
+REF: zhe yang zuo de yi ju jiu shi su ren tong e er san qi hao wen jian
+HYP: zhe yang zuo de yi ju jiu shi su ren tou e er san qi hao wen jian
+
+[009003]
+REF: zhe jiang hui hen da cheng du de huan jie yang lao jin de que kou
+HYP: zhe jiang hui hen da cheng du de huan jie yang lao jin de que kao
+
+[009004]
+REF: wei shen me ji feng wu gao xin jiu you na me da de po huai li
+HYP: wei sheng men ji feng wu gao xin jiu you na le da de po huai li
+
+[009005]
+REF: gang mai de ku zi bu dao shi fen zhong ni jiu nong po le
+HYP: gang lai de ku zi bu dao shi fen zhong ni jiu nong po le
+
+[009006]
+REF: yin ci zhi neng yi zui ben de fang shi bu duan yi luan ji shi
+HYP: yin ci zhi neng yi zui ben de fang shi bu duan yi luan ji shi
+
+[009007]
+REF: liang ren cuo che zhi ji mao die die tu ran shuai dao shou shang
+HYP: liang ren cuo che zhi ji mao dian dian tuo ran shuai de shi shang
+
+[009008]
+REF: tong shi mu min jiu ye qu dao zhai shou ru zeng zhang huan man
+HYP: tong shi mu min jiu ye qu dao zhai shou ru zeng zhang huan man
+
+[009009]
+REF: nv ming xing ye shi ping fan ren ni yi wei zai yu le quan pai xi gan tong gao hen rong yi ma
+HYP: nv ming xing ye shi ping fan ren ni yi wei zai yu le quan pai xi gan tong gao hen rong yi ma
+
+[009010]
+REF: xu duo dao li ren men yi jing zheng ming guo qian bian wan bian wei shen me hai yao dai zhe jiao xing de xin li zai qu shi yan yi hui ne
+HYP: xu duo dao li ren men yi jing zheng ni guo qian bian wan bian wei shen ne hai dai zhe jiao xing de xin li zai qu shi yi hui na
+
+Wrote predictions CSV to results/e3_conv_fbank_weak_specaugment_predictions.csv
+Wrote analysis JSON to results/e3_conv_fbank_weak_specaugment_analysis.json

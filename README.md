@@ -62,9 +62,10 @@ Verified local packages include `torch 2.7.1+cu118` and `torchaudio 2.7.1+cu118`
 | Transformer-CTC + SpecAugment | 15 | 26.77% | 27.59% |
 | Transformer-CTC Baseline | 30 | 13.16% | 15.69% |
 | Transformer-CTC + ConvSubsampling + Fbank | 30 | 8.96% | 7.22% |
+| Transformer-CTC + ConvSubsampling + Fbank + weak SpecAugment | 30 | 9.11% | 7.83% |
 
 The best current greedy result is obtained by the 30-epoch ConvSubsampling + Fbank model.
-The 15-epoch SpecAugment result should be treated as an initial negative result rather than a final conclusion, because augmentation can slow convergence and needs a matched-epoch comparison.
+Weak SpecAugment did not improve the stronger baseline under the current settings, but it remained close to the optimized greedy baseline and far better than the earlier 15-epoch augmentation run.
 
 ## Run
 

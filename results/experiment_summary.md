@@ -15,6 +15,7 @@ Main Results:
 | Transformer-CTC + SpecAugment | 15 | 26.77% | 27.59% | augmentation did not improve performance |
 | Transformer-CTC Baseline | 30 | 13.16% | 15.69% | final main result |
 | Transformer-CTC + ConvSubsampling + Fbank | 30 | 8.96% | 7.22% | stronger greedy baseline |
+| Transformer-CTC + ConvSubsampling + Fbank + weak SpecAugment | 30 | 9.11% | 7.83% | robustness ablation |
 
 Conclusion:
-The optimized 30-epoch ConvSubsampling + Fbank model achieved the best greedy result. SpecAugment still needs to be re-tested on top of this stronger baseline for a fair robustness comparison.
+The optimized 30-epoch ConvSubsampling + Fbank model achieved the best greedy result. Weak SpecAugment did not improve the strong baseline on the clean test split, suggesting that the current augmentation setting increases training difficulty more than it improves clean-set generalization.
