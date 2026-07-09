@@ -118,6 +118,12 @@ python train.py --config configs/e2_conv_fbank_strong_45.yaml --resume checkpoin
 
 python train.py --config configs/e3_conv_fbank_weak_specaugment_45.yaml --resume checkpoints/e3_conv_fbank_weak_specaugment/last.pt
 
+If the dev PER is still improving at 45 epochs, continue to 60 epochs:
+
+python train.py --config configs/e2_conv_fbank_strong_60.yaml --resume checkpoints/e2_conv_fbank_strong/last.pt
+
+python train.py --config configs/e3_conv_fbank_weak_specaugment_60.yaml --resume checkpoints/e3_conv_fbank_weak_specaugment/last.pt
+
 Evaluate waveform-level robustness:
 
 python scripts/evaluate_robustness.py --config configs/e2_conv_fbank_strong_45.yaml --checkpoint checkpoints/e2_conv_fbank_strong/best.pt --summary-out results/e2_45_robustness_summary.csv --records-out results/e2_45_robustness_records.csv --analysis-out results/e2_45_robustness_analysis.json

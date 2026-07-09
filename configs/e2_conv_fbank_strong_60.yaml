@@ -1,0 +1,50 @@
+seed: 2026
+output_dir: checkpoints/e2_conv_fbank_strong
+vocab_path: data/lab6_clean/vocab.txt
+
+data:
+  train_wav_scp: data/lab6_clean/train/wav.scp
+  train_text: data/lab6_clean/train/pinyin
+  dev_wav_scp: data/lab6_clean/dev/wav.scp
+  dev_text: data/lab6_clean/dev/pinyin
+  test_wav_scp: data/lab6_clean/test/wav.scp
+  test_text: data/lab6_clean/test/pinyin
+
+feature:
+  backend: kaldi_fbank
+  sample_rate: 16000
+  n_mels: 80
+  n_fft: 400
+  win_length: 400
+  hop_length: 160
+  f_min: 20
+  f_max: 7600
+  normalize: true
+  normalize_mode: mean
+
+model:
+  frontend: conv2d_subsample4
+  input_dim: 80
+  d_model: 128
+  nhead: 4
+  num_layers: 4
+  dim_feedforward: 256
+  dropout: 0.1
+
+train:
+  device: auto
+  optimizer: adam
+  epochs: 60
+  batch_size: 8
+  num_workers: 0
+  learning_rate: 0.0001
+  weight_decay: 0.0
+  grad_clip: 5.0
+  log_interval: 100
+  use_tqdm: false
+  num_threads: 4
+  use_specaugment: false
+  time_mask_param: 24
+  freq_mask_param: 10
+  num_time_masks: 2
+  num_freq_masks: 2
