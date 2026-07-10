@@ -40,13 +40,21 @@ def plot_matrix(rows: list[dict], out_path: str | Path) -> None:
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     conditions = ["clean", "real_noise20", "real_noise10", "real_noise5"]
-    experiments = ["R0_E3_specaugment", "R1_mild_audio_aug", "R2_mixed_audio_aug"]
+    bar_experiments = ["R0_E3_specaugment", "R1_mild_audio_aug", "R2_mixed_audio_aug"]
+    scatter_experiments = [
+        "R0_E2_no_specaugment",
+        "R0_E3_specaugment",
+        "R1_mild_audio_aug",
+        "R2_mixed_audio_aug",
+    ]
     labels = {
+        "R0_E2_no_specaugment": "R0 E2",
         "R0_E3_specaugment": "R0 E3",
         "R1_mild_audio_aug": "R1 mild",
         "R2_mixed_audio_aug": "R2 mixed",
     }
     colors = {
+        "R0_E2_no_specaugment": "#B279A2",
         "R0_E3_specaugment": "#4C78A8",
         "R1_mild_audio_aug": "#F58518",
         "R2_mixed_audio_aug": "#54A24B",
@@ -56,7 +64,7 @@ def plot_matrix(rows: list[dict], out_path: str | Path) -> None:
     fig, axes = plt.subplots(1, 2, figsize=(12.6, 4.5), dpi=150)
     x = list(range(len(conditions)))
     width = 0.24
-    for idx, exp in enumerate(experiments):
+    for idx, exp in enumerate(bar_experiments):
         offsets = [pos + (idx - 1) * width for pos in x]
         ys = [value.get((exp, cond), 0.0) for cond in conditions]
         axes[0].bar(offsets, ys, width=width, label=labels[exp], color=colors[exp])
@@ -70,14 +78,16 @@ def plot_matrix(rows: list[dict], out_path: str | Path) -> None:
     axes[0].grid(axis="y", alpha=0.25)
 
     mean_points = []
-    for exp in experiments:
+    for exp in scatter_experiments:
         clean = value.get((exp, "clean"), 0.0)
         noisy = [value.get((exp, cond), 0.0) for cond in conditions if cond != "clean"]
         mean_noisy = sum(noisy) / max(1, len(noisy))
         mean_points.append((labels[exp], clean, mean_noisy, colors[exp]))
     for label, clean, mean_noisy, color in mean_points:
         axes[1].scatter(clean, mean_noisy, s=95, color=color)
-        if label.startswith("R0"):
+        if label == "R0 E2":
+            axes[1].annotate(label, (clean, mean_noisy), textcoords="offset points", xytext=(-8, 8), ha="right", fontsize=9)
+        elif label == "R0 E3":
             axes[1].annotate(label, (clean, mean_noisy), textcoords="offset points", xytext=(-8, 8), ha="right", fontsize=9)
         elif label.startswith("R2"):
             axes[1].annotate(label, (clean, mean_noisy), textcoords="offset points", xytext=(8, -12), ha="left", fontsize=9)
@@ -98,6 +108,7 @@ def plot_matrix(rows: list[dict], out_path: str | Path) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build and plot the lightweight real-noise sanity-check matrix.")
+    parser.add_argument("--e2-summary", default="results/real_noise_e2_summary.csv")
     parser.add_argument("--r0-summary", default="results/real_noise_r0_summary.csv")
     parser.add_argument("--r1-summary", default="results/real_noise_r1_summary.csv")
     parser.add_argument("--r2-summary", default="results/real_noise_r2_summary.csv")
@@ -107,6 +118,7 @@ def main() -> None:
 
     rows = []
     for experiment, path in [
+        ("R0_E2_no_specaugment", args.e2_summary),
         ("R0_E3_specaugment", args.r0_summary),
         ("R1_mild_audio_aug", args.r1_summary),
         ("R2_mixed_audio_aug", args.r2_summary),

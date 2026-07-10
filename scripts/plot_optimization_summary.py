@@ -62,13 +62,14 @@ def plot_robustness(robust_matrix: str | Path, output_dir: Path) -> None:
     import matplotlib.pyplot as plt
 
     experiments = list(dict.fromkeys(row["experiment"] for row in rows))
+    bar_experiments = [exp for exp in experiments if exp != "R0_E2_no_specaugment"]
     conditions = list(dict.fromkeys(row["condition"] for row in rows))
     value = {(row["experiment"], row["condition"]): float(row["per"]) * 100.0 for row in rows}
 
     x = list(range(len(conditions)))
-    width = 0.8 / max(1, len(experiments))
+    width = 0.8 / max(1, len(bar_experiments))
     fig, ax = plt.subplots(figsize=(11, 5), dpi=150)
-    for idx, exp in enumerate(experiments):
+    for idx, exp in enumerate(bar_experiments):
         offsets = [pos - 0.4 + width / 2 + idx * width for pos in x]
         ax.bar(offsets, [value.get((exp, cond), 0.0) for cond in conditions], width=width, label=exp)
     ax.set_xticks(x)
@@ -91,10 +92,37 @@ def plot_robustness(robust_matrix: str | Path, output_dir: Path) -> None:
             continue
         trade_rows.append((exp, clean * 100.0, sum(perturbed) / len(perturbed) * 100.0))
 
+    display_names = {
+        "R0_E2_no_specaugment": "R0 E2",
+        "R0_E3_specaugment": "R0 E3",
+        "R1_mild_audio_aug": "R1 mild",
+        "R2_mixed_audio_aug": "R2 mixed",
+    }
+    colors = {
+        "R0_E2_no_specaugment": "#B279A2",
+        "R0_E3_specaugment": "#4C78A8",
+        "R1_mild_audio_aug": "#F58518",
+        "R2_mixed_audio_aug": "#54A24B",
+    }
+    label_offsets = {
+        "R0_E2_no_specaugment": (-8, 7, "right"),
+        "R0_E3_specaugment": (7, 6, "left"),
+        "R1_mild_audio_aug": (7, 6, "left"),
+        "R2_mixed_audio_aug": (7, -12, "left"),
+    }
+
     fig, ax = plt.subplots(figsize=(6.5, 5), dpi=150)
     for exp, clean, robust in trade_rows:
-        ax.scatter(clean, robust, s=80)
-        ax.annotate(exp, (clean, robust), textcoords="offset points", xytext=(8, 6), fontsize=9)
+        xoff, yoff, align = label_offsets.get(exp, (8, 6, "left"))
+        ax.scatter(clean, robust, s=80, color=colors.get(exp))
+        ax.annotate(
+            display_names.get(exp, exp),
+            (clean, robust),
+            textcoords="offset points",
+            xytext=(xoff, yoff),
+            ha=align,
+            fontsize=9,
+        )
     ax.set_xlabel("Clean PER (%)")
     ax.set_ylabel("Mean perturbed PER (%)")
     ax.set_title("Clean vs robustness trade-off")

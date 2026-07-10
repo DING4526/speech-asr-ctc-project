@@ -5,6 +5,14 @@ import csv
 from pathlib import Path
 
 
+DEFAULT_ROBUST_INPUTS = [
+    ("R0_E2_no_specaugment", "results/e2_90_robustness_summary.csv"),
+    ("R0_E3_specaugment", "results/e3_90_robustness_summary.csv"),
+    ("R1_mild_audio_aug", "results/r1_robustness_summary.csv"),
+    ("R2_mixed_audio_aug", "results/r2_robustness_summary.csv"),
+]
+
+
 def read_rows(path: str | Path) -> list[dict]:
     with Path(path).open("r", encoding="utf-8", newline="") as f:
         return list(csv.DictReader(f))
@@ -48,7 +56,8 @@ def main() -> None:
         "insertions",
     ]
     robust_rows = []
-    for experiment, path in args.robust_input:
+    robust_inputs = args.robust_input or DEFAULT_ROBUST_INPUTS
+    for experiment, path in robust_inputs:
         for row in read_rows(path):
             item = {"experiment": experiment}
             item.update(row)

@@ -67,11 +67,24 @@ def plot_robustness(output_dir: Path) -> None:
 
     rows = read_csv("results/final_robustness_matrix.csv")
     show_conditions = ["clean", "noise20", "noise10", "speed0.9", "speed1.1", "echo"]
-    experiments = ["R0_E3_specaugment", "R1_mild_audio_aug", "R2_mixed_audio_aug"]
+    bar_experiments = ["R0_E3_specaugment", "R1_mild_audio_aug", "R2_mixed_audio_aug"]
+    scatter_experiments = [
+        "R0_E2_no_specaugment",
+        "R0_E3_specaugment",
+        "R1_mild_audio_aug",
+        "R2_mixed_audio_aug",
+    ]
     short_names = {
+        "R0_E2_no_specaugment": "R0 E2",
         "R0_E3_specaugment": "R0 E3",
         "R1_mild_audio_aug": "R1 mild",
         "R2_mixed_audio_aug": "R2 mixed",
+    }
+    colors = {
+        "R0_E2_no_specaugment": "#B279A2",
+        "R0_E3_specaugment": "#4C78A8",
+        "R1_mild_audio_aug": "#F58518",
+        "R2_mixed_audio_aug": "#54A24B",
     }
     values = {(row["experiment"], row["condition"]): pct(row["per"]) for row in rows}
 
@@ -79,10 +92,15 @@ def plot_robustness(output_dir: Path) -> None:
     ax = axes[0]
     x = list(range(len(show_conditions)))
     width = 0.24
-    colors = ["#4C78A8", "#F58518", "#54A24B"]
-    for idx, exp in enumerate(experiments):
+    for idx, exp in enumerate(bar_experiments):
         offsets = [pos + (idx - 1) * width for pos in x]
-        ax.bar(offsets, [values[(exp, cond)] for cond in show_conditions], width=width, label=short_names[exp], color=colors[idx])
+        ax.bar(
+            offsets,
+            [values[(exp, cond)] for cond in show_conditions],
+            width=width,
+            label=short_names[exp],
+            color=colors[exp],
+        )
     ax.set_xticks(x)
     ax.set_xticklabels(show_conditions, rotation=25, ha="right")
     ax.set_ylabel("PER (%)")
@@ -92,13 +110,27 @@ def plot_robustness(output_dir: Path) -> None:
 
     ax = axes[1]
     scatter_points = []
-    for idx, exp in enumerate(experiments):
+    label_offsets = {
+        "R0_E2_no_specaugment": (-8, 7, "right"),
+        "R0_E3_specaugment": (7, 6, "left"),
+        "R1_mild_audio_aug": (7, 6, "left"),
+        "R2_mixed_audio_aug": (7, -12, "left"),
+    }
+    for exp in scatter_experiments:
         clean = values[(exp, "clean")]
         perturbed = [values[(exp, cond)] for cond in show_conditions if cond != "clean"]
         mean_perturbed = sum(perturbed) / len(perturbed)
         scatter_points.append((clean, mean_perturbed))
-        ax.scatter(clean, mean_perturbed, s=75, color=colors[idx])
-        ax.annotate(short_names[exp], (clean, mean_perturbed), textcoords="offset points", xytext=(7, 6), fontsize=9)
+        xoff, yoff, align = label_offsets[exp]
+        ax.scatter(clean, mean_perturbed, s=75, color=colors[exp])
+        ax.annotate(
+            short_names[exp],
+            (clean, mean_perturbed),
+            textcoords="offset points",
+            xytext=(xoff, yoff),
+            ha=align,
+            fontsize=9,
+        )
     ax.set_xlabel("Clean PER (%)")
     ax.set_ylabel("Mean perturbed PER (%)")
     ax.set_title("Clean vs robustness trade-off")
