@@ -9,10 +9,18 @@ env/
 venv/
 
 data/
-checkpoints/
+checkpoints/**
 *.pt
 *.pth
 *.ckpt
+
+# Publish only the checkpoints needed to reproduce the main comparisons.
+!checkpoints/e2_conv_fbank_strong/
+!checkpoints/e2_conv_fbank_strong/best.pt
+!checkpoints/e3_conv_fbank_weak_specaugment/
+!checkpoints/e3_conv_fbank_weak_specaugment/best.pt
+!checkpoints/r2_e3_audio_mixed/
+!checkpoints/r2_e3_audio_mixed/robust_best.pt
 
 *.log
 results/smoke_*
