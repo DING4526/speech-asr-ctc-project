@@ -40,13 +40,13 @@ def plot_matrix(rows: list[dict], out_path: str | Path) -> None:
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     conditions = ["clean", "real_noise20", "real_noise10", "real_noise5"]
-    bar_experiments = ["R0_E3_specaugment", "R1_mild_audio_aug", "R2_mixed_audio_aug"]
     scatter_experiments = [
         "R0_E2_no_specaugment",
         "R0_E3_specaugment",
         "R1_mild_audio_aug",
         "R2_mixed_audio_aug",
     ]
+    bar_experiments = scatter_experiments
     labels = {
         "R0_E2_no_specaugment": "R0 E2",
         "R0_E3_specaugment": "R0 E3",
@@ -63,19 +63,21 @@ def plot_matrix(rows: list[dict], out_path: str | Path) -> None:
 
     fig, axes = plt.subplots(1, 2, figsize=(12.6, 4.5), dpi=150)
     x = list(range(len(conditions)))
-    width = 0.24
+    width = 0.8 / len(bar_experiments)
     for idx, exp in enumerate(bar_experiments):
-        offsets = [pos + (idx - 1) * width for pos in x]
+        offsets = [pos - 0.4 + width / 2 + idx * width for pos in x]
         ys = [value.get((exp, cond), 0.0) for cond in conditions]
         axes[0].bar(offsets, ys, width=width, label=labels[exp], color=colors[exp])
         for xpos, y in zip(offsets, ys):
-            axes[0].text(xpos, y + 0.7, f"{y:.1f}", ha="center", va="bottom", fontsize=8)
+            label_offset = 0.7 + (idx % 2) * 2.0
+            axes[0].text(xpos, y + label_offset, f"{y:.1f}", ha="center", va="bottom", fontsize=8)
     axes[0].set_xticks(x)
     axes[0].set_xticklabels(["clean", "20 dB", "10 dB", "5 dB"])
     axes[0].set_ylabel("PER (%)")
     axes[0].set_title("Real-noise mixed test")
     axes[0].legend()
     axes[0].grid(axis="y", alpha=0.25)
+    axes[0].set_ylim(0, max(value.values()) * 1.12)
 
     mean_points = []
     for exp in scatter_experiments:
@@ -104,6 +106,7 @@ def plot_matrix(rows: list[dict], out_path: str | Path) -> None:
 
     fig.tight_layout()
     fig.savefig(out_path, bbox_inches="tight")
+    plt.close(fig)
 
 
 def main() -> None:

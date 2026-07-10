@@ -62,7 +62,19 @@ def plot_robustness(robust_matrix: str | Path, output_dir: Path) -> None:
     import matplotlib.pyplot as plt
 
     experiments = list(dict.fromkeys(row["experiment"] for row in rows))
-    bar_experiments = [exp for exp in experiments if exp != "R0_E2_no_specaugment"]
+    display_names = {
+        "R0_E2_no_specaugment": "R0 E2",
+        "R0_E3_specaugment": "R0 E3",
+        "R1_mild_audio_aug": "R1 mild",
+        "R2_mixed_audio_aug": "R2 mixed",
+    }
+    colors = {
+        "R0_E2_no_specaugment": "#B279A2",
+        "R0_E3_specaugment": "#4C78A8",
+        "R1_mild_audio_aug": "#F58518",
+        "R2_mixed_audio_aug": "#54A24B",
+    }
+    bar_experiments = experiments
     conditions = list(dict.fromkeys(row["condition"] for row in rows))
     value = {(row["experiment"], row["condition"]): float(row["per"]) * 100.0 for row in rows}
 
@@ -71,7 +83,13 @@ def plot_robustness(robust_matrix: str | Path, output_dir: Path) -> None:
     fig, ax = plt.subplots(figsize=(11, 5), dpi=150)
     for idx, exp in enumerate(bar_experiments):
         offsets = [pos - 0.4 + width / 2 + idx * width for pos in x]
-        ax.bar(offsets, [value.get((exp, cond), 0.0) for cond in conditions], width=width, label=exp)
+        ax.bar(
+            offsets,
+            [value.get((exp, cond), 0.0) for cond in conditions],
+            width=width,
+            label=display_names.get(exp, exp),
+            color=colors.get(exp),
+        )
     ax.set_xticks(x)
     ax.set_xticklabels(conditions, rotation=25, ha="right")
     ax.set_ylabel("PER (%)")
@@ -92,18 +110,6 @@ def plot_robustness(robust_matrix: str | Path, output_dir: Path) -> None:
             continue
         trade_rows.append((exp, clean * 100.0, sum(perturbed) / len(perturbed) * 100.0))
 
-    display_names = {
-        "R0_E2_no_specaugment": "R0 E2",
-        "R0_E3_specaugment": "R0 E3",
-        "R1_mild_audio_aug": "R1 mild",
-        "R2_mixed_audio_aug": "R2 mixed",
-    }
-    colors = {
-        "R0_E2_no_specaugment": "#B279A2",
-        "R0_E3_specaugment": "#4C78A8",
-        "R1_mild_audio_aug": "#F58518",
-        "R2_mixed_audio_aug": "#54A24B",
-    }
     label_offsets = {
         "R0_E2_no_specaugment": (-8, 7, "right"),
         "R0_E3_specaugment": (7, 6, "left"),

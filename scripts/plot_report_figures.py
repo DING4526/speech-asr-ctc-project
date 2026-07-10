@@ -67,13 +67,13 @@ def plot_robustness(output_dir: Path) -> None:
 
     rows = read_csv("results/final_robustness_matrix.csv")
     show_conditions = ["clean", "noise20", "noise10", "speed0.9", "speed1.1", "echo"]
-    bar_experiments = ["R0_E3_specaugment", "R1_mild_audio_aug", "R2_mixed_audio_aug"]
     scatter_experiments = [
         "R0_E2_no_specaugment",
         "R0_E3_specaugment",
         "R1_mild_audio_aug",
         "R2_mixed_audio_aug",
     ]
+    bar_experiments = scatter_experiments
     short_names = {
         "R0_E2_no_specaugment": "R0 E2",
         "R0_E3_specaugment": "R0 E3",
@@ -91,9 +91,9 @@ def plot_robustness(output_dir: Path) -> None:
     fig, axes = plt.subplots(1, 2, figsize=(11, 4.4), dpi=180, gridspec_kw={"width_ratios": [1.7, 1.0]})
     ax = axes[0]
     x = list(range(len(show_conditions)))
-    width = 0.24
+    width = 0.8 / len(bar_experiments)
     for idx, exp in enumerate(bar_experiments):
-        offsets = [pos + (idx - 1) * width for pos in x]
+        offsets = [pos - 0.4 + width / 2 + idx * width for pos in x]
         ax.bar(
             offsets,
             [values[(exp, cond)] for cond in show_conditions],
